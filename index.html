@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Portal Pass | Govt Exam Photo Resizer</title>
+    <style>
+        :root { --primary: #2563eb; --bg: #f8fafc; --card: #ffffff; --text: #1e293b; --danger: #ef4444; }
+        body { font-family: system-ui, -apple-system, sans-serif; background: var(--bg); color: var(--text); padding: 20px; display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 100vh; margin: 0; }
+        .container { max-width: 480px; width: 100%; background: var(--card); padding: 2rem; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); }
+        h1 { margin: 0; text-align: center; color: #0f172a; font-size: 1.6rem; }
+        p.sub { text-align: center; color: #64748b; font-size: 0.9rem; margin-bottom: 20px; }
+        .type-switch { display: flex; background: #e2e8f0; padding: 4px; border-radius: 8px; margin-bottom: 20px; cursor: pointer; }
+        .type-option { flex: 1; text-align: center; padding: 10px; border-radius: 6px; font-weight: 600; font-size: 0.9rem; color: #64748b; transition: all 0.2s; }
+        .type-option.active { background: #fff; color: var(--primary); box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+        select, input { width: 100%; padding: 12px; border: 2px solid #e2e8f0; border-radius: 8px; font-size: 1rem; margin-bottom: 10px; box-sizing: border-box; background: #fff; }
+        select:focus, input:focus { border-color: var(--primary); outline: none; }
+        .upload-box { border: 2px dashed #cbd5e1; padding: 2rem; text-align: center; cursor: pointer; border-radius: 12px; background: #f8fafc; margin-bottom: 15px; transition: 0.2s; }
+        .upload-box:hover { border-color: var(--primary); background: #eff6ff; }
+        .rule-box { background: #fee2e2; color: #991b1b; padding: 12px; border-radius: 6px; font-size: 0.85rem; margin-bottom: 15px; display: none; border-left: 4px solid var(--danger); line-height: 1.4; }
+        button { width: 100%; background: var(--primary); color: white; padding: 14px; border: none; border-radius: 8px; font-weight: bold; font-size: 1rem; cursor: pointer; -webkit-tap-highlight-color: transparent; }
+        button:active { transform: scale(0.98); }
+        button:disabled { background: #94a3b8; cursor: not-allowed; }
+        .product-box { margin-top: 25px; padding: 0; background: #ffffff; border-radius: 12px; text-align: center; border: 2px solid #bfdbfe; overflow: hidden; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05); }
+        .prod-header { background: #eff6ff; padding: 12px; border-bottom: 1px solid #bfdbfe; }
+        .prod-title { margin: 0; color: #1e3a8a; font-size: 1.1rem; font-weight: 800; }
+        .prod-body { padding: 15px; }
+        .prod-tags { display: flex; flex-wrap: wrap; gap: 5px; justify-content: center; margin-bottom: 10px; }
+        .tag { background: #e0f2fe; color: #0369a1; font-size: 0.75rem; padding: 4px 8px; border-radius: 4px; font-weight: 600; }
+        .product-btn { background: #16a34a; width: 100%; margin-top: 5px; font-size: 1rem; box-shadow: 0 4px 0 #14532d; transition: all 0.1s; text-decoration: none; display: block; }
+        #resultArea { display: none; text-align: center; margin-top: 20px; }
+        img { max-width: 100%; border: 1px solid #ddd; border-radius: 4px; margin: 10px 0; box-shadow: 0 2px 5px rgba(0,0,0,0.05); }
+        .ios-hint { font-size: 0.75rem; color: #64748b; margin-top: 5px; display: none; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>📸 Portal Pass</h1>
+    <p class="sub">Guaranteed Exam Compliance</p>
+    <div class="type-switch">
+        <div class="type-option active" onclick="setType('photo')" id="btnPhoto">Photo</div>
+        <div class="type-option" onclick="setType('sig')" id="btnSig">Signature</div>
+    </div>
+    <label style="font-weight:600; font-size:0.9rem; margin-bottom:5px; display:block;">Select Target Exam:</label>
+    <select id="examSelector">
+        <option value="standard">Standard (Safe Mode)</option>
+        <option value="jee">JEE Main 2026</option>
+        <option value="upsc">UPSC CDS / Civil Services</option>
+        <option value="ssc">SSC GD Constable</option>
+        <option value="ugc">UGC NET / CSIR</option>
+        <option value="bank">IBPS / SBI / Nainital Bank</option>
+        <option value="mpsc">MPSC (Maharashtra)</option>
+    </select>
+    <div id="ruleBox" class="rule-box"></div>
+    <div class="upload-box" onclick="document.getElementById('fileInput').click()">
+        <span style="font-size:1.5rem">📤</span><br>
+        <span id="uploadText">Tap to Upload Photo/Sig</span>
+        <input type="file" id="fileInput" accept="image/jpeg,image/png,image/jpg" style="display:none">
+    </div>
+    <div id="controls" style="display:none;">
+        <div style="display:flex; gap:10px;">
+            <div style="flex:1;">
+                <label style="font-size:0.8rem; font-weight:600;">Max Size (KB)</label>
+                <input type="number" id="targetKB" value="50">
+            </div>
+            <div style="flex:1;">
+                <label style="font-size:0.8rem; font-weight:600;">Dimensions</label>
+                <input type="text" id="targetDim" value="3.5x4.5cm" disabled style="background:#f1f5f9; color:#64748b;">
+            </div>
+        </div>
+        <button id="procBtn" onclick="processImage()">⚡ Compress & Fix</button>
+    </div>
+    <div id="resultArea">
+        <p style="color:#16a34a; font-weight:bold;">✅ Success!</p>
+        <img id="resImg" src="">
+        <p id="newSize" style="font-size:0.9rem; color:#64748b;"></p>
+        <a id="finalDownloadLink" style="text-decoration: none;">
+            <button style="background: #0f172a; width: 100%;">⬇️ Download Image</button>
+        </a>
+        <p class="ios-hint" id="iosHint">iPhone users: Long Press image to Save</p>
+        <div class="product-box">
+            <div class="prod-header">
+                <h3 class="prod-title">⚡ 2025 Exam Cheat Sheet</h3>
+            </div>
+            <div class="prod-body">
+                <p style="font-size:0.9rem; margin-top:0; color:#475569;">
+                    Don't study hard. Study smart.<br>
+                    <strong>High-Yield Math Formulas & Tricks.</strong>
+                </p>
+                <div class="prod-tags">
+                    <span class="tag">SSC CGL</span>
+                    <span class="tag">UPSC</span>
+                    <span class="tag">NDA</span>
+                    <span class="tag">Railways</span>
+                    <span class="tag">Banking</span>
+                </div>
+                <a href="https://cosmofeed.com/vp/YOUR_LINK_HERE" target="_blank" style="text-decoration: none;">
+                    <button class="product-btn">Buy PDF at just ₹19 ➔</button>
+                </a>
+                <p style="font-size:0.7rem; color:#94a3b8; margin-bottom:0; margin-top:8px;">Instant Download • 5000+ Downloads</p>
+            </div>
+        </div>
+    </div>
+</div>
+<footer style="margin-top:20px; text-align:center; font-size:0.7rem; color:#94a3b8;">
+    100% Client-Side. No Server Uploads.
+</footer>
+<script>
+    const rules = {
+        "standard": { photo: { kb: 50, w: 413, h: 531, text: "Standard Passport" }, sig: { kb: 20, w: 500, h: 200, text: "Standard Signature" } },
+        "jee": { photo: { kb: 200, w: 413, h: 531, text: "JEE: White BG required." }, sig: { kb: 30, w: 500, h: 200, text: "JEE Sig: Blue/Black ink." } },
+        "upsc": { photo: { kb: 200, w: 350, h: 350, text: "UPSC: No Glasses." }, sig: { kb: 200, w: 350, h: 100, text: "UPSC Sig: High Quality." } },
+        "ssc": { photo: { kb: 50, w: 413, h: 531, text: "SSC: Date Required." }, sig: { kb: 20, w: 500, h: 200, text: "SSC Sig: 4cm x 2cm." } },
+        "ugc": { photo: { kb: 200, w: 413, h: 531, text: "UGC: Standard." }, sig: { kb: 30, w: 500, h: 200, text: "UGC Sig: 4-30kb." } },
+        "bank": { photo: { kb: 50, w: 200, h: 230, text: "Bank: Low Res Preferred." }, sig: { kb: 20, w: 140, h: 60, text: "Bank: Black Ink Only." } },
+        "mpsc": { photo: { kb: 50, w: 413, h: 531, text: "MPSC: Light BG." }, sig: { kb: 50, w: 500, h: 200, text: "MPSC: Max 50kb." } }
+    };
+    let currentType = 'photo';
+    let originalFile = null;
+    const selector = document.getElementById('examSelector');
+    const targetInput = document.getElementById('targetKB');
+    const targetDim = document.getElementById('targetDim');
+    const ruleBox = document.getElementById('ruleBox');
+    const uploadText = document.getElementById('uploadText');
+    const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+    if(isIOS) document.getElementById('iosHint').style.display = 'block';
+    function setType(type) {
+        currentType = type;
+        document.getElementById('btnPhoto').className = type === 'photo' ? 'type-option active' : 'type-option';
+        document.getElementById('btnSig').className = type === 'sig' ? 'type-option active' : 'type-option';
+        uploadText.innerText = type === 'photo' ? "Tap to Upload Photo" : "Tap to Upload Signature";
+        updateRules();
+    }
+    function updateRules() {
+        const exam = selector.value;
+        const config = rules[exam][currentType];
+        targetInput.value = config.kb;
+        targetDim.value = `${config.w}x${config.h} px`;
+        ruleBox.innerText = config.text;
+        ruleBox.style.display = 'block';
+    }
+    selector.addEventListener('change', updateRules);
+    document.getElementById('fileInput').addEventListener('change', (e) => {
+        if(e.target.files[0]) {
+            originalFile = e.target.files[0];
+            uploadText.innerText = "✅ " + originalFile.name;
+            document.getElementById('controls').style.display = 'block';
+            document.getElementById('resultArea').style.display = 'none';
+        }
+    });
+    function processImage() {
+        if(!originalFile) return;
+        const btn = document.getElementById('procBtn');
+        btn.innerText = "Processing...";
+        btn.disabled = true;
+        const config = rules[selector.value][currentType];
+        const targetW = config.w;
+        const targetH = config.h;
+        const maxKB = parseFloat(targetInput.value);
+        const targetBytes = (maxKB * 0.9) * 1024; 
+        const img = new Image();
+        img.src = URL.createObjectURL(originalFile);
+        img.onload = () => {
+            const canvas = document.createElement('canvas');
+            const ctx = canvas.getContext('2d');
+            canvas.width = targetW;
+            canvas.height = targetH;
+            ctx.drawImage(img, 0, 0, targetW, targetH);
+            let minQ=0, maxQ=1, quality=0.8;
+            const attempt = (q) => {
+                canvas.toBlob((blob) => {
+                    if (Math.abs(maxQ - minQ) < 0.05 || (blob.size <= targetBytes && blob.size > targetBytes*0.8)) {
+                        showResult(blob, targetW, targetH);
+                    } else if (blob.size > targetBytes) {
+                        maxQ = q;
+                        attempt((minQ + maxQ)/2);
+                    } else {
+                        minQ = q;
+                        attempt((minQ + maxQ)/2);
+                    }
+                }, 'image/jpeg', q);
+            };
+            attempt(0.8);
+        };
+    }
+    function showResult(blob, w, h) {
+        const url = URL.createObjectURL(blob);
+        document.getElementById('resImg').src = url;
+        document.getElementById('newSize').innerText = `Final: ${ (blob.size/1024).toFixed(2) } KB | ${w}x${h}px`;
+        const link = document.getElementById('finalDownloadLink');
+        link.href = url;
+        const examName = selector.value.toUpperCase();
+        link.download = `${examName}_${currentType}_fixed.jpg`;
+        document.getElementById('resultArea').style.display = 'block';
+        document.getElementById('procBtn').innerText = "⚡ Compress & Resize";
+        document.getElementById('procBtn').disabled = false;
+    }
+    updateRules();
+</script>
+</body>
+</html>
