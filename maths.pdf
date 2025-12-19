@@ -1,569 +1,6936 @@
 %PDF-1.4
-%“Œ‹ž ReportLab Generated PDF document (opensource)
+%âãÏÓ
 1 0 obj
 <<
-/F1 2 0 R /F2 3 0 R /F3 4 0 R /F4 5 0 R /F5 6 0 R
+/Producer (pypdf)
 >>
 endobj
 2 0 obj
 <<
-/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
+/Type /Pages
+/Count 26
+/Kids [ 4 0 R 12 0 R 14 0 R 16 0 R 18 0 R 20 0 R 22 0 R 24 0 R 26 0 R 28 0 R 30 0 R 32 0 R 34 0 R 36 0 R 38 0 R 40 0 R 42 0 R 44 0 R 46 0 R 48 0 R 50 0 R 52 0 R 54 0 R 56 0 R 58 0 R 60 0 R ]
 >>
 endobj
 3 0 obj
 <<
-/BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
+/Type /Catalog
+/Pages 2 0 R
 >>
 endobj
 4 0 obj
 <<
-/BaseFont /Courier-Bold /Encoding /WinAnsiEncoding /Name /F3 /Subtype /Type1 /Type /Font
+/Contents 5 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+/F5 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
 >>
 endobj
 5 0 obj
 <<
-/BaseFont /Helvetica-BoldOblique /Encoding /WinAnsiEncoding /Name /F4 /Subtype /Type1 /Type /Font
+/Length 3757
 >>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 78 692 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL (SSC CGL Formulas and Tricks) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 657.2 cm
+Q
+q
+1 0 0 1 78 635.2 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 148.998 0 Td (NUMBER SYSTEM) Tj T* -148.998 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 611.2 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (1 + 2 + 3 + ... + n = n\(n + 1\)/2) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 591.2 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Sum of first n natural numbers.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 573.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Sequence starts at 1 and increases by 1 each time.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 546.8 cm
+Q
+q
+1 0 0 1 78 524.8 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 148.998 0 Td (NUMBER SYSTEM) Tj T* -148.998 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 500.8 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (\(1^2 + 2^2 + 3^2 + ... + n^2\) = n\(n + 1\)\(2n + 1\)/6) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 480.8 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Sum of squares of first n natural numbers.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 462.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Terms are squared and in a sequence.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 436.4 cm
+Q
+q
+1 0 0 1 78 414.4 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 148.998 0 Td (NUMBER SYSTEM) Tj T* -148.998 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 390.4 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (\(1^3 + 2^3 + 3^3 + ... + n^3\) = \(n\(n + 1\)/2\)^2) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 370.4 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Sum of cubes of first n natural numbers.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 352.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Terms are cubed and in a sequence.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 326 cm
+Q
+q
+1 0 0 1 78 304 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 148.998 0 Td (NUMBER SYSTEM) Tj T* -148.998 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 280 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (Sum of first n odd numbers = n^2) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 260 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Quick sum for series like 1, 3, 5...) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 242 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Sequence of odd numbers starting from 1.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 215.6 cm
+Q
+q
+1 0 0 1 78 193.6 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 148.998 0 Td (NUMBER SYSTEM) Tj T* -148.998 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 169.6 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (Sum of first n even numbers = n\(n + 1\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 149.6 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Quick sum for series like 2, 4, 6...) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 131.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Sequence of even numbers starting from 2.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 105.2 cm
+Q
+q
+1 0 0 1 78 83.2 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 148.998 0 Td (NUMBER SYSTEM) Tj T* -148.998 0 Td ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+BT
+/F1-0 10 Tf
+12 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 20 811.8898 Tm
+(Instagram\072 \100ColabDSA) Tj
+T*
+ET
+BT
+1 0 0 1 395.2756 20 Tm
+(Visit\072 https\072\057\057www\056instagram\056com\057let\137s\137solve\057) Tj
+T*
+ET
+Q
+
+
+endstream
 endobj
 6 0 obj
 <<
-/BaseFont /Helvetica-Oblique /Encoding /WinAnsiEncoding /Name /F5 /Subtype /Type1 /Type /Font
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
 >>
 endobj
 7 0 obj
 <<
-/Contents 36 0 R /MediaBox [ 0 0 612 792 ] /Parent 35 0 R /Resources <<
-/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
->> /Rotate 0 /Trans <<
-
->> 
-  /Type /Page
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
 >>
 endobj
 8 0 obj
 <<
-/Contents 37 0 R /MediaBox [ 0 0 612 792 ] /Parent 35 0 R /Resources <<
-/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
->> /Rotate 0 /Trans <<
-
->> 
-  /Type /Page
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
 >>
 endobj
 9 0 obj
 <<
-/Contents 38 0 R /MediaBox [ 0 0 612 792 ] /Parent 35 0 R /Resources <<
-/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
->> /Rotate 0 /Trans <<
-
->> 
-  /Type /Page
+/BaseFont /Courier-Bold
+/Encoding /WinAnsiEncoding
+/Name /F3
+/Subtype /Type1
+/Type /Font
 >>
 endobj
 10 0 obj
 <<
-/Contents 39 0 R /MediaBox [ 0 0 612 792 ] /Parent 35 0 R /Resources <<
-/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
->> /Rotate 0 /Trans <<
-
->> 
-  /Type /Page
+/BaseFont /Helvetica-BoldOblique
+/Encoding /WinAnsiEncoding
+/Name /F4
+/Subtype /Type1
+/Type /Font
 >>
 endobj
 11 0 obj
 <<
-/Contents 40 0 R /MediaBox [ 0 0 612 792 ] /Parent 35 0 R /Resources <<
-/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
->> /Rotate 0 /Trans <<
-
->> 
-  /Type /Page
+/BaseFont /Helvetica-Oblique
+/Encoding /WinAnsiEncoding
+/Name /F5
+/Subtype /Type1
+/Type /Font
 >>
 endobj
 12 0 obj
 <<
-/Contents 41 0 R /MediaBox [ 0 0 612 792 ] /Parent 35 0 R /Resources <<
-/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
->> /Rotate 0 /Trans <<
-
->> 
-  /Type /Page
+/Contents 13 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+/F5 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
 >>
 endobj
 13 0 obj
 <<
-/Contents 42 0 R /MediaBox [ 0 0 612 792 ] /Parent 35 0 R /Resources <<
-/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
->> /Rotate 0 /Trans <<
-
->> 
-  /Type /Page
+/Length 3892
 >>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 78 698 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (\(a + b\)\(a - b\) = \(a^2 - b^2\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 678 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Difference of squares identity.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 660 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Product of sum and difference of two same terms.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 633.6 cm
+Q
+q
+1 0 0 1 78 611.6 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 148.998 0 Td (NUMBER SYSTEM) Tj T* -148.998 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 587.6 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (\(a + b\)^2 = \(a^2 + b^2 + 2ab\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 567.6 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Square of a sum identity.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 549.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: A binomial term being squared.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 523.2 cm
+Q
+q
+1 0 0 1 78 501.2 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 148.998 0 Td (NUMBER SYSTEM) Tj T* -148.998 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 477.2 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (\(a - b\)^2 = \(a^2 + b^2 - 2ab\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 457.2 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Square of a difference identity.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 439.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Difference of two terms being squared.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 412.8 cm
+Q
+q
+1 0 0 1 78 390.8 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 148.998 0 Td (NUMBER SYSTEM) Tj T* -148.998 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 366.8 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (\(a + b + c\)^2 = a^2 + b^2 + c^2 + 2\(ab + bc + ca\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 346.8 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Expansion of a trinomial squared.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 328.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Three terms being squared together.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 302.4 cm
+Q
+q
+1 0 0 1 78 280.4 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 148.998 0 Td (NUMBER SYSTEM) Tj T* -148.998 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 256.4 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (\(a^3 + b^3\) = \(a + b\)\(a^2 - ab + b^2\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 236.4 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Factoring sum of cubes.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 218.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Sum of two cubed terms.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 192 cm
+Q
+q
+1 0 0 1 78 170 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 148.998 0 Td (NUMBER SYSTEM) Tj T* -148.998 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 146 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (\(a^3 - b^3\) = \(a - b\)\(a^2 + ab + b^2\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 126 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Factoring difference of cubes.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 108 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Difference of two cubed terms.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 81.6 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+BT
+/F1-0 10 Tf
+12 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 20 811.8898 Tm
+(Instagram\072 \100ColabDSA) Tj
+T*
+ET
+BT
+1 0 0 1 395.2756 20 Tm
+(Visit\072 https\072\057\057www\056instagram\056com\057let\137s\137solve\057) Tj
+T*
+ET
+Q
+
+
+endstream
 endobj
 14 0 obj
 <<
-/Contents 43 0 R /MediaBox [ 0 0 612 792 ] /Parent 35 0 R /Resources <<
-/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
->> /Rotate 0 /Trans <<
-
->> 
-  /Type /Page
+/Contents 15 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+/F5 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
 >>
 endobj
 15 0 obj
 <<
-/Contents 44 0 R /MediaBox [ 0 0 612 792 ] /Parent 35 0 R /Resources <<
-/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
->> /Rotate 0 /Trans <<
-
->> 
-  /Type /Page
+/Length 3955
 >>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 78 692 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 148.998 0 Td (NUMBER SYSTEM) Tj T* -148.998 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 652 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 44 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 20 Tm /F3 12 Tf 16 TL -0.24 Tw (\(a^3 + b^3 + c^3 - 3abc\) = \(a + b + c\)\(a^2 + b^2 + c^2 - ab - bc) Tj T* 0 Tw (- ac\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 632 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( General cubic identity.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 614 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Large cubic terms involving three variables.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 587.6 cm
+Q
+q
+1 0 0 1 78 565.6 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 148.998 0 Td (NUMBER SYSTEM) Tj T* -148.998 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 541.6 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (If a + b + c = 0, then a^3 + b^3 + c^3 = 3abc) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 521.6 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Shortcut for cubic sums.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 503.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Sum of the three base numbers is zero \(e.g., 25, -15, -10\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 477.2 cm
+Q
+q
+1 0 0 1 78 455.2 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 148.998 0 Td (NUMBER SYSTEM) Tj T* -148.998 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 431.2 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (\(a + b\)^n = an + \(nC1\)an-1b + ... + bn) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 411.2 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Binomial expansion.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 393.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: A binomial raised to a higher power n.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 366.8 cm
+Q
+q
+1 0 0 1 78 344.8 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 165.513 0 Td (HCF AND LCM) Tj T* -165.513 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 320.8 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (Product \(ab\) = HCF * LCM) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 300.8 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Relates two numbers to their HCF and LCM.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 282.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Problem involves two numbers and their HCF/LCM.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 256.4 cm
+Q
+q
+1 0 0 1 78 234.4 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 165.513 0 Td (HCF AND LCM) Tj T* -165.513 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 210.4 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (abc != HCF * LCM) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 190.4 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Note that product rule fails for 3+ numbers.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 172.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Problem involves three or more numbers.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 146 cm
+Q
+q
+1 0 0 1 78 124 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 165.513 0 Td (HCF AND LCM) Tj T* -165.513 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 100 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (HCF of fractions = \(HCF of Num\)/\(LCM of Den\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 80 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Formula for fraction HCF.) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+BT
+/F1-0 10 Tf
+12 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 20 811.8898 Tm
+(Instagram\072 \100ColabDSA) Tj
+T*
+ET
+BT
+1 0 0 1 395.2756 20 Tm
+(Visit\072 https\072\057\057www\056instagram\056com\057let\137s\137solve\057) Tj
+T*
+ET
+Q
+
+
+endstream
 endobj
 16 0 obj
 <<
-/Contents 45 0 R /MediaBox [ 0 0 612 792 ] /Parent 35 0 R /Resources <<
-/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
->> /Rotate 0 /Trans <<
-
->> 
-  /Type /Page
+/Contents 17 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+/F5 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
 >>
 endobj
 17 0 obj
 <<
-/Contents 46 0 R /MediaBox [ 0 0 612 792 ] /Parent 35 0 R /Resources <<
-/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
->> /Rotate 0 /Trans <<
-
->> 
-  /Type /Page
+/Length 3724
 >>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 78 700 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Finding common divisor for a set of fractions.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 673.6 cm
+Q
+q
+1 0 0 1 78 651.6 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 165.513 0 Td (HCF AND LCM) Tj T* -165.513 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 627.6 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (LCM of fractions = \(LCM of Num\)/\(HCF of Den\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 607.6 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Formula for fraction LCM.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 589.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Finding least common multiple for a set of fractions.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 563.2 cm
+Q
+q
+1 0 0 1 78 541.2 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 165.513 0 Td (HCF AND LCM) Tj T* -165.513 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 517.2 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (d = am + bn) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 497.2 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( HCF d as linear combination.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 479.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Theoretical number system questions or remainder rules.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 452.8 cm
+Q
+q
+1 0 0 1 78 430.8 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 165.513 0 Td (HCF AND LCM) Tj T* -165.513 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 406.8 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (Co-primes: HCF = 1) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 386.8 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Definition of co-prime numbers.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 368.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Checking if two numbers have any common factors besides 1.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 342.4 cm
+Q
+q
+1 0 0 1 78 320.4 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 165.513 0 Td (HCF AND LCM) Tj T* -165.513 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 296.4 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (HCF always divides LCM) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 276.4 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Rule about the relationship of HCF/LCM.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 258.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Questions asking if certain HCF/LCM pairs are possible.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 232 cm
+Q
+q
+1 0 0 1 78 210 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 165.513 0 Td (HCF AND LCM) Tj T* -165.513 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 186 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (Method 1: Prime Factors) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 166 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Find common prime factors.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 148 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Small to medium numbers that are easy to factorize.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 121.6 cm
+Q
+q
+1 0 0 1 78 99.6 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 165.513 0 Td (HCF AND LCM) Tj T* -165.513 0 Td ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+BT
+/F1-0 10 Tf
+12 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 20 811.8898 Tm
+(Instagram\072 \100ColabDSA) Tj
+T*
+ET
+BT
+1 0 0 1 395.2756 20 Tm
+(Visit\072 https\072\057\057www\056instagram\056com\057let\137s\137solve\057) Tj
+T*
+ET
+Q
+
+
+endstream
 endobj
 18 0 obj
 <<
-/Contents 47 0 R /MediaBox [ 0 0 612 792 ] /Parent 35 0 R /Resources <<
-/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
->> /Rotate 0 /Trans <<
-
->> 
-  /Type /Page
+/Contents 19 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+/F5 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
 >>
 endobj
 19 0 obj
 <<
-/Contents 48 0 R /MediaBox [ 0 0 612 792 ] /Parent 35 0 R /Resources <<
-/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
->> /Rotate 0 /Trans <<
-
->> 
-  /Type /Page
+/Length 3877
 >>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 78 698 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (Method 2: Division Method) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 678 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Successive division until remainder is 0.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 660 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Medium to large numbers.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 633.6 cm
+Q
+q
+1 0 0 1 78 611.6 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 165.513 0 Td (HCF AND LCM) Tj T* -165.513 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 587.6 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (Method 3: Large Numbers HCF) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 567.6 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Remove obvious common factors first.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 549.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Very large numbers; look for obvious factors like 2, 3, 5, 9.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 523.2 cm
+Q
+q
+1 0 0 1 78 501.2 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 155.496 0 Td (SIMPLIFICATION) Tj T* -155.496 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 477.2 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (BODMAS Rule) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 457.2 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Order: Brackets, Of, Div, Mult, Add, Sub.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 439.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Long expressions with mixed operators.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 412.8 cm
+Q
+q
+1 0 0 1 78 390.8 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 155.496 0 Td (SIMPLIFICATION) Tj T* -155.496 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 366.8 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+BT 1 0 0 1 0 4 Tm 16 TL /F3 12 Tf 0 0 0 rg (Modulus: |a| = a if a>0, -a if a) Tj (<) Tj (0) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 346.8 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Absolute value rule.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 328.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Vertical bars | | around numbers or expressions.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 302.4 cm
+Q
+q
+1 0 0 1 78 280.4 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 155.496 0 Td (SIMPLIFICATION) Tj T* -155.496 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 256.4 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (Vinculum \(Bar\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 236.4 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Solve expression under the bar first.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 218.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Horizontal bar over numbers within an equation.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 192 cm
+Q
+q
+1 0 0 1 78 170 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 195.996 0 Td (ROOTS) Tj T* -195.996 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 146 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (Duplex a = a^2) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 126 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Duplex for single digit.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 108 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Square calculation starting from the left-most digit.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 81.6 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+BT
+/F1-0 10 Tf
+12 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 20 811.8898 Tm
+(Instagram\072 \100ColabDSA) Tj
+T*
+ET
+BT
+1 0 0 1 395.2756 20 Tm
+(Visit\072 https\072\057\057www\056instagram\056com\057let\137s\137solve\057) Tj
+T*
+ET
+Q
+
+
+endstream
 endobj
 20 0 obj
 <<
-/Contents 49 0 R /MediaBox [ 0 0 612 792 ] /Parent 35 0 R /Resources <<
-/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
->> /Rotate 0 /Trans <<
-
->> 
-  /Type /Page
+/Contents 21 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+/F5 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
 >>
 endobj
 21 0 obj
 <<
-/Contents 50 0 R /MediaBox [ 0 0 612 792 ] /Parent 35 0 R /Resources <<
-/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
->> /Rotate 0 /Trans <<
-
->> 
-  /Type /Page
+/Length 3865
 >>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 78 692 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 195.996 0 Td (ROOTS) Tj T* -195.996 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 668 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (Duplex ab = 2\(ab\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 648 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Duplex for two digits.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 630 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Cross-multiplying during squaring process.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 603.6 cm
+Q
+q
+1 0 0 1 78 581.6 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 195.996 0 Td (ROOTS) Tj T* -195.996 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 557.6 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (Duplex abc = 2\(ac\) + b^2) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 537.6 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Duplex for three digits.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 519.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Squaring three-digit numbers instantly.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 493.2 cm
+Q
+q
+1 0 0 1 78 471.2 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 195.996 0 Td (ROOTS) Tj T* -195.996 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 447.2 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (Duplex abcd = 2\(ad\) + 2\(bc\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 427.2 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Duplex for four digits.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 409.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Squaring four-digit numbers efficiently.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 382.8 cm
+Q
+q
+1 0 0 1 78 360.8 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 195.996 0 Td (ROOTS) Tj T* -195.996 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 336.8 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (Cube Layout Method \(e.g. 16^3\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 316.8 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Write a | b | b^2 | b^3 and double middle.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 298.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Numbers between 11-19; easy pattern for cubes.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 272.4 cm
+Q
+q
+1 0 0 1 78 250.4 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 202.494 0 Td (AGES) Tj T* -202.494 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 226.4 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (nx) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 206.4 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( n times the current age x.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 188.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Phrases like 'thrice his age' or 'five times'.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 162 cm
+Q
+q
+1 0 0 1 78 140 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 202.494 0 Td (AGES) Tj T* -202.494 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 116 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (x + n) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 96 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Age n years later/hence.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 78 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Phrases like '5 years hence' or 'after 10 years'.) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+BT
+/F1-0 10 Tf
+12 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 20 811.8898 Tm
+(Instagram\072 \100ColabDSA) Tj
+T*
+ET
+BT
+1 0 0 1 395.2756 20 Tm
+(Visit\072 https\072\057\057www\056instagram\056com\057let\137s\137solve\057) Tj
+T*
+ET
+Q
+
+
+endstream
 endobj
 22 0 obj
 <<
-/Contents 51 0 R /MediaBox [ 0 0 612 792 ] /Parent 35 0 R /Resources <<
-/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
->> /Rotate 0 /Trans <<
-
->> 
-  /Type /Page
+/Contents 23 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+/F5 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
 >>
 endobj
 23 0 obj
 <<
-/Contents 52 0 R /MediaBox [ 0 0 612 792 ] /Parent 35 0 R /Resources <<
-/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
->> /Rotate 0 /Trans <<
-
->> 
-  /Type /Page
+/Length 3752
 >>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 78 699.6 cm
+Q
+q
+1 0 0 1 78 677.6 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 202.494 0 Td (AGES) Tj T* -202.494 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 653.6 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (x - n) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 633.6 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Age n years ago.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 615.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Phrases like '7 years ago' or 'in the past'.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 589.2 cm
+Q
+q
+1 0 0 1 78 567.2 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 202.494 0 Td (AGES) Tj T* -202.494 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 543.2 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (ax and bx) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 523.2 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Ages in a ratio a:b.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 505.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Ratio is provided \(e.g., ages of A and B are 4:5\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 478.8 cm
+Q
+q
+1 0 0 1 78 456.8 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 202.494 0 Td (AGES) Tj T* -202.494 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 432.8 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (x/n) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 412.8 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( 1/n times the age.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 394.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Phrases like 'one-fourth of his age'.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 368.4 cm
+Q
+q
+1 0 0 1 78 346.4 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 202.494 0 Td (AGES) Tj T* -202.494 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 322.4 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (Son's Age = t1\(x-1\)/\(x-y\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 302.4 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Past times x, Present times y.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 284.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Problem gives past multiple and present multiple.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 258 cm
+Q
+q
+1 0 0 1 78 236 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 202.494 0 Td (AGES) Tj T* -202.494 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 212 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (Son's Age = \(z-1\)t1/\(y-z\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 192 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Present times y, Future times z.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 174 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Problem gives present multiple and future multiple.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 147.6 cm
+Q
+q
+1 0 0 1 78 125.6 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 202.494 0 Td (AGES) Tj T* -202.494 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 101.6 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (Son's Age = [\(z-1\)t2 + \(x-1\)t1]/\(x-z\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 81.6 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Past times x, Future times z.) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+BT
+/F1-0 10 Tf
+12 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 20 811.8898 Tm
+(Instagram\072 \100ColabDSA) Tj
+T*
+ET
+BT
+1 0 0 1 395.2756 20 Tm
+(Visit\072 https\072\057\057www\056instagram\056com\057let\137s\137solve\057) Tj
+T*
+ET
+Q
+
+
+endstream
 endobj
 24 0 obj
 <<
-/Contents 53 0 R /MediaBox [ 0 0 612 792 ] /Parent 35 0 R /Resources <<
-/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
->> /Rotate 0 /Trans <<
-
->> 
-  /Type /Page
+/Contents 25 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+/F5 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
 >>
 endobj
 25 0 obj
 <<
-/Contents 54 0 R /MediaBox [ 0 0 612 792 ] /Parent 35 0 R /Resources <<
-/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
->> /Rotate 0 /Trans <<
-
->> 
-  /Type /Page
+/Length 3723
 >>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 78 700 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Problem gives past multiple and future multiple.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 673.6 cm
+Q
+q
+1 0 0 1 78 651.6 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 202.494 0 Td (AGES) Tj T* -202.494 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 627.6 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (Son/Daughter Age = [Total +/- Years\(Times-1\)]/\(Times+1\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 607.6 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Calculating age from total sum.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 589.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Problem mentions 'sum of ages' and a past/future multiple.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 563.2 cm
+Q
+q
+1 0 0 1 78 541.2 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 202.494 0 Td (AGES) Tj T* -202.494 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 517.2 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (Cross Product Method) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 497.2 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Ratio a:b vs x:y after T years.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 479.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Two ratios given at different time points.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 452.8 cm
+Q
+q
+1 0 0 1 78 430.8 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 183.495 0 Td (AVERAGE) Tj T* -183.495 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 406.8 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (Average = \(Total\)/\(No. of data\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 386.8 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Basic average formula.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 368.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Standard average calculation requested.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 342.4 cm
+Q
+q
+1 0 0 1 78 320.4 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 183.495 0 Td (AVERAGE) Tj T* -183.495 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 296.4 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (New Entrant Age = New Avg + Old Members * Increase) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 276.4 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Shortcut for new member joining.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 258.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: A person joins and average increases.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 232 cm
+Q
+q
+1 0 0 1 78 210 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 183.495 0 Td (AVERAGE) Tj T* -183.495 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 186 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (Replacement Wt = Removed Wt + Count * Increase) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 166 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Shortcut for replacing a person.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 148 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: One person leaves and another joins.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 121.6 cm
+Q
+q
+1 0 0 1 78 99.6 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 183.495 0 Td (AVERAGE) Tj T* -183.495 0 Td ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+BT
+/F1-0 10 Tf
+12 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 20 811.8898 Tm
+(Instagram\072 \100ColabDSA) Tj
+T*
+ET
+BT
+1 0 0 1 395.2756 20 Tm
+(Visit\072 https\072\057\057www\056instagram\056com\057let\137s\137solve\057) Tj
+T*
+ET
+Q
+
+
+endstream
 endobj
 26 0 obj
 <<
-/Contents 55 0 R /MediaBox [ 0 0 612 792 ] /Parent 35 0 R /Resources <<
-/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
->> /Rotate 0 /Trans <<
-
->> 
-  /Type /Page
+/Contents 27 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+/F5 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
 >>
 endobj
 27 0 obj
 <<
-/Contents 56 0 R /MediaBox [ 0 0 612 792 ] /Parent 35 0 R /Resources <<
-/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
->> /Rotate 0 /Trans <<
-
->> 
-  /Type /Page
+/Length 3838
 >>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 78 682 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 44 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 20 Tm /F3 12 Tf 16 TL (Passed Cand = Total * \(Total Avg - Fail Avg\)/\(Pass Avg - Fail) Tj T* (Avg\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 662 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Alligation-based shortcut.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 644 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Given total candidates and separate pass/fail averages.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 617.6 cm
+Q
+q
+1 0 0 1 78 595.6 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 183.495 0 Td (AVERAGE) Tj T* -183.495 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 555.6 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 44 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 20 Tm /F3 12 Tf 16 TL (Failed Cand = Total * \(Pass Avg - Total Avg\)/\(Pass Avg - Fail) Tj T* (Avg\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 535.6 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Alligation-based shortcut.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 517.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Given total candidates and separate pass/fail averages.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 491.2 cm
+Q
+q
+1 0 0 1 78 469.2 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 183.495 0 Td (AVERAGE) Tj T* -183.495 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 445.2 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (Avg after x innings = Total - Incr * y innings) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 425.2 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Cricket batting average shortcut.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 407.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Average change after a specific inning score.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 380.8 cm
+Q
+q
+1 0 0 1 78 358.8 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 183.495 0 Td (AVERAGE) Tj T* -183.495 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 334.8 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (Avg Speed = 2xy/\(x+y\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 314.8 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( For two equal distances.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 296.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Same distance covered at two different speeds.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 270.4 cm
+Q
+q
+1 0 0 1 78 248.4 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 183.495 0 Td (AVERAGE) Tj T* -183.495 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 224.4 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (Avg Speed = 3xyz/\(xy+yz+zx\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 204.4 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( For three equal distances.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 186.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Three equal segments covered at different speeds.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 160 cm
+Q
+q
+1 0 0 1 78 138 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 183.495 0 Td (AVERAGE) Tj T* -183.495 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 114 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (Original Exp = N * [x\(N+z\) + y]/z) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 94 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Shortcut for group expenditure changes.) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+BT
+/F1-0 10 Tf
+12 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 20 811.8898 Tm
+(Instagram\072 \100ColabDSA) Tj
+T*
+ET
+BT
+1 0 0 1 395.2756 20 Tm
+(Visit\072 https\072\057\057www\056instagram\056com\057let\137s\137solve\057) Tj
+T*
+ET
+Q
+
+
+endstream
 endobj
 28 0 obj
 <<
-/Contents 57 0 R /MediaBox [ 0 0 612 792 ] /Parent 35 0 R /Resources <<
-/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
->> /Rotate 0 /Trans <<
-
->> 
-  /Type /Page
+/Contents 29 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+/F5 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
 >>
 endobj
 29 0 obj
 <<
-/Contents 58 0 R /MediaBox [ 0 0 612 792 ] /Parent 35 0 R /Resources <<
-/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
->> /Rotate 0 /Trans <<
-
->> 
-  /Type /Page
+/Length 3742
 >>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 78 700 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Number of students increases, total expense increases, but avg drops.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 673.6 cm
+Q
+q
+1 0 0 1 78 651.6 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 165.495 0 Td (PERCENTAGE) Tj T* -165.495 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 627.6 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (Value / Total Value * 100) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 607.6 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Basic percentage formula.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 589.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Finding percent representation of a part.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 563.2 cm
+Q
+q
+1 0 0 1 78 541.2 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 165.495 0 Td (PERCENTAGE) Tj T* -165.495 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 517.2 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (\(100+x\)/\(100+y\) * 100%) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 497.2 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Comparing two values based on a third.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 479.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: A and B are x% and y% more than C.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 452.8 cm
+Q
+q
+1 0 0 1 78 430.8 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 165.495 0 Td (PERCENTAGE) Tj T* -165.495 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 406.8 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (Initial = \(A*100^3\) / \(100-x\)\(100-y\)\(100-z\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 386.8 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Successive deductions.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 368.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Deductions like 'x% spent, then y% of remaining...') Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 342.4 cm
+Q
+q
+1 0 0 1 78 320.4 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 165.495 0 Td (PERCENTAGE) Tj T* -165.495 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 296.4 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (Initial = \(A*100^3\) / \(100+x\)\(100+y\)\(100+z\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 276.4 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Successive increases.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 258.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Additions like 'x% added, then y% of increased...') Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 232 cm
+Q
+q
+1 0 0 1 78 210 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 165.495 0 Td (PERCENTAGE) Tj T* -165.495 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 186 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (Pop in n years = P\(1+r/100\)^n) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 166 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Population growth \(Compound\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 148 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Annual fixed percentage increase of population.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 121.6 cm
+Q
+q
+1 0 0 1 78 99.6 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 165.495 0 Td (PERCENTAGE) Tj T* -165.495 0 Td ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+BT
+/F1-0 10 Tf
+12 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 20 811.8898 Tm
+(Instagram\072 \100ColabDSA) Tj
+T*
+ET
+BT
+1 0 0 1 395.2756 20 Tm
+(Visit\072 https\072\057\057www\056instagram\056com\057let\137s\137solve\057) Tj
+T*
+ET
+Q
+
+
+endstream
 endobj
 30 0 obj
 <<
-/Contents 59 0 R /MediaBox [ 0 0 612 792 ] /Parent 35 0 R /Resources <<
-/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
->> /Rotate 0 /Trans <<
-
->> 
-  /Type /Page
+/Contents 31 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+/F5 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
 >>
 endobj
 31 0 obj
 <<
-/Contents 60 0 R /MediaBox [ 0 0 612 792 ] /Parent 35 0 R /Resources <<
-/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
->> /Rotate 0 /Trans <<
-
->> 
-  /Type /Page
+/Length 3943
 >>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 78 698 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (Pop after 3 yrs = P\(100+x\)\(100+y\)\(100+z\)/100^3) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 678 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Varying population rates.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 660 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Rates for year 1, 2, and 3 are different.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 633.6 cm
+Q
+q
+1 0 0 1 78 611.6 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 165.495 0 Td (PERCENTAGE) Tj T* -165.495 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 587.6 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (Cons. Reduction = \(r/100+r\) * 100%) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 567.6 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Price rises, keep expense same.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 549.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Phrases like 'so as not to increase expenditure'.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 523.2 cm
+Q
+q
+1 0 0 1 78 501.2 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 165.495 0 Td (PERCENTAGE) Tj T* -165.495 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 477.2 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (Cons. Increase = \(r/100-r\) * 100%) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 457.2 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Price drops, keep expense same.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 439.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Phrases like 'so as not to decrease expenditure'.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 412.8 cm
+Q
+q
+1 0 0 1 78 390.8 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 165.495 0 Td (PERCENTAGE) Tj T* -165.495 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 366.8 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (Net Change = x^2/100 decrease) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 346.8 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Successive x% increase and x% decrease.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 328.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: The same percentage is increased and then decreased.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 302.4 cm
+Q
+q
+1 0 0 1 78 280.4 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 165.495 0 Td (PERCENTAGE) Tj T* -165.495 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 256.4 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (Net Change = [x-y-\(xy/100\)]%) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 236.4 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( One x% increase, one y% decrease.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 218.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Two different changes \(inc/dec\) on the same value.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 192 cm
+Q
+q
+1 0 0 1 78 170 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 165.495 0 Td (PERCENTAGE) Tj T* -165.495 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 146 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (Net Change = [x+y+\(xy/100\)]%) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 126 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Two successive increases.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 108 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Two positive percentage changes \(inc/inc\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 81.6 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+BT
+/F1-0 10 Tf
+12 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 20 811.8898 Tm
+(Instagram\072 \100ColabDSA) Tj
+T*
+ET
+BT
+1 0 0 1 395.2756 20 Tm
+(Visit\072 https\072\057\057www\056instagram\056com\057let\137s\137solve\057) Tj
+T*
+ET
+Q
+
+
+endstream
 endobj
 32 0 obj
 <<
-/Contents 61 0 R /MediaBox [ 0 0 612 792 ] /Parent 35 0 R /Resources <<
-/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
->> /Rotate 0 /Trans <<
-
->> 
-  /Type /Page
+/Contents 33 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+/F5 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
 >>
 endobj
 33 0 obj
 <<
-/PageMode /UseNone /Pages 35 0 R /Type /Catalog
+/Length 4041
 >>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 78 692 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 165.495 0 Td (PERCENTAGE) Tj T* -165.495 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 668 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (Revenue Effect = [Inc - Dec - \(Inc*Dec/100\)]) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 648 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Price vs Consumption effect.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 630 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Price goes up/down while quantity goes up/down.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 603.6 cm
+Q
+q
+1 0 0 1 78 581.6 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 165.495 0 Td (PERCENTAGE) Tj T* -165.495 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 557.6 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (Max Marks M = 100*\(y+z\)/x) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 537.6 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Score y, fail by z, pass x%.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 519.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Student scores some marks and fails by some, pass % given.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 493.2 cm
+Q
+q
+1 0 0 1 78 471.2 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 165.495 0 Td (PERCENTAGE) Tj T* -165.495 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 447.2 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (Max Marks M = 100*\(a+b\)/\(y-x\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 427.2 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Two students pass/fail marks diff.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 409.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: One student fails by 'a', another exceeds by 'b'.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 382.8 cm
+Q
+q
+1 0 0 1 78 360.8 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 165.495 0 Td (PERCENTAGE) Tj T* -165.495 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 336.8 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (Area Error = [x - y - \(xy/100\)]) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 316.8 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Rectangle side measurement errors.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 298.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: One side measured x% more, other y% less.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 272.4 cm
+Q
+q
+1 0 0 1 78 250.4 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 165.495 0 Td (PERCENTAGE) Tj T* -165.495 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 226.4 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (Area Increase = [2x + \(x^2/100\)]%) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 206.4 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Sides of square/circle inc by x%.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 188.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Radius or side increased, find effect on area.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 162 cm
+Q
+q
+1 0 0 1 78 140 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 165.495 0 Td (PERCENTAGE) Tj T* -165.495 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 116 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (Pass % in both = 100 - \(x + y - z\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 96 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Venn diagram shortcut.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 78 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: x% fail in Sub A, y% fail in Sub B, z% fail in both.) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+BT
+/F1-0 10 Tf
+12 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 20 811.8898 Tm
+(Instagram\072 \100ColabDSA) Tj
+T*
+ET
+BT
+1 0 0 1 395.2756 20 Tm
+(Visit\072 https\072\057\057www\056instagram\056com\057let\137s\137solve\057) Tj
+T*
+ET
+Q
+
+
+endstream
 endobj
 34 0 obj
 <<
-/Author (\(anonymous\)) /CreationDate (D:20251219103712+00'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20251219103712+00'00') /Producer (ReportLab PDF Library - \(opensource\)) 
-  /Subject (\(unspecified\)) /Title (\(anonymous\)) /Trapped /False
+/Contents 35 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+/F5 11 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
 >>
 endobj
 35 0 obj
 <<
-/Count 26 /Kids [ 7 0 R 8 0 R 9 0 R 10 0 R 11 0 R 12 0 R 13 0 R 14 0 R 15 0 R 16 0 R 
-  17 0 R 18 0 R 19 0 R 20 0 R 21 0 R 22 0 R 23 0 R 24 0 R 25 0 R 26 0 R 
-  27 0 R 28 0 R 29 0 R 30 0 R 31 0 R 32 0 R ] /Type /Pages
+/Length 3859
 >>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 78 699.6 cm
+Q
+q
+1 0 0 1 78 677.6 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 145.992 0 Td (PROFIT AND LOSS) Tj T* -145.992 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 653.6 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (Profit = SP - CP) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 633.6 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Basic profit definition.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 615.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Standard profit calculation.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 589.2 cm
+Q
+q
+1 0 0 1 78 567.2 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 145.992 0 Td (PROFIT AND LOSS) Tj T* -145.992 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 543.2 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (Loss = CP - SP) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 523.2 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Basic loss definition.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 505.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Standard loss calculation.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 478.8 cm
+Q
+q
+1 0 0 1 78 456.8 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 145.992 0 Td (PROFIT AND LOSS) Tj T* -145.992 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 432.8 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (Gain/Loss % = \(G or L / CP\) * 100%) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 412.8 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Percentage of profit or loss.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 394.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Finding the rate of return on cost.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 368.4 cm
+Q
+q
+1 0 0 1 78 346.4 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 145.992 0 Td (PROFIT AND LOSS) Tj T* -145.992 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 322.4 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (Gain % = [Error / \(True - Error\)] * 100%) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 302.4 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( False weight profit shortcut.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 284.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Dishonest shopkeeper using less weights.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 258 cm
+Q
+q
+1 0 0 1 78 236 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 145.992 0 Td (PROFIT AND LOSS) Tj T* -145.992 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 212 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (Total Profit % = [\(%P + %Less\)/\(100-%Less\)] * 100%) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 192 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Profit with false weight.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 174 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Dealer adds profit % on price AND uses less weights.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 147.6 cm
+Q
+q
+1 0 0 1 78 125.6 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 145.992 0 Td (PROFIT AND LOSS) Tj T* -145.992 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 101.6 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (CP = \(More Gain * 100\) / Diff in % P) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 81.6 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Shortcut for profit change.) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+BT
+/F1-0 10 Tf
+12 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 20 811.8898 Tm
+(Instagram\072 \100ColabDSA) Tj
+T*
+ET
+BT
+1 0 0 1 395.2756 20 Tm
+(Visit\072 https\072\057\057www\056instagram\056com\057let\137s\137solve\057) Tj
+T*
+ET
+Q
+
+
+endstream
 endobj
 36 0 obj
 <<
-/Filter [ /ASCII85Decode /FlateDecode ] /Length 841
+/Contents 37 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+/F5 11 0 R
 >>
-stream
-Gaua>gMY_1&;KY!MRbPm=Zh$bG,3t?K!\ER.D`]rKTI0U;E*6GeooNTIE0MsG(SL+%7.uA)U7^Jr;/4,&R;ooNjAlH1kbi6!BGf@5fk:)(GH7ZpDmLO%XdaI:<=2kD9UdYBGtbiU,`O^_?'UM(!`j;SFQ@_cH\(NPaS=P7QEm$*'t=bmd_u`59N(gl<M`eXJH-F<dP`$MUbZ[-']GE0@PO$B)s<j&C/,fo(DQqGR`\Oj)B7RO`K6ufdR>l2/Kcdmk=nUP_1Jb;E4BMQh5[`,Yc2@O^4g62R,!oZaM$)!)C"rRk[BB$6LF^3%99o8[m%#gf)$ijRZPg2n)#7J8SAL.2N'sT=p^uE/),W/u(6Qi[d6t"oBOPT'!hu9H[QT+uX^4ngLUsd1Xk_\^;a:XTA`Z]`]Ze(L(Ts5%P7$AFOlIdir*\T"nIcQTC[OaG\+R"BRmq/&L:fAos:'*,ZfHUncUe.,mY(X-+OqG<i(9>f@3WST<PtJ:0^BEH#)Ia6b;A\;"qE-f"uW'8LL&o\)Emr`8mp;9\LPaO$NnP"P!/VTl<?1=RWo(24F_K'$ho+bG(NCqC29;$VQqTsUBdJ/jH^XUEc/LVe'[/;LV[3#.`H_Q_Su-f&KP3u!=Lm/8_".rS`iTMW:8n:)*Ran]$;"S[)d-es?[a*i13j?5NOZMAmSD,p1CVi5ujhANpTl&QM=UiMS8g.W.nCWlKJ"85"P5gdoR<MOrj;jXSc>@\9'35($"allC,.m_-t;20X(`=Kp*H9kiP4-?Cil*QK)[_&qmLiP$=+O'?sa<#SU@1EH!%=J?D)Kn!Cj6^;\[I^rG([q?*!M)Hq^EQh~>endstream
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
 endobj
 37 0 obj
 <<
-/Filter [ /ASCII85Decode /FlateDecode ] /Length 841
+/Length 3765
 >>
 stream
-Gaua=?#SFN'Sc)J/']FT-,bfWS4^C1.Vt="BeA#W,_VBm6SgUA)M5R"qqB=cPE?'(((_&$aU.EOqpFq"T^rt_=$HbR3\[-M5T$"K+JKHe^;A)kSeP.7:+04&jiKW^bLlb@75NnjB8E("UVrg/i_:s2QpSr'HDTCsq)j;QTLtVf6sS7j<@sn)=:SRQJ[ZVVJLUln!Vgnn`NL"_%Ys!?!p<2.]9@_O[l>ffmOKG@Vt$8WdY49)lH$E\hKQP^_<fM:7lPUt0T!!0gj!]PNt("o>d%;Q@\5rlL@*I8:"^<!JAkZY]kEu1/A8cLn#QdEUiOM.ccItR$%.j:l^)D^SgM;!c_UCi!]LT3BR%[k'A0l.K8cYS[bHpQBU8/[G9!;=SpT!]@d8@<hf4SU;;i@%i><0,ffYZu,(RM=+1K_P4Y2%7SCqan7;_+m))LNQDP24/3+!tE,Jb84@b9qCc*Ss]4n?%CKSb,"jaJ:?RRul.nt!kU8+=ATM*gr6_?:nfj%TQ&d-UfP)K$^V:HOVEMC^NNe.)%AQJ+rsHC-6m<Z]RT<iprn"W/u\jslr.fZdaaP""[Y5U-PMZir;(ehqbFcj\+Gc?EagO'f\'04KB:b'9)jn9bgg]AYP:jh"%Xpe<^(nln,(=^'CEA+n]n[(3OkdcW`gN3s8<dl&b(?tm(Z*V3<G+$E<j4FSaOY\DVsoSDAHOJj%.T2mgfZI%^[*U;@_;7Z'+\@Lp<8LjJ%T;!;dJ*4*)mKb&k>fIF3>NCC1\d?dBLrKkVD20L-ka03pOn5qj*%J>sQ21^8kX_W`m_:W+6`Sgi+!qB[s.au/+.gO478_b3KCTA9@R8'~>endstream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 78 700 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Difference in profit amount given for two profit % scenarios.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 673.6 cm
+Q
+q
+1 0 0 1 78 651.6 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 145.992 0 Td (PROFIT AND LOSS) Tj T* -145.992 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 627.6 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (SP = [More Rupees * \(100+%Gain\)]/\(%G+%L\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 607.6 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Switch from loss to gain.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 589.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Sold at loss, if sold for 'X' more, would gain 'Y%'.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 563.2 cm
+Q
+q
+1 0 0 1 78 541.2 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 145.992 0 Td (PROFIT AND LOSS) Tj T* -145.992 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 517.2 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (Profit % = [\(x-y\)/y] * 100) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 497.2 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( CP of x = SP of y articles.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 479.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Number of articles bought equals number sold for same price.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 452.8 cm
+Q
+q
+1 0 0 1 78 430.8 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 145.992 0 Td (PROFIT AND LOSS) Tj T* -145.992 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 406.8 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (CP = \(100 * More Charge\) / \(% Diff\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 386.8 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Shortcut for charge diff.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 368.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Product price changed and profit/loss % changed accordingly.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 342.4 cm
+Q
+q
+1 0 0 1 78 320.4 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 153.507 0 Td (TIME AND WORK) Tj T* -153.507 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 296.4 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (M1*D1*T1*E1*W2 = M2*D2*T2*E2*W1) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 276.4 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Chain rule \(Work W is crossed\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 258.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Multiple men, days, hours working on a project.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 232 cm
+Q
+q
+1 0 0 1 78 210 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 153.507 0 Td (TIME AND WORK) Tj T* -153.507 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 186 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (Together = \(x*y\)/\(x+y\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 166 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( A takes x, B takes y days.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 148 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Two people working together.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 121.6 cm
+Q
+q
+1 0 0 1 78 99.6 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 153.507 0 Td (TIME AND WORK) Tj T* -153.507 0 Td ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+BT
+/F1-0 10 Tf
+12 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 20 811.8898 Tm
+(Instagram\072 \100ColabDSA) Tj
+T*
+ET
+BT
+1 0 0 1 395.2756 20 Tm
+(Visit\072 https\072\057\057www\056instagram\056com\057let\137s\137solve\057) Tj
+T*
+ET
+Q
+
+
+endstream
 endobj
 38 0 obj
 <<
-/Filter [ /ASCII85Decode /FlateDecode ] /Length 1051
+/Contents 39 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+/F5 11 0 R
 >>
-stream
-Gaua>;/b/L'Z],,'^*2aXr,o56E&Ch[4C"-Y.AE%_k^t/'+E,#EI+1OD#<l!fE;>AKaM*b"W?F_`96T1IdouH:ct*adi@:\%/gb?`aLt5-A[3B/_l:Hs)qN)3J\dtEcad?[?*WVF;TRsFms"OSe(;6E@q_PZ?(#'B4<&/6Zf1ZSq)%ZmE=&)4Zn+A(uK`*_Y>2iT0[D=#=F![@lo(B&Y?l<`srD`JKEAIASC:]p*[]_KE.e*lHIMXo\UD+ku+Lq>'4MDp*en0KEZV*-\(p\%MC^t3;1.S8K)g3'(DX/A1tl,lcG\FGFfd;AV*:4Y#\'KP\<P\Q#5t.rFV$BF37`^qBH$">.l2SC`'Gos(2Jlc-N;ue?[4(IGr'97mV3c#9T437a<0ZP:VE(U3)Z#^IYCV%).l#5Lc2\+dPa6:W3C8!^=3rdpEo1/'UaF@4Pp[&i0Djbb$[SKBgi4"jbV-17>2K<D=#688.\_g;@<4Ik*hf_);H:@$F.d)&<#[ofc/[9cpZ3cS9c=__/*Y%bK9"o!R<fo(MQTQn#3gQklQuITbh=8kf3N9HK&G6_-S![J=MB94Y"ef6O)!i`F!8AI<gR'q(2*i5%ESfaTe+[L*_$!TAAB'L>"@FI*\*,HouPO(PWL!9<JXNM&k&-aBSQ=ko:Ra"3[4&F6#oZcL^,:C,lYVMdRS*DcW]P.F&Rf$aC^Ili9QZM,E'<F@&X;GHLh$'3d+;&OU.(-!@3&r%[c".:g\dXDU8\4HnKD]nq!4bEEP+5lj="0kR]]s9WR%"BbFr\h`k:+P(7'A%?.fX";OHc=C?\.^'/YNE,g,ufe3]piDPEM(@3djat..W$ajO8*l>Ns#n*Kfq51]'55).qC64Io'#S'![3OmL(5qN]><4&Z6udgEldj9$Z(./a7qYh%c4B>dAsZk%QOB>esBOo@!;1s4s^'X`\1W:B$;U\<j/)Y)5R:_Pl'X&c:G@(k4oc(o=-cb::D2Of=JBX``mB+r]KIS]BQ8m%J0@qEaB>c\.+GS@h^-np2o/A1Ppuak3^IFT)BAZ;1Q~>endstream
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
 endobj
 39 0 obj
 <<
-/Filter [ /ASCII85Decode /FlateDecode ] /Length 936
+/Length 3828
 >>
 stream
-Gaua>9lldX&;KZQ'miX&#tB=&R2d+mDEH<XRZsR#15MS=OFuW(m]Z'd$tC3BcFA!Zpg^rBmGiCt<e>jY#H9rJ!oQ+knVdIQ+A.2EL',h9\;`u(,I/?S#N2(t0ZM<t<]uH31=FF#f+cI\Ai#@:j6WOCK+dZ&@AVuJAcabp-G4_X=;6H;+lP(ZM@*7/;ij\(80P*KXLK[TE=UATLb:O-"!0THcaO?Z'E&tr8J?#5%G,UE0_c<b"XMI-QDJk`k8GtXnT:!<r,`/3mr..UoWAA.m#BYUAbit&9mHRi10drA(t-K+_PO/;NYd5"?js1kl<+=F[G17s[BRa%P7"I#h?NFM`Vb*GYPI_O%4gW)K1_RQo'=Lo+icBO>?Jd#8a):<hpiC1h>UO=[%nUR;C<I1h!JZc0G@Hkb%Y/H(0aEn=Ca>rqeH,*m;b[mC<_MnMD'$oM#1H'2QT(0Eui]I:ZFX*pq,dOjh:lb7LOGGMfM?6-gYN,BIk`7!`VM391CF;h$%^$&!kT4_nK.VH7R.*W0lR!c(SAW$W_i68Atp\?8:-gSS56b'bjr0B<,%XL>Ct$Q4`J'QXcLZr&!h^9Q)lgZ.q2OQck7&9MXm,?3(qlappJ2,F[tRV7bl3cb^_8D[EoG*\O>W"b"o2o[u'2nTWg-GRA1;g>%e;(C%8%Zu%D6rZs84@$2m2!Z@kV/6qXN>KsV#-@Ql6=eW<or`E4MCc#MJNNBT5>-8mi]jQ9oG!rr*@Z(5t&1[o6A,,6XHD&LW;Yq!0a+%;S/N;lDGbFFF\gBmXCVQ6:$Cb2A!DCS_E"m)l'N4KjcA'a5I7pJ,bgZBI"E1MY]43<($'5I@WOp3P\Pn9Z,2O:*b]$^"Rn(rY[Ol$oLrB*2:$l^^o3@%XQLIo%2)UXr<>u9(C`@f:6/k+aSOG*8pRr]<htWT>7_\rmW[g^~>endstream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 78 698 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (Together = xyz / \(xy+yz+zx\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 678 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( A, B, C work together.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 660 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Three people working together.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 633.6 cm
+Q
+q
+1 0 0 1 78 611.6 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 153.507 0 Td (TIME AND WORK) Tj T* -153.507 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 587.6 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (B Alone = \(x*y\)/\(x-y\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 567.6 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Total x, A takes y days.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 549.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Combined time and one person's time given.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 523.2 cm
+Q
+q
+1 0 0 1 78 501.2 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 153.507 0 Td (TIME AND WORK) Tj T* -153.507 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 477.2 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (Original Workers = \(More * New Days\)/Less Days) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 457.2 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Shortcut for worker count.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 439.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: If 'X' more men were there, work finished 'Y' days earlier.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 412.8 cm
+Q
+q
+1 0 0 1 78 390.8 cm
+q
+BT 1 0 0 1 0 4 Tm 150.483 0 Td 22 TL /F2 18 Tf 0 0 .545098 rg (PIPE & CISTERNS) Tj T* -150.483 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 366.8 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (1 hour part = 1/x) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 346.8 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Work rate for filling.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 328.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Basic filling rate calculation.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 302.4 cm
+Q
+q
+1 0 0 1 78 280.4 cm
+q
+BT 1 0 0 1 0 4 Tm 150.483 0 Td 22 TL /F2 18 Tf 0 0 .545098 rg (PIPE & CISTERNS) Tj T* -150.483 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 256.4 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (1 hour empty = 1/y) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 236.4 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Work rate for emptying.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 218.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Basic leakage or drain rate calculation.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 192 cm
+Q
+q
+1 0 0 1 78 170 cm
+q
+BT 1 0 0 1 0 4 Tm 150.483 0 Td 22 TL /F2 18 Tf 0 0 .545098 rg (PIPE & CISTERNS) Tj T* -150.483 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 146 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (Time = xy/\(y-x\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 126 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( One fills \(x\), one empties \(y\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 108 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Fill pipe and drain pipe open together.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 81.6 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+BT
+/F1-0 10 Tf
+12 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 20 811.8898 Tm
+(Instagram\072 \100ColabDSA) Tj
+T*
+ET
+BT
+1 0 0 1 395.2756 20 Tm
+(Visit\072 https\072\057\057www\056instagram\056com\057let\137s\137solve\057) Tj
+T*
+ET
+Q
+
+
+endstream
 endobj
 40 0 obj
 <<
-/Filter [ /ASCII85Decode /FlateDecode ] /Length 1082
+/Contents 41 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+/F5 11 0 R
 >>
-stream
-Gaua=gMY_1&;KY!MRfOJj*9/\CjM0c.1HoC2H[Ym.P5m>[^!O1g.p'G&)UM/*,)9NU!a8NBGd,_s88H/!Z!sjot!ftL*<(I#S7>O%)ak@#Uf*om!S,\F_8r)0CU\6@oa>VHJ^G_\Ao#KUK3oo:-AJs4<LL4MSnppk@9^:)-DVMQ*Ef9<UEL\:Y4r.H#YD\TRAd9G9RhYK0&W+_QONbe5RNjJ))I;Xi[.N+P!<YNZ91-/n;I.#s@eF?*0dsmbp'4)(Vq)^FFFgEn<PA_Rs,+H(KpU%ag$4bR0KjKr.OS&Q^)qYfp-Ece=]S2j08Fd@.aq+n)+d0TJ,YMnf!`O@YV8N[7B$3+QU3i$rZKCtkhbC]>;#UlO&#VX(`-pA$XX'Srs7.+MkHF%r"RpiRDsk1L"EQfg%_Rr1JdFu&c"\UJJ/r/k8rpL-rKG$-="aP8,2lSWcSFOh1&-+Z]$mY!-4=NWHhDoHNq848Djb)=j%\k]K1iISH6`7=Tf8%jLBar?/5C?RQXM7DM0%Bp:\%1(YgWGU'HhEukZp`\L8?.0+m[J/hDl%dB*1d2k3j4WOXrO.p`OZC,32SlZb2k6F7#BRC)'AfUMj#/_a[+e:5W9V8sZ/lEJEW]pYTnf`NdkW?\(dsL;dr*Re;TB8jKfdY&':GtQ5MR_O>%O#;]dU$,'b<D.H-6rOAnrb;eF`L&b76)Ps0(Rj4jQ7[`8&gjYAXB[=W>n2[`PIAb.J7Glk/(S!tbW^CDh(hJ#n14YNn-J9hO/SJ</p/_'54;=`Cl\8]a9W:!q[&S,0`P*^8EfZ"+.l(s]<THnZki/D:Lo^aZbS`-*Jcif<ZdFO[ebpjY(?FhMXD@nj=+,$Uf-;Y]#f1A1H3Ron0XOH-lDaTN.%VZu.$VH:(_Rd5_._(eQ=^T6.@5.cnKr/b&Y3t:[m=,k2kF;#Or%/@<;\r]r<''q\<8^BHI@Y&;!NQ&&4ZZ,p)XR5KM_DqR';*-FL'E3ML$jYH%g8YTFrarU9dJH]lZ;mW#s-79,&[D>TYaV=M:dH(&Gah]TO;A<1(`o$KP%j%DKZD&'.eDX1Y^E`Zs.T#t:OuB2~>endstream
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
 endobj
 41 0 obj
 <<
-/Filter [ /ASCII85Decode /FlateDecode ] /Length 931
+/Length 3888
 >>
 stream
-Gaua=?#Q2d'Sc)J/'_GK:*J8;"?PqEmFlGU[r*eGDPB`-9]D&!'[2_2qsc`ZP(k<[<OS\I!G!:EpZ;1dL4G9h.F5gIi66i1,lp?KMh%1`$/ROEGcc`:W?V3LfIk-NCb&[GbHuBCJTTP]_.8fA7uf;?"l^6,-nR1df@!pU`bmG_cL&l9GBX2H:[jC<>O+Yums*>nD<FbsLYJkqB#,0+MAVSEd'\e(M/a4=EB$$4F"H=C0k`*[eh.AS53A&rc[bi\!U-2or5$e/iDr`dj_6M..;RPI1kFkEJ7e&a[E6EG*CApu2Mmi48gNu'Pj;UYeZ]N_QD,W.2,,2-6_Q9;d?UE/=6c2$-^DQcB]i;L"dQmdO@pmoq$ERh8X=M>H*"q0SdRQ30MdU"p5lWOAs+JAcX-+8)k('BH.$RjAC5j>N%D$E0"cCiJr6@3E!5XF^SafVZAb'Z!tdC_3I_K:(3/YOgQAMJ,s8#E[o<R"O+!U3+Cq@:<:RWKMWl#th1CmE-eb&k9W$KM(Z%AS@Du2J150q$d(E,AFQN!G>X_5U^'6)dGO)+&=0)bf-WKUa&qSsoEb.40F1-%!fXg4X"]pFeCBrM`c?#Vq24Gu(JhLAgOq7g<Xpm5s\2Tkm1<@Vt*l7]8$H7S4+7P3g4Y=ta0H!3EjF5<]/Aa+'NUoeKVd@Xh=o2BBj`<<@>QQ'.Q1':1C^q,U'Mi<9%KoncB)656i[<;(ER`DQm5kkLFj0*='lg-Q(QZA^]!hI/p:B\+J<R=ZU?F*@HULJX&n@Nl2T0U0dM+&FfT="PEPdOle-iW.6Jk6]b>:>;^GrT?.hi#>OiRk;D*W9uOnd0;(>I)oltorM1%dK@LQDUc=Ntg*P>)d3p\t8:MP*M-F,$_\bj^>TNOTCc=.fKl=F08f=I"S<I";`bcqTXum+FW/>(6R$KKc1~>endstream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 78 692 cm
+q
+BT 1 0 0 1 0 4 Tm 150.483 0 Td 22 TL /F2 18 Tf 0 0 .545098 rg (PIPE & CISTERNS) Tj T* -150.483 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 668 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (Time = xy/\(x+y\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 648 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Both fill \(x and y\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 630 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Two inlet pipes open together.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 603.6 cm
+Q
+q
+1 0 0 1 78 581.6 cm
+q
+BT 1 0 0 1 0 4 Tm 150.483 0 Td 22 TL /F2 18 Tf 0 0 .545098 rg (PIPE & CISTERNS) Tj T* -150.483 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 557.6 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (Time = xyz / \(yz+xz-xy\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 537.6 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( 2 fill \(x,y\), 1 empty \(z\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 519.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Three pipes: two inlet, one outlet.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 493.2 cm
+Q
+q
+1 0 0 1 78 471.2 cm
+q
+BT 1 0 0 1 0 4 Tm 150.483 0 Td 22 TL /F2 18 Tf 0 0 .545098 rg (PIPE & CISTERNS) Tj T* -150.483 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 447.2 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (Leak empty time = xy/\(y-x\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 427.2 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Filled in x, leaked in y.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 409.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Tank fills slower due to a leak.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 382.8 cm
+Q
+q
+1 0 0 1 78 360.8 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 136.002 0 Td (TIME AND DISTANCE) Tj T* -136.002 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 336.8 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (Speed = Distance / Time) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 316.8 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Basic speed definition.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 298.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Standard motion calculation.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 272.4 cm
+Q
+q
+1 0 0 1 78 250.4 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 136.002 0 Td (TIME AND DISTANCE) Tj T* -136.002 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 226.4 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (Speed a:b -> Time b:a) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 206.4 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Inverse ratio rule.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 188.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Speeds of two objects compared over same distance.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 162 cm
+Q
+q
+1 0 0 1 78 140 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 136.002 0 Td (TIME AND DISTANCE) Tj T* -136.002 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 116 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (Avg Speed = 2xy/\(x+y\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 96 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Harmonic mean speed.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 78 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Round trip or two equal distance segments.) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+BT
+/F1-0 10 Tf
+12 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 20 811.8898 Tm
+(Instagram\072 \100ColabDSA) Tj
+T*
+ET
+BT
+1 0 0 1 395.2756 20 Tm
+(Visit\072 https\072\057\057www\056instagram\056com\057let\137s\137solve\057) Tj
+T*
+ET
+Q
+
+
+endstream
 endobj
 42 0 obj
 <<
-/Filter [ /ASCII85Decode /FlateDecode ] /Length 845
+/Contents 43 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+/F5 11 0 R
 >>
-stream
-Gaua=9lJ`N&;KZOMYDisKCQ$erINHc,)*C%&,G^so\^DcDS[[.8Kkj_]=+CEaL6t@+qPO-Yj^nGa0SFCjGV1,mrRDB5]8n1L0tGL-:dP/=$c/W7<PKn_=;s&Om0"&(NJ'/if>Z+1BeS\mie1-jKc-mP&&@>$3PQGKe]F?/7rppbFaD!N/R#&q[S3"#gUfQqal+E4jXr;Y-*Jjl]s!h9BN0(WLojLW&Jo_0^1"&j]T,dQ2c_/HW(/>3Aae#,2'IelGMKT3*_Kd;YC;7A>r!l@?L$*_)7^t\6:Ir@1j>qRe07hhE]S?1N5(*OC0)_=cRHaRT`3,p+,aWSPm.IA^^@<r^)b,o-d4gGeEJ)At"F!P[bL/N6lbJW4.n$BZCF:BnSpB(N$8riV=f^6B6$?.XkiI"LiStRj'4b+\Y@M=D;Qg[U,E!-\q%iLeMA&lp'\qAr6Hn]oeu";D$2!aO6u2'TFe','.4b98]O?FGu-`7[FBlNHnk>4'H"Hoh=f[8R+5Tr59k#S*fK!2M6>0$,gQDU-XO4-_L-X0&*7pHJ(N"Vei!o=6@9ATJVM:j)g\(;oR$=<mrJF%j0QrjF29.N6RnCIUZi(`ccKo6KUI+g3L5EHpg7fA(@DaVl-]`@7ONTC[8/iQu:u^;:Dm5a%[?2ZJfq6XmIM-pjW1u$<EHVbb@*EnWVI%Ri(;2=V3<!;)sdT[AQ_qDb;"=9$DaFEtP/\lts@Z%?5!(=$[J&Fn]%"(\u>EFt[eqa'`%$jaC1eT=(48[fO!FTN(J>XuuXr?GtZp7rMkr?&mcPd4(+4]9%Hs:r_u*of+Jc><1+1Jt,=Y31oXM1d,ekr<Bn#(Sh~>endstream
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
 endobj
 43 0 obj
 <<
-/Filter [ /ASCII85Decode /FlateDecode ] /Length 1007
+/Length 3935
 >>
 stream
-Gaua>?#SFN'Sc)P($Da,'d7`a8<A!\45*]gg'scNe%,pR305VHWT-8@mrt9)"=qYr2EHCS3H9FQ^$"pj6bpVN.=W]o^f^Zn$NbuJ&-9$F)hRf<$sF/n;NL0icnk?&N1"6N:0[K1=jMcIUt%#.22e'$rD"n0$+L=fVW-g=%j.XX96^fmGenHgZWoe",V#B5**<tC<2`.SFj)h"i#[I`Xl^:G[M688bAakdTApE\ig!Q^YoV<fI\iD5n[)at[:3lK_tIr[*JDc\>Rne)"eDc"48$tWAmQ-?QS$++-&s.6@i9AnrO#oA-n=4qG#HW6kc(tiN*CTh(0UA`/#G,A,n-XjhS?Tc.$hY_[f]ttPPK&WLf9mhaR/NlDLHM^(QE=$C\?"B<9<IQfQDHKa!AAlT)Hh]["j_6KOmir,3tR%],+6@=<#Og1+<jKR8&7+p.1&T$.8&0,&Jm?j8%I'r[!/q%YuZk,KpQ?dX(JZP!W34fmO0cNb]MS#E4[;Wq\*^k`FY5hF#,(/k)@I9>b55hud%:&N8<QqeK=>Uhlje_"r8ZaPjE(">%uZ-%IAV3Z@<tp\\mcp7s6A$BSF\?M:r=R"@#P+tdj<-sVlg(NH=$UW0!^[t?0b19:0k<"[GCFIX(GT8+X:CCSkGh49^&G;Joc^`"c6A7]i"rh]M0m4idiCLQFl)D]:#]:%c_<?@7.1R?&p@("KT88K$BZ(REKD7d8)?=S\;MTKh.I'RLg,"'Bm$D&ah2G:<[L$W3jU1P-iIC?*CDPfT3>M"6/_b<XV/$[enF_%_D_C=7c+h"ZJNlrD;i$t3ec>qe&,OMU%*tYjM9Lq#iPbnjEPads_i?"HoDPiDYVN/-&l^lH4@#hZ<?oi".m?BJWEG\Zr4/:B0/Wpb<s56AZ=#d@B3*(1=ok=NB-tI25;mG8S^,Ugf;.0=J5U5^UcY$ILa\mG1<3%P,=C#D9Mp?L0nJ,XBBDO3Rj=CsZ<o`&\(nkL'>Cl83rDN-*bb4V2m7f:1~>endstream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 78 699.6 cm
+Q
+q
+1 0 0 1 78 677.6 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 136.002 0 Td (TIME AND DISTANCE) Tj T* -136.002 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 653.6 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (Dist = [Prod S / Diff S] * Diff Time) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 633.6 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Shortcut for arrival diff.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 615.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Late/Early problems \(Late by 10m, Early by 5m\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 589.2 cm
+Q
+q
+1 0 0 1 78 567.2 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 136.002 0 Td (TIME AND DISTANCE) Tj T* -136.002 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 543.2 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (Dist = Total Time * [Prod S / Add S]) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 523.2 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Total journey time given.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 505.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Going and coming back in total 'T' hours.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 478.8 cm
+Q
+q
+1 0 0 1 78 456.8 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 136.002 0 Td (TIME AND DISTANCE) Tj T* -136.002 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 432.8 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (Meeting dist = \(S1*S2*Diff Time\)/\(Diff Speed\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 412.8 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Catch up distance.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 394.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: One person starts later and catches up.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 368.4 cm
+Q
+q
+1 0 0 1 78 346.4 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 136.002 0 Td (TIME AND DISTANCE) Tj T* -136.002 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 322.4 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (Dist = 2 * Total Dist * \(a/a+b\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 302.4 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Meeting point shortcut.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 284.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Two people meet after traveling from A to B and back.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 258 cm
+Q
+q
+1 0 0 1 78 236 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 136.002 0 Td (TIME AND DISTANCE) Tj T* -136.002 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 212 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (Rest Time/hr = \(Diff Speed\)/\(No Stop Speed\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 192 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Stoppage time shortcut.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 174 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Given speed with and without stoppages.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 147.6 cm
+Q
+q
+1 0 0 1 78 125.6 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 137.001 0 Td (PROBLEM ON TRAIN) Tj T* -137.001 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 101.6 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (Rel Speed = S1 + S2 \(Opposite\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 81.6 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Trains moving towards each other.) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+BT
+/F1-0 10 Tf
+12 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 20 811.8898 Tm
+(Instagram\072 \100ColabDSA) Tj
+T*
+ET
+BT
+1 0 0 1 395.2756 20 Tm
+(Visit\072 https\072\057\057www\056instagram\056com\057let\137s\137solve\057) Tj
+T*
+ET
+Q
+
+
+endstream
 endobj
 44 0 obj
 <<
-/Filter [ /ASCII85Decode /FlateDecode ] /Length 924
+/Contents 45 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+/F5 11 0 R
 >>
-stream
-Gb!$E?#SFN'Sc)P($C_q@:I7`8Yo_>$G&i.\$j\%`\-&b8\IDV*RcA5qUknDcnbI&d8hA&+.qc0If44*%$pnNl8P47*!ah0@DE"t(beAmJhJed>.6)rb3XK5H:0.HQrV*X:KtnkH_"ScAC=)Dl^BJL4eNK7LZ?;'7@gV<F;\=b-5H__?.N>KF\U9W2jWVhJeOG>n-O\?YmDDe\@oNoga1=$&JN^^pn0RK*b`J&+SZ,V+ge<Gogl:JU=.IpO1STAL+I(=iQ?]-L]Y#D2WRumGO_H/9V=O"AeUIc-*m0A.b>V"X2ipJQqTnGc#p4X=]^'98JTMcg8Rd#f5US[F*)+9?<(-cD1Bk!6"P!NnPk@T4G$LOa&=!6^4k99&M_7G0ZN7&`hXZl9UjXlNLfEr9:#'p[kQT-Y*&E#meG'_^6FQrl<(dp2rOnDB7pq-KO`=te9CP,&F!Kt5.hl*%bDo9)me9E3R1+Y]l@c=g;[\+^DbLLj3k3u'n&%sSM^BhO%nnL7(0<k>p#4'@?XRo4hkVBmn#G%<\t7r/66"B!?t6,RcH?#>rYJEWC\\n;`d,f[GX3BG9TKNRk)!\8ng`[m<p%,eEUsuqFUeoX.nP^9D)l\++ns\6P55qjVHoc-M^D&[V$b%$[9&>/`UcqSSchfl$[Sr2<3IK6rK8\k7sP.GAjg-X_a&KNA:h*4p-6qf7/?BjGKem'CCGIm\XX#jQ_UsH!M'"9Ojq/@]C%TM)a)H<#Nu+oRrsQL$0;V#k\aW+0Z$ELqYHCG#9k#=_4L9F;Di5]SKSRgG`FtP4KIjL-6@OO4Ut9;*!g]<6+SWB.m^&]@Ib7Yl.=V$fa1=l`1_V8@<ejP;Qb2qJc@0N8*Nd`V9Eo;#]f5G$3tr+0_fr5mX_B/Wn_6#/$=CrL0PEEd_I]g/r%e!O[5MWr~>endstream
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
 endobj
 45 0 obj
 <<
-/Filter [ /ASCII85Decode /FlateDecode ] /Length 957
+/Length 3725
 >>
 stream
-Gaua>?#SFN'Sc)P($DGD+);KNhj&?c*OM*/Wp?Bb7?q+e+<,=+Hkb5:hf7(4d'?V;UBh"EM<"4(4\omLJ;,.Dr_=\gOU(0)!28>qJ/F.EhH(P@S_kIYdaE<Semr9LBk8idGORN=oRus,<A.P+MsR3c'<`O>iATU<%qhA)\1=:$SjGPl/2(NjK2>6?c8(u>_PT=t!ad<[A:49k;iq0/SjSUZ8Z)-qq[$S99)OF9*LW4q/!^nG3c:*1?4B.S%9%>=Igq#3ETAf%Q,=`1W>MdpQb<C1pZ%%0nXVVO*nNG*FrK^I7IBL/)E_8K'GFO"L/_al\?P&GYT0=7Mo2K#p<m]b?5Lj9mJaqf"U>dTd`:XSNtp&G*RbpDDc9VX<%#[Y>np9_Y!q4FVfV'^f?'0^QA;`T//,#soB!D5N*$ij+lVZ"MpCH)AoS_(9@d9?drBSK4-7$F."Y:>lh'CYP4D9RO^]Vr$kelgm:%VPTmOj9%8t/@6C(40mHhk;bO6WDK=0T8X.t[3X2m>;ZcmA-ECWF_.ZU`XZG-,aL1a)+##@3u"G"I&O>"I-BJ$>p]=TC2aOq,l#[dcD9jXHW-^uoJ@Q_mO9YaZ?$Blsb*l&1iX5YK-bg<HYm)K1o<ePaSPLaC9]>Hgaor'*E.[7GK+F)GQVEXe8pY*:0SOW8aanoC<V``/>B+=qQMQ(FB^-(YGZg6b)UjZt*_(tr-i>cj\E7rHT&RB?!Z,9]rjUhk(4rK6PS@?Wr.'EDbdF5'q`D;(,Ffk&t-UDZIUGo.!)n^eE[2[X<K3kl[C*eq0cE<Rjc>c,]^&j?!8H00E[A;_Dn>O'>8Yng:)0EgmJ;r92S=iB&G&`g[8DZM(2+U`cbO7TO2TLVrr66/&_l[(P2k$Z7.UV,?+BR7+&:r_S`JbZ6@sT($;;`*J$eMnEDf$D.Xs@LK,I1Sd-$ru)>k_ac#GCZ).``rp~>endstream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 78 700 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Opposite direction trains.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 673.6 cm
+Q
+q
+1 0 0 1 78 651.6 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 137.001 0 Td (PROBLEM ON TRAIN) Tj T* -137.001 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 627.6 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (Rel Speed = S1 - S2 \(Same\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 607.6 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Trains moving in same direction.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 589.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: One train overtaking another.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 563.2 cm
+Q
+q
+1 0 0 1 78 541.2 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 137.001 0 Td (PROBLEM ON TRAIN) Tj T* -137.001 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 517.2 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (Dist = Train + Platform) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 497.2 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Crossing a platform/bridge.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 479.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Train passing a platform of some length.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 452.8 cm
+Q
+q
+1 0 0 1 78 430.8 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 137.001 0 Td (PROBLEM ON TRAIN) Tj T* -137.001 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 406.8 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (Train Length = [Plat L / Diff T] * Pole T) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 386.8 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Pole vs Platform crossing.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 368.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Train crosses a pole in T1 and platform in T2.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 342.4 cm
+Q
+q
+1 0 0 1 78 320.4 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 137.001 0 Td (PROBLEM ON TRAIN) Tj T* -137.001 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 296.4 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (Faster S = Avg L * [1/Opp T + 1/Same T]) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 276.4 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Two train interaction shortcut.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 258.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Crossing times in same vs opposite direction given.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 232 cm
+Q
+q
+1 0 0 1 78 210 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 137.001 0 Td (PROBLEM ON TRAIN) Tj T* -137.001 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 186 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (Slower S = Avg L * [1/Opp T - 1/Same T]) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 166 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Two train interaction shortcut.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 148 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Crossing times in same vs opposite direction given.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 121.6 cm
+Q
+q
+1 0 0 1 78 99.6 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 137.001 0 Td (PROBLEM ON TRAIN) Tj T* -137.001 0 Td ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+BT
+/F1-0 10 Tf
+12 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 20 811.8898 Tm
+(Instagram\072 \100ColabDSA) Tj
+T*
+ET
+BT
+1 0 0 1 395.2756 20 Tm
+(Visit\072 https\072\057\057www\056instagram\056com\057let\137s\137solve\057) Tj
+T*
+ET
+Q
+
+
+endstream
 endobj
 46 0 obj
 <<
-/Filter [ /ASCII85Decode /FlateDecode ] /Length 946
+/Contents 47 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+/F5 11 0 R
 >>
-stream
-Gaua>?Z2Z('ZJu.'_eH'<^gWq,;eZ&[^"X8S$$nU^+A#l^o2'$YVXqSIep_[6FF4sD+]cpGe)rVchoOS&5_mcntU[>E9b6sS,f8@9S)Db%aI!M3N^%JZL/]9@+lAS@nk3`PDb`9^]Sc$*^4@.co:&j2_C[<E!E41Xm;u/4&CZ2b,B<8W`lB:9$R&h:;E?rN.V<P(N9Fc[nTi0]5g!P793amF#sIdhe4$Lrd]&8%:A:MS#1sVe'GEnr\"N>3Y5:P:^iWA-@'ds1MDhMahitK1lS3i>]+LuXFJfUT,u=qBEh%u//NRBE%bchWAS:fRq]Tu%U"](?JAiI#=r@7$s8aKe*Inu;?s'RLQ$Ku8.TAE]I:Sf4</koS5'sBk'APHVO5fUdlJX@]eHE&\tL;M03G&9/8:AIBpG'?U>#n/FoiZ6dH#+cja=TUPs5%K%D,j_eo4R$.H&M28160#_:$Y"mKD<'QX"[DgOUTn?Tk=qcS-l=%3d^mU!J7EJr(Q(16qoE,qKZ;KQkIO8(Z,Tm2Y#?g3Cn+P_V\PbMZ48i!G5!<&TGmcPbRj9Eek9jQs,-'\*o/"$+T#W:'mMI5p"]D\fn,1:2qKrp,BhNQPhm`!&7uhFsHBg"S614E1CK.rdVDMRA'rbuPQpDo?@eWI2R_HGrcARsWOVd^H`\P-ujX]$rRMo%,""5F0%0KF%#aX:?:a'=j.^pX3^An7pJ,%e?173V*;k8/V*+k[A"qW&t6oWH?F[b#V@-9;T.fHB'#Re=sYnm&4?1WdbA!^K1<7n$Z;cK[9&`Y+=UO<Z,_8]C4,_E'9#^OM-f:9!%Cghb2`lr4#N)5EAIqP(9\>BEXY)gm+Z]QM96F=mq:$],"F&<;/j$d6D%]pOoqlepT,cKJpSpPCkD-B=X28qF:[_I`RJ&dRc",<!mQfC>5QCa6hBfYt4\P!3Q8DW*I.~>endstream
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
 endobj
 47 0 obj
 <<
-/Filter [ /ASCII85Decode /FlateDecode ] /Length 1044
+/Length 3814
 >>
 stream
-Gau`S?#uH2&:O:Sm#)N7$=(;ubk*&M9q.QJ9b#R<g<Ns^@V>oX/k#3\G:sN&M'8Fs`k_[\QFhq._k)R4Jf?05D?t4@J:'h:W8RG9F@c`#'9&I4D2Zo86OQRl7;&t6Me)%+@U"r<>'Mi+XbV+T\<[K?&o4JH=G`E"UtZ)[G!+tnNlIulcd)'9;&>a0i:LE]iIGp_ijK`ZZlW[,0`KF^$s90Xn3IHp$r$3?d8*21$r2-1)O:=Y.(/q"2?h7KR,,"q@kdJ%k,.VX^7RnJ%,a8^qah%mp$c35MDFGq\-Kb`Y$T"o)O6PtQ-XOpMMNi%$F*=rjI"/a1WjXu1nn[q7n7,Mq95dUlbI'E\.%dbSAl/e_AhG;XFr2`@agS7<'HKa;TGcpG!<nR87OXR=Hj#=EE#H#`Jd0-,CAr)K#MjdB5j>;F@hCMCX%AD9elmJ7s;coQ$k<E1Q::=oNcJ)K'%#<PM[?4ODr:BhP='i/gjpbDp"KAXjHHs@TRH+:K@&'Vnj@M"YBOi6TKq7h,mO,fUKEu--<=<9Ul2$3&pCeA.Y'KU6/N/iW>CLf>-)o$h,H[7&Se.Ui,.\4s\SU3h3>`f;$),hrs#5q1cO$jHFIkk0t-c*O<sn`5&Fro<PB:8\_:p?Jt_*eQ(t\4MHu*?QsZSidkeKoUq9#MplI-!6\Zf]ZNE$BEY/7Waot?S7X76[5Z6BROPq$X<&aJ_C/"86qD'Q;Hf<*RMUIIU`*BEg`be!.%2u]TmZCG_]H]DcOq"Ng+rc"2ca"fXj'!-$g#t!He;sS`7EOqMK)'(k)@%TAuO_ap69<lTiCa!:eas7p#nK6)NJNVi(U@Lc/DJqmAF-/Xkf@+AVG/kWer+b&Gs7_<_AbG#)S8^$ZO\8<q:jL'$K!&j=@c!VI#?-MPO]d;!6%iXUe64X#Uf3U-s[A)3MI(9Soq=NGO9\_;KK>N>k.d;g^SU/Zm_F1/9[9A[@]V]-#qEYp_rTUpG`/^oucDFgL4KKAliDA(\.\_8au0AQ(SVMnZT:3U+HP_'7>%(_j@V!28gtiW~>endstream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 78 698 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (S2 = S1 * sqrt\(T1/T2\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 678 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Speeds after meeting.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 660 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Trains cross and reach destinations in T1 and T2.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 633.6 cm
+Q
+q
+1 0 0 1 78 611.6 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 128.001 0 Td (BOATS AND STREAMS) Tj T* -128.001 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 587.6 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (Upstream = x - y) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 567.6 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Against the flow.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 549.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Boat moving against current.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 523.2 cm
+Q
+q
+1 0 0 1 78 501.2 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 128.001 0 Td (BOATS AND STREAMS) Tj T* -128.001 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 477.2 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (Downstream = x + y) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 457.2 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( With the flow.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 439.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Boat moving with current.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 412.8 cm
+Q
+q
+1 0 0 1 78 390.8 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 128.001 0 Td (BOATS AND STREAMS) Tj T* -128.001 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 366.8 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (Dist = z\(x^2 - y^2\)/2x) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 346.8 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Total trip time given.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 328.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Boat goes to a place and back in total 'z' hours.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 302.4 cm
+Q
+q
+1 0 0 1 78 280.4 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 128.001 0 Td (BOATS AND STREAMS) Tj T* -128.001 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 256.4 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (Boat S = z\(x+y\)/\(y-x\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 236.4 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Down vs Up time given.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 218.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Takes x hrs down and y hrs up; current speed z given.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 192 cm
+Q
+q
+1 0 0 1 78 170 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 128.001 0 Td (BOATS AND STREAMS) Tj T* -128.001 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 146 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (Boat S = [\(Stream S\)*\(Sum T\)]/\(Diff T\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 126 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Time comparison shortcut.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 108 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Takes T1 for downstream and T2 for upstream.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 81.6 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+BT
+/F1-0 10 Tf
+12 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 20 811.8898 Tm
+(Instagram\072 \100ColabDSA) Tj
+T*
+ET
+BT
+1 0 0 1 395.2756 20 Tm
+(Visit\072 https\072\057\057www\056instagram\056com\057let\137s\137solve\057) Tj
+T*
+ET
+Q
+
+
+endstream
 endobj
 48 0 obj
 <<
-/Filter [ /ASCII85Decode /FlateDecode ] /Length 906
+/Contents 49 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+/F5 11 0 R
 >>
-stream
-Gaua=hiF3k&BE],/*=eRY7]E@7C]-(]cUQ6Ys%O9XnH0*MpcY(/K!7B^;D-a:QLr[eS$4g_p$`#&$nX=`"u:CiA88L!61*#Tb,.-Cu'hR"Lg\[V*e:T!uDs'diEQ!4MJ*3#.=E+;qZ8)1XgD2:-0;YX>=;/B?W\n\5a;:WuT&i]&urg3J]rlT,ra]!IX`i"/CYA\-Kh\#VMdbjb9u]G9ekX;h><OG9*6j&q)5_P`e>iWSY)D!_%)1XtE\<gA_Ve<`9X/'!(g`O-:2?_UsW->l0Mr]ooJ)Uts*[("aAW5g1^lc:m4XAEPG?T\]U9V`a!NP%U+2TeU)YgGHG"72!JMeeO$$acaeDDcK9ZG-Tp!o44,_(9;l/QVcg`+,R'minp(V/pS4P))^YGSq`/fs#!#^4e;$"LcL+AIQidZD/Dm)(.Y.4.$11hMP>)@7?"AQ*M&q3;KX*Lb[fI^qH&DNnj<_h#HmL_+in7jD*K+.[RE,$*/gIOSn*SmW/DcmZoc>T+:H9?U^%]<FgKh+6*cf%7':n\6gQY%$HV7>9VBb4frY^l4F=\tn&0"/A5SLaTpuFN]MpY^-l4Xk4G,=@b'"Y_Mau_YB9qr7p@E99;7\48R%,VD^>2D<SMQA85V<0L/nLFB^)oV0AZiunOgZE/$NWn_9P7o=>;=<4)(sXt9O3"WQLCX:-Gael-repr:Eeje_P3t/9EdV[[Bt,J.GHf6W-.5+Min_nMa:\?'NRkmJo7<*IJ<fu&XI@`1F=$'emEhe"?bZas6s:X>peYAiXH#pgIqhO"ZX=s7#XW5d/`(+#2<B0Tho$$'V[Q,5%5&rDYSmjF)Uil,cB;aYC1P`I`_,'2>\(tGbc8QFN6,7C"U#%\`<m/s*-EP+NBi)XPYh*9uZGt6K\lGau9A~>endstream
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
 endobj
 49 0 obj
 <<
-/Filter [ /ASCII85Decode /FlateDecode ] /Length 1070
+/Length 4010
 >>
 stream
-Gaua>hfG5O&BE],/,$r=Op&>ULQIof1l4d[ND1=ZZ(7<g$4#!-QQ/NGs1WiQ<ZB57;k(T8B(*chBD9:r8&2ouPlK\Vi7s+5'`gY;O+CEE"o^+Gr5MB^/8'-3kSe1kg5OH,Op3N`l^`">[+`KtG#<Un54BF\%Q>!CA/[,Hi%g:%-<M$=82GK+4AI1*;dNuIP4U-F+Q`adN3C6iOG>@p7*9Sa%K6n-2'qWG?<cujY,OKTi1G1^<;&qoDHjR.\UTf=J[e<9V+NqVCu+\2%f6jFmN:l"DL?^/kn7n&#(r2.e#cb7V:"_."9T^J)nHJ7S3s;IAoR%6TB3RJ;&k40Xk]a2f&eGl:)WB64hQDcI?(?MMJ'qLcsY?IL2l"]%ao1CIdE"sc0OEPmAO;08Rj@H[FZn3SL\KDBAGJ%kE&bhO[,s+J"?dG+B+l&Pn#lWp2X:D#.%9`@u(;\_M%*__B_F8[7Rf4D`a,/;E3Tu#Qe-i5(PPF>T"6$7ph9aMBP*5))'@6,f.m[k#&fEa40>`phYjfp:#\#-J_B&LP"uDosQ&rUXo?b0ktnJO%:Da<u3m?>K])NC_ui]A!j%$62@m<5fbdPYkjetFhR1pm>9Sq@euW%j`ol&^@NNd940DA0ZbK=-EJZ?K.4\>R"h\KT1sHP#BlDI<;*f=c8(na$&?Cc6Ii`Sa<>;0l+7c;,%76)FO8kqqb;LL1YoIe6^G>=(G[OPRGP0t#SCgPc*-BAgHjVY5C>Jd,*Wg>b'TF.XFFB[CpKV;!&oCgKHV./RO+.d]fqA6\&)q[9PRQ#IJC-C$u1".T7>>YQ1POS*^9S#Dfa2V@FT?V"WWE651)!>jqFjeZlqjNqc(2'RSU=4eV9kPFL8Y\Gf[HT<p`No'8A0XOGbJ'6CL7i0]+E"[;3*AD0J'tHd^M!-8L!=#ud.\5SPcRjc4U0Ebr#?#q5tJ6(h'P_*V9XakYEX.5BZl2WF^kO#rs]9THAJW,aiK<-uU]nY3b+&a/X*Epl9u:Y=(W-ZHeI>a/Bobp9Rn7:Gf<3Iu/Rf8:lb$rjoa8p26k4E(8+_O`/AitocH/%Y~>endstream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 78 692 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 173.001 0 Td (ALLIGATION) Tj T* -173.001 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 668 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (Cheaper/Dearer = \(D-M\)/\(M-C\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 648 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Rule of Alligation.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 630 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Mixing two items of different costs for a target mean.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 603.6 cm
+Q
+q
+1 0 0 1 78 581.6 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 173.001 0 Td (ALLIGATION) Tj T* -173.001 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 557.6 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (Sugar Added = [Sol*\(Req-Pres\)]/\(100-Req\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 537.6 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Concentration change.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 519.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Adding pure solute to a solution to increase %.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 493.2 cm
+Q
+q
+1 0 0 1 78 471.2 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 173.001 0 Td (ALLIGATION) Tj T* -173.001 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 447.2 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (Water Added = [Sol*\(Req-Pres\)]/\(1-Req\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 427.2 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Dilution shortcut.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 409.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Adding water to change the fractional value of a mix.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 382.8 cm
+Q
+q
+1 0 0 1 78 360.8 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 147.486 0 Td (SIMPLE INTEREST) Tj T* -147.486 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 336.8 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (SI = ptr/100) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 316.8 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Basic Simple Interest.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 298.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Standard interest calculation.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 272.4 cm
+Q
+q
+1 0 0 1 78 250.4 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 147.486 0 Td (SIMPLE INTEREST) Tj T* -147.486 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 226.4 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (Installment = 100A / [100t + rt\(t-1\)/2]) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 206.4 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Debt installment shortcut.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 188.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Annual payment to discharge a debt over time.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 162 cm
+Q
+q
+1 0 0 1 78 140 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 147.486 0 Td (SIMPLE INTEREST) Tj T* -147.486 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 116 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (P = \(Interest * 100\) / \(t1r1 + t2r2 + ...\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 96 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Varying rates over time.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 78 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Principal invested at different rates for different periods.) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+BT
+/F1-0 10 Tf
+12 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 20 811.8898 Tm
+(Instagram\072 \100ColabDSA) Tj
+T*
+ET
+BT
+1 0 0 1 395.2756 20 Tm
+(Visit\072 https\072\057\057www\056instagram\056com\057let\137s\137solve\057) Tj
+T*
+ET
+Q
+
+
+endstream
 endobj
 50 0 obj
 <<
-/Filter [ /ASCII85Decode /FlateDecode ] /Length 1002
+/Contents 51 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+/F5 11 0 R
 >>
-stream
-Gaua=gN)"%&;KY!MS1KpJ?aL=A>U0)5g)"IGUDed2_GA4@q8Y!"nV@laZuOC:7?oJ?na,uqt':>eIp7!6.G4.$IJL>hBbDqn4#Yobl[>B3aUcXJZMm1>]?,a0#j9]@Q0ndRLO=C+kMNiJO@\E:WmaoE'[<6<smQKosb(POA0?20u^6V3iaKHQFq01P6hun&JjUDlHh19d\Co0Zs<7HAak/!=-:Y.e]uq7)Coq@P7[D2l<OdR/lQJm:7;Z<E"uk2FV[j4F$F(V5?@%6?$l7N'""[cY/1Lh6ZEXY8u\,Wb0d[]Hc-#lb)co]I1GGM47n8l-Z#"gK/XC,6:A^>TIMt^j(IL5:!Je-rf.YT`A;(oD:pt9pCVfX&6J-Q%&o<?-9B_nYIu(pXEWNPf#9)n?/Bs39<%<[fdG!e)qtE(Ki8po6-(M'KH+"?I^tKj>+1M8m;0-M&10&(qu@L4BL1Y8dhkt"qIuI(:>9OO](SI`:;Z7>`p"$I2Po@'+\7e@.cQO+j"*6'^F7E0A!i^i#;1*@Mn^'5<hloOi)"Au$8uK9Mg1#d,^Q@:3tH>;$=(q<S74L@\2,&Dl@#7jQG&E.5iur3Th#Bo"@f(]N<C3f+IqsI\'C;mgpQa-eFc:-r*"cQFD+9,bUL8g/W<`:Q9&KF`=p1qpoUK4#,&[9fFpEn,)57J_9d#`g>cgtX_X5<Adi87rBYFi=t!\LXuc%Q:3sBUkN:cI$cK/Ap.7%\7sfkUPJAH6$&Etk+G6K(aKs'sS/ba>M_o]PJFF5P:`HY^^b[LMN2GS%HM'VIg4%6Ml\q6bJKG;4JPqpi5rWcTGt=+Wl<4&`82>!o/`@.0U=1M^'hW23?\[h+pi749PdI>j15NR.epjq=;#fAo;o%`eiA:IO:m'nS1QjTepB?FVD_QWcEfcBH4H<]]m>2.@(l'3E/of*tXWa#%@)#rHF,r_H;&R6e0Y`qMCNQL-$@mq$g#SDAV*9VGSr1j_lWpe;l_3ee;k?!S~>endstream
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
 endobj
 51 0 obj
 <<
-/Filter [ /ASCII85Decode /FlateDecode ] /Length 965
+/Length 3868
 >>
 stream
-Gaua>>u0HF'Sc)P($B=a/sOZRS&A&!J<e&1Y4U/3OUbK141-Zgo'?$D$ODW46UV"7@sC*,nt(Um!s'-TUjO/9!,!p+q?.'-G76l@FE"FVk;JnNA>-AH0HH$[*()Sd9n:Y'LnQ<0Xl3L9"%q\*SN[3dbP@r30m#d*Ce,o"]G]Msi!5b_L2QJRH?]S\,Ike@hO"E^s,4?\"/]?A:s6,uh[RPT)(MF/R5?+$S+<_WNoF4^cAp(..Qo9<47DgLjjuDemAB3)*)7V03d8jHB5r.&oXEA5DLWL[?DX:s;<@G-Tb>Bkn"+)7]fZd,`%k[fh/^&$hcO.7KJS`R^t9/!5XW=2&($P=lUk+-F8FgAPJmlodH79m5pg!tnL4"L72OaI!'^g8#-f9A'L^.i<(qQ1^m"Wf<D>3EK/_hF9rda$+_2G@d_`IY1kuR,XdK.4kO&0\Qjh6>M<CpYU+;O5kbj+bn1`,p*125-PsLqbluiQu+lU(cWXILCZ5/7PK:$9G]%2W(BF<Q^QYmDs^^WofXeg`"dWNO^e"UU1>.6!8Gs,Or[;$?N._tn:(\b/4OLH>tX4<]6^8S'<RG=r]Z08.i4G>U'1S0+Uj\irf/%$ETRk"+IYV]9Yei'+$;RSVk6<-<@1fI7O=s;@:#Ch&=H@5f1Lt:h`H1)KMFkp)>./8PQD]!OHf*P^WBuZkZa7^g+=`%tcj_UR$+A;YFUnp58O8[.d]%VI.a52bk8#D$.KZ=]966Xs6&IV(WJ:5/G7I_MnSgQ#BaJ!mRe6Fr;?_1Bo*nnA$P2O'tC-tp$^@k+H+F<!<arun>6S]*qD'b$UDhbYM8MU`;8WCo1:Y\2*;3o'iKJ?+R-@r$:AJgT>q"`IP1:M+Q6rsoD(*VRS`&`=7^p71ls#[>Eq`e@lZ6U+rG,gY1W+oDA271)l6/@DIr[Z&&56d77B^t77$W[s-asS?ie$iANnIJr=5U-~>endstream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 78 699.6 cm
+Q
+q
+1 0 0 1 78 677.6 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 147.486 0 Td (SIMPLE INTEREST) Tj T* -147.486 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 653.6 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (Rate = [100 * \(Multiple - 1\)] / Time) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 633.6 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Principal doubles/triples.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 615.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Amount becomes 'n' times in 'T' years.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 589.2 cm
+Q
+q
+1 0 0 1 78 567.2 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 147.486 0 Td (SIMPLE INTEREST) Tj T* -147.486 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 543.2 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (Sum = \(More Int * 100\)/\(Time * More Rate\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 523.2 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Interest change shortcut.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 505.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: If rate was X% more, interest would be Y more.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 478.8 cm
+Q
+q
+1 0 0 1 78 456.8 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 127.497 0 Td (COMPOUND INTEREST) Tj T* -127.497 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 432.8 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (Amount = P[1 + r/100]^t) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 412.8 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Basic Compound Interest.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 394.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Annual compounding calculation.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 368.4 cm
+Q
+q
+1 0 0 1 78 346.4 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 127.497 0 Td (COMPOUND INTEREST) Tj T* -127.497 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 322.4 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (Half-yearly: P[1 + r/200]^2t) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 302.4 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Compounded twice a year.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 284.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Phrases like 'compounded semi-annually'.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 258 cm
+Q
+q
+1 0 0 1 78 236 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 127.497 0 Td (COMPOUND INTEREST) Tj T* -127.497 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 212 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (Quarterly: P[1 + r/400]^4t) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 192 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Compounded four times a year.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 174 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Phrases like 'compounded quarterly'.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 147.6 cm
+Q
+q
+1 0 0 1 78 125.6 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 127.497 0 Td (COMPOUND INTEREST) Tj T* -127.497 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 101.6 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (Amount = P[1+r1/100]*[1+r2/100]...) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 81.6 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Successive varying rates.) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+BT
+/F1-0 10 Tf
+12 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 20 811.8898 Tm
+(Instagram\072 \100ColabDSA) Tj
+T*
+ET
+BT
+1 0 0 1 395.2756 20 Tm
+(Visit\072 https\072\057\057www\056instagram\056com\057let\137s\137solve\057) Tj
+T*
+ET
+Q
+
+
+endstream
 endobj
 52 0 obj
 <<
-/Filter [ /ASCII85Decode /FlateDecode ] /Length 1027
+/Contents 53 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+/F5 11 0 R
 >>
-stream
-Gaua>?$"^Z'Sc)P(%5E7h1?r&?olaEdZ?:A$#-[5Q<ktAJ6Qj#Z4](qIZJ<^6:3o,Ce4g8)u8.LRA5N^`8K"#<M-T+3/u<IB4)_L*6d_pLp&Li><c;-'A3m.$jPO<_HUAr)XmFdnK0>Ef(D2`)2-@p(-Rt#1XS!7b/1t]RtYpQK=O;"EB%6a'=?fClOem31Rq`?nSnDGFFs9,iXXi4`=^ah-P4#($fPK6dH^R1;iH\[QlPPrqt>UQSF@e!44R9ppg;sjO$s@+DYkt:%6i_=cWVWNd)0!IT-O2i:43nUR='ZOM!8e3T4VS5fmDm'Qt(2\I>875p>i.gBTN-A<[&>,<VcMA@IN"/gt"s%<8,Ra%-C/LBV""<'b]Nl2R5&e^P'?M$/=O?ESI,8)Fi[@Oh"'H&+=KaN9lOW?9Ot.l?4J['%=90`U*c`S,J';.Xgopkt*+a*tGm[J967eYK(!K3o>"&+c\*ZX:.gu22lAKcbNsUa01I[jBKhQ8lt&$;g19h%knc?Ol"9oH$UK\^OjdRmR!cG![:Do;jfe^'sm@"F,I8&DrN]X&m<lnj7U<-Gec2_&*i]:FNnn&0#Y#"]9^mtqB`OjdrrYj&asP*g[q:#D:_LcO><5q1_u<mR?&cQ7q$"&g_CR1aCheuP21\u?cQdtGEYZ6;O8j<A_!ZrME791*OJ5?,c51<+Jb:rWGepUeDmasS'1U[`0#BcVj:@BOD:FUiea7OHe[nRlYIH"kh"ijU7`Q;:i=k8`gPq^[pQd\8f"TF8Z%B16q.k%F/t\Uia/c=dTig]6[R-n-(aLMc!^OE#05P$s8U*l$S8(e8T*36em%F>\a;:1l>'m`aJe*B=rSD#ImparKilEB1&W]o=T;01G@B*?PdUp$Ve0)BAPX$=V^sc+c"ed"q?JqeN;NWbZd:(VfLE<qPFL%%d5>g]LaU*`nW%BH@0bI*p(D_+M-SRXO_PKG>=>!G]."(eVFEK0's\Y.-H')`H&55NgKn@=>3Mc8'XX;YZ]t=L#tF5f!8g[.~>endstream
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
 endobj
 53 0 obj
 <<
-/Filter [ /ASCII85Decode /FlateDecode ] /Length 855
+/Length 3656
 >>
 stream
-Gaua>?#SFN(kqGS($C`8&T$XBdOr[G[Rsii+F!3*1,'jj`%:FdqtIF,RR3^q`(El<82$!OFNtQ7%L#]G/\aesTGsTRUS&%C"Os[r6oVW5)F#0_4jjl!'0TIJ86O-"L:W@F1T>``Aenifd;q-/M%ui%opBAISbtK<J$BPR.QPL_c:9W)).Xed=^djEqMqMNfDVGHXgL=L[QM8"o=@Rhh5IVaa!G0`Ou<L_BPi]BD:J826M00_(sTZY^O(%p)?!c-K8]'M7lB\9@=,C:Io?Hci+'ZFYu5)1nL6i[diZU<^m$m?DQB;(ek,`n&$L(q^h4K:3$70DL(nJ5)'56aGg7DVC98_G]\QR]8tDQ[:<dec%6_;oRjVlUrEd_-/CorSQO@t_meX@=U,#*[`A5[NU_sLclm^uKE8;Yl2XjPM12^3G=Ro_:5I?Y7'6;7eH3'USYs!3>%Q3nmdcFAV;o>m(\kEL2^a`j445A(i3>))"c8?uNPT:@;&%O*G1.WtIU,q3&FI_jS80'qM[d?>WN$4,S\H[ir$DA$'nLTgOH7^bUJj"?=2DOk<ioL_i;o>m01,e!R?7F+d2.'1-i%gis&:HtTG@JQ(ebNk`Q.@/]=6`m'eK]UlR_[X9D(jQ8n\9<!QfNk_9rh-VLoR"^r.L[pZ$JhK;gj%[3h$^[59Y/#oJSQHMn35"8=j=iLq?b9MROAhBh+^Z&?.gQG'*=TnC>(jr(?3.]B;ef4'.k"`N_E>'iU7<d4\WA1NS1c.h;cdg1OtX=6)MfE:k?0h%O"U/pVk@BD0&oas]8)Gr0buUY9Z6<\JIEr\s8DpBG9=_l9EVCM\0tbT(29mn5taT&LakNPFrI-Y3~>endstream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 78 700 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Rates for year 1, 2, 3 are different.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 673.6 cm
+Q
+q
+1 0 0 1 78 651.6 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 127.497 0 Td (COMPOUND INTEREST) Tj T* -127.497 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 627.6 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (CI-SI Diff \(2y\) = P\(r/100\)^2) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 607.6 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Shortcut for 2-year difference.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 589.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Finding difference between SI and CI for 2 years.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 563.2 cm
+Q
+q
+1 0 0 1 78 541.2 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 127.497 0 Td (COMPOUND INTEREST) Tj T* -127.497 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 517.2 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (CI-SI Diff \(3y\) = [3r + 3r^2/100 + r^3/100^2]% of P) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 497.2 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Shortcut for 3-year difference.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 479.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Finding difference between SI and CI for 3 years.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 452.8 cm
+Q
+q
+1 0 0 1 78 430.8 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 161.004 0 Td (MENSURATION) Tj T* -161.004 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 406.8 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (Area Rect = L * B) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 386.8 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Rectangle area.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 368.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Basic 2D space calculation.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 342.4 cm
+Q
+q
+1 0 0 1 78 320.4 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 161.004 0 Td (MENSURATION) Tj T* -161.004 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 296.4 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (Diagonal Rect = sqrt\(L^2 + B^2\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 276.4 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Rectangle diagonal.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 258.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Finding distance between opposite corners.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 232 cm
+Q
+q
+1 0 0 1 78 210 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 161.004 0 Td (MENSURATION) Tj T* -161.004 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 186 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (Area Square = Side^2 = 1/2 * Diag^2) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 166 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Square area.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 148 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Basic 2D space calculation.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 121.6 cm
+Q
+q
+1 0 0 1 78 99.6 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 161.004 0 Td (MENSURATION) Tj T* -161.004 0 Td ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+BT
+/F1-0 10 Tf
+12 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 20 811.8898 Tm
+(Instagram\072 \100ColabDSA) Tj
+T*
+ET
+BT
+1 0 0 1 395.2756 20 Tm
+(Visit\072 https\072\057\057www\056instagram\056com\057let\137s\137solve\057) Tj
+T*
+ET
+Q
+
+
+endstream
 endobj
 54 0 obj
 <<
-/Filter [ /ASCII85Decode /FlateDecode ] /Length 930
+/Contents 55 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+/F5 11 0 R
 >>
-stream
-Gaua=?#SFN'Sc)P(%9r['d7`a#b?8BU>70`6Z$)q@]WHC!b?-\lBhYOos9j4?u7,f2+8W1-RS#unItd2)"L,dcQEDr%%Rb-6GXukQ>V8%`Aq_h2b5s7lb_nsEj1K?H0jfp6as=b,LdPoD'WdVl>8O6W!aYUctZg'a3,&M%G>?Z3F\E,ggkP,:<fOnK1F9TG0e,uA#.$+W7_=N$eA3LQh`L_\[j*=e'!sQ7QM>$LnU!q[R#3LH1K4Xd*>_a4$W7(PU<;R]$?"8r_8#(&&WAkIj.4>3"/6?9_D"+a4Mup$TCl("9k^s3F+tIpbE<m&P^iS@,-g+$is-[R62A1UAD\7j"QYs3GO9s!@.D37]VYF;g/r*s)CA_GQFl"Q>O^BIK>jg\-eX%KhSGG)hpDu`m=oSqTM>,q[ag\3q%Ri2E:*;ER2JSDKcnk0"nFNR?0:bV.;*`Z*(*nm;.o"1oii@;_0&'+XVEtZ>p:hX1)H4=*c_pI=XA+O;>_e!J1L<npGS/C?kF/L#gJonRF%ZFh>6sFX].@QcY7U-e/i4p(jYtM1.p'G*kR]g"S1.)]5q]falKN,#icYdDtSk\pJ7A9ZPQ<@=oLgnl\&lj%*D1:pgG^aR-)s=&jB!XY!_9'!YF2G7Zm*6UYpMC%Mr`Q1J_4R_!D`dkhLi(%rdgK.u31rqO=3g>GAZp>PNDB'Fn[ePHI8rQA-]W,!+;@nK4-B,@9pamt%0V.M)j.G.0q[o_+.'K*@92-QlC:HW0t51hV_h#3\T[[H])V-tmuG_WJt:kl+D_o;Q6AcY8r>!4th!(M:\m=h?O*8<5X]gF<XFmR^No8<Ln)`:jj?kJ$NR_P\?_e:f&^FQ?UlYj(r1+c&W\^.$%9p!Ut/qQObDFKMn=PF2KA;<??H*1H+3tr-N*aP")BdJa32U+<%rr@.00^\~>endstream
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
 endobj
 55 0 obj
 <<
-/Filter [ /ASCII85Decode /FlateDecode ] /Length 1052
+/Length 3817
 >>
 stream
-Gaua>hbW5s&BE](/*>rV_M,;-rBW1.!>Ra1n2tFQ*lNiIG(I>k(:T4cIt+d.&JV;9%Ln*.mW@X8bU52F$3X_Cpl)'M7j0]a.8U6-#cMON&GDb1<c0C/A_@L-D_X)g27$b=Y")XrW,VuZVX*jCc7,@(J-P-e`lq#]l.CZVm4\aFh<T40g0saQGnn1\&D!MgAUo5Zi+q)V+$BBHE-YKh4]nA2YsAgJe:$q3d>jnM!CsQWN2?I\.\2?Ell25@nO2l7:lQ.)Pu)E*6gLQ)+''=JX'\(4<ZgDj'^2\&55.F&BJrUkTYu)]4[N@:I<JV#YW@!7KVr(u/3PE:2,:j8D&-C%'*6blg.<L/KoK@faW[-.HQ`T8Fo5.6odsBucCc,7<6N\f!VGKE9ZNeB)+Z?V\IfCrd7>[mJ1/T`%\l\u#L1e$BUB/+MD!o@^/=T7h$`FerDO!n]]Q*cI5*XIO1Bjc*/bX7],G3OD.m44S,.gOq651)XAM=L\5LVAkH*e5OgsF&NA/VWfS4(Ve$1=GX[cUM;1'a6(a)3%ClVB<ZXg4mg#pQI7LT3YBqtmX"ahbajL-%tmD-t`;Z$%mRd2jj^$c?<?X/N@E-iT`Q`\6p&[i@`b&'>aP`Fn;4KYEe*Pd.LD,CECGF">CSd6/^*Z77+JQn_iMqZ?_.dou`3<?I=*P=BrZ%MfAL:"IA^Z'+Wm9fKHcohn$Q^pG;#i2B.:2,`,Im>(rFHNu!<Xl-@V3.Kf3IA^0M!$OFJXk#iHZi=]ZcL>;@]a$"9^bAbTQqGs'k=(DHA./&d6)]fFgEF4)=0@NbTk=(cXVbcIoF4u)!\!/k".<c6cL:hRC&Xg=*W9b'pKbC\k[6#A(RPc,\sOZXBX\n`Y:Z&I8g*=6*MBMpXZN)SR[5>nb^0^m_ps%,)3E@(9?)$bAL$gPLK*R:&S@'P.K^qH)(!6VQu+hfRG:Z:c#lrX%44N7MSAQ1fFf9[V_A?b1?QIZCbCXS!Jb,RE49QgueX8B,:nF/ic;QA9s/R_O6#ANJE(]+S.;V\;&=.15kb%ih5iY>((/.~>endstream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 78 698 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (Area 4 walls = 2 * \(L+B\) * H) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 678 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Room interior area.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 660 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Painting or tiling the walls of a room.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 633.6 cm
+Q
+q
+1 0 0 1 78 611.6 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 161.004 0 Td (MENSURATION) Tj T* -161.004 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 587.6 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (Area Rhombus = 1/2 * \(d1*d2\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 567.6 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Rhombus area.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 549.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Given lengths of the two diagonals.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 523.2 cm
+Q
+q
+1 0 0 1 78 501.2 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 161.004 0 Td (MENSURATION) Tj T* -161.004 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 477.2 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (Area Equil. Tri = sqrt\(3\)/4 * Side^2) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 457.2 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Equilateral triangle area.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 439.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Triangle with all sides equal.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 412.8 cm
+Q
+q
+1 0 0 1 78 390.8 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 161.004 0 Td (MENSURATION) Tj T* -161.004 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 366.8 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (Area Isos. Tri = b/4 * sqrt\(4a^2 - b^2\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 346.8 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Isosceles triangle area.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 328.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Triangle with two sides equal.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 302.4 cm
+Q
+q
+1 0 0 1 78 280.4 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 161.004 0 Td (MENSURATION) Tj T* -161.004 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 256.4 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (Heron's Area = sqrt\(s\(s-a\)\(s-b\)\(s-c\)\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 236.4 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Area of any triangle.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 218.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Three side lengths \(a, b, c\) are known.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 192 cm
+Q
+q
+1 0 0 1 78 170 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 161.004 0 Td (MENSURATION) Tj T* -161.004 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 146 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (Area Trapezium = 1/2 * \(sum parallel\)*H) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 126 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Trapezium area.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 108 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Quad with only two parallel sides.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 81.6 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+BT
+/F1-0 10 Tf
+12 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 20 811.8898 Tm
+(Instagram\072 \100ColabDSA) Tj
+T*
+ET
+BT
+1 0 0 1 395.2756 20 Tm
+(Visit\072 https\072\057\057www\056instagram\056com\057let\137s\137solve\057) Tj
+T*
+ET
+Q
+
+
+endstream
 endobj
 56 0 obj
 <<
-/Filter [ /ASCII85Decode /FlateDecode ] /Length 966
+/Contents 57 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+/F5 11 0 R
 >>
-stream
-Gaua=gMY_1&4#.KMKu0TUtFPsqA(Lj9hH>">Y&h1<[!_dAg)&?!FJ1hqsG@i9l[6A`JHifeq<.!I(V6@<;o5[V],W+3hVuf5T$"?+<hJ</tqa@(+iKRRMHaK/K6gbFo0LrBs-&(/[6Yg6s"45i`V1H(2YktCBcm/#%WQA(lKAiQnkoTIbL3?1`BU.0DdH5G5?F]Oja?o-TGDqm6krqgH>[F.jM!3pSB2%YiIM_MPGjO1W5b"(17Wmi3\t\AKCdPXL9R7+^h-.RPHjRH_d[gKs>`bq5H=I)>!og3tJ!7irs7O>m[NJ620uE]^3d$!MkUSZE>D+5^VDY%&Emk\PGS]H;SpW-WJCaiboG<@kVr;3V?enAWK#JPVa/GM-S5Yo\C_*:_Zmi=lW*jd1Xk5"qqcLhK3lKT7SI!;g;hj'X._o@2i*?*-i^7SMmPdNU'/XbEd.%Bt@`UfAFn2SS2SfVG%q?!>g_7(@hD8GW!+Gkj#[QN$Y/7s-]Jk6B4.8V8QTp#)2)j/7qH\mLp%B%$IM::>IJ'^WWXk>KR%r)b_Cj&*B$%nEg;\]J(G<CB`*@b5;R4&\dF@C5Ia\a]=+>6oW]_LNnTb;79VPGBS$b]_QmP\\c"">U>npb7IC9=$4/D0YBnp"L5hWHh``SQ47]Q)Kb>1-CtTX;)%0`PHAl52cR-*DTr[Id_[]u];]![pVIfXe9<]5B<=ZX/Da.rS^N>!?@PbK1lTTh9f[>^rFo&Dq`_4F`[`UQ_R3iel5$QhYr54Z$)C5?AO,i&<I7fP7<T&_TNK+0QmTI'qVEk0D>,\T_?-o2F7&m*]:MHpg9\#,n4`OZG%("ISan\61#E;[AeAGeWAP(:br<V)=48RUM]q:Kj?dIRC+V=YX4Kt&6<3&0_YW6OrbJKe<:gq.J%6F<`@12/?#b\l6WpRoTS;61efSJ+bEBejB(/LSQ"Wm$)VQ.7U%JXE!^43~>endstream
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
 endobj
 57 0 obj
 <<
-/Filter [ /ASCII85Decode /FlateDecode ] /Length 870
+/Length 3853
 >>
 stream
-Gaua=gMY_1&;KY!MRf]sdU;e0;l!ZO!%h)8-ob;)86^G7Y)#g'7VU_n]/EJaW7+WF1;_Tr]CYX?Vt"4]lGE@@n-%,/U"RD8$2@H7b[fYh6-$/lfC19=EPXq%=iF2YPI$]]L,V2n2,D1DW7XQ-@=1aT+A8@DME$NkY?*F=R7LbT89bkS!kneX#o'l`&4Y-JO=JYZKDuti$SC>$]!c/%%Q/)TjS-0<Mg-Dl[$ZP0pJ3ON?rtMs7*ENe0q%4'TD]=[gP>[B_dgFj]tWAAG"2I7:1GemY;heTQX(MYW0nF6W#T&e(.6!j+(i,MPWSuKMgUj`=6[:TG4+X4Y;,<.>PSG4K=m61E".H)+e'=BEIC/'rBhN\]9S8V27m\T7FOTUZgl=HcG8ZA=Nl'7ZRC[6nq,,h[9@1XkZ]7;@%$,I-B5[ili%*_ZGDjmD0pLMC#(0IUNffh$XZ?r,")j^4<B8sgFM@H.&POhChf+re6*1rnT.T@@Ab[9,h14n]$F?mH_>CG1jeLb:8iW1O>$&FRDPW><;!0?\ke#(r?i;Ij)#`^C_Z,@TZAZn\pI7a'G^.*:pdKa&6kiQhs$1CLGs\NU&PM;ElMEga=`fD(5+VEE#=HT;t/VZ"gk;2U@(M"&HU?qGW_H'r>+FY]q`$JD:3u#[<NSn5h_;P\:Q0fo3aT)j].X[7(q?!d@g[XnaiD@4M+kt=Qm+:5"f?K?fR>6bA;"M9o']lXU,lsX/mPk7cR':$<L[eqai>_gUR9T:T5gNRSLt6OebjO#YS\ZhAAq>mX%;6N6Xp/G#*&qb=C"EH)],of.`(KTochiga$VuC$;Q-ACs)^ENE"2k'Y&4N7/(H]_>t*H&!L.%mgP:563)i#Nc~>endstream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 78 692 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 161.004 0 Td (MENSURATION) Tj T* -161.004 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 668 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (Circumference Circle = 2 * \(22/7\) * r) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 648 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Circle perimeter.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 630 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Finding the length of the boundary.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 603.6 cm
+Q
+q
+1 0 0 1 78 581.6 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 161.004 0 Td (MENSURATION) Tj T* -161.004 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 557.6 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (Area Circle = \(22/7\) * r^2) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 537.6 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Circle area.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 519.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Basic 2D space calculation.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 493.2 cm
+Q
+q
+1 0 0 1 78 471.2 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 161.004 0 Td (MENSURATION) Tj T* -161.004 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 447.2 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (Volume Cuboid = lbh) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 427.2 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Cuboid capacity.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 409.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Finding how much a box can hold.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 382.8 cm
+Q
+q
+1 0 0 1 78 360.8 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 161.004 0 Td (MENSURATION) Tj T* -161.004 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 336.8 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (Surface Area Cuboid = 2\(lb+bh+lh\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 316.8 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Cuboid outer area.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 298.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Painting or wrapping a rectangular box.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 272.4 cm
+Q
+q
+1 0 0 1 78 250.4 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 161.004 0 Td (MENSURATION) Tj T* -161.004 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 226.4 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (Diagonal Cuboid = sqrt\(l^2+b^2+h^2\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 206.4 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Longest rod inside box.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 188.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Longest possible distance inside a cuboid.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 162 cm
+Q
+q
+1 0 0 1 78 140 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 161.004 0 Td (MENSURATION) Tj T* -161.004 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 116 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (Volume Cube = a^3) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 96 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Cube capacity.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 78 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Finding capacity of a cubic container.) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+BT
+/F1-0 10 Tf
+12 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 20 811.8898 Tm
+(Instagram\072 \100ColabDSA) Tj
+T*
+ET
+BT
+1 0 0 1 395.2756 20 Tm
+(Visit\072 https\072\057\057www\056instagram\056com\057let\137s\137solve\057) Tj
+T*
+ET
+Q
+
+
+endstream
 endobj
 58 0 obj
 <<
-/Filter [ /ASCII85Decode /FlateDecode ] /Length 914
+/Contents 59 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+/F5 11 0 R
 >>
-stream
-Gaua=Df=>`&B<W!.IQ!n.j9)+&1['9/($T0eu^cU(KE5M$f6h@OtbI8qOJ;@@&9QsRN`pq/k;K\Q_2Pn^qgO1^@,Y6V]k]X#S7@%4V23]#X?3\Cs?0pQ.Z\`*s@si0rKhec<I^^9?](Ml(k/Ll^NP&!RLgE!N2L>Fd8"*-poIqe<lr0]2nTaVKJ%/NgH&:W=1rkKapN%kDuN<)p^.j&H73aA#rrP\)+LD?eKe+6AjsjSM;7IdBYoj%".VV9da<XIm5?aGqKbY>fcT`][bmj(a[94Us;CYP8$!&[;.Aic=Y%eW;p)W^3"'p,YQ2l\;Z-ejo+3oI,h.Ro`S)HQcbi[;m@fLEXs-fZrM%_F`$#<q*.VF))!Sq*qLA!bKh$%5QYG[;Ibsd`-*,TQbsZA0>ji[n"Z*9o'=i[89ZRoQRslSDot#]e7b;p`XBZul'55eU_D4U>uru2Y7*<\e]QTPSiep`Y1G1\3g[U7"srmeT,%\MT(6FoZ/h*:F-Y;1TWV"5d"K_L`XbEMlh<@")l77.?V"`qQq@K2S#:OB\P]uZ&?HfgMd'@d5NYs8)l0L<aK\`b"aMT.Sg^ic1$/tSMtfo__R8B$k#9&r"W>l;"#4/%<UYH744lic4)jQEE-/Y)Dnjp'GF9c1)Qn&\<J_RQ[hQD-^>78H>ZQ,e&2</8:+1Lh0?;84_0-RN">A68?Ab*8:`ODFi^EsIN#r6WlM6q?:#U4<dR8T+TYPC"\M?:Y4DL?s>V:61e07B<b&;og'fO<mUE;#-C>UWi_0-]'bL\QcU0t"T-6nEj_>";?1kp)HWKX0]2+%S[G"L,+%Ykp1mko$;.=VnYjC5PPEFnq2J`DK\KSnKSg2W_2jp/)>*qqQFik._7\mFm9CfuTqO%%r0f;!.i[2oCT*o`md(N)l$E<~>endstream
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
 endobj
 59 0 obj
 <<
-/Filter [ /ASCII85Decode /FlateDecode ] /Length 896
+/Length 3772
 >>
 stream
-Gaua>gMWKG&;KZP'QZhY"gcB4;D41[DBkulS'YJEQBm/3/%dhL.*:4f()n?1LK%uEKb(Br4268/B%@(ngdq#SblB?t(lek5$GdF4V-=Md^f<(5(m&=)l[e(p%)t"ZU>(uNp`@LuJ/=F"I!F`]kFt4(2&E*(-K5Tm0J#=,`1VOh]"S,`G91"=]fgu*(Bhct\eTdQ^Z2bnh!rt;%Cl9lcu"$G#Sht9"IqO<ARQQI=UA=Q2fgP0?]]!15M8mh[?"Q^ok^)<6pq?[UHF)<5iER")PofFI"],;<P;J3[FDaVN\mmK7huY'-.Qjbp^Z!QQ76KK:\1(_<q/MH2<fi?H[2%1$C`E+c]Tc?HD_n7fJN"",KOorKgtHNnH`+qf5Vua5(,VI&Jm/<.9'FOGp:ZdK4<OSKgdS&-D.n=(oH^L)1RV"*a+FD"tJAN2q.MTe[\B+R\ifB-FCrRgK_kdT-f::47Ak;r,&dsLscGWGm*aPauRA;/7Nm(kDcpqoTjF\F:U^(9Cr>;--L<fe+\RCcQ]Q*=H_sRi%[Q_LKUNXFJZ!5EY`C6L,Y8sh%d^\r,&)*Yn1Jk@TGu:0W[N8W'T?<*d;?Q4fWjU&2G7npC;t?Bfc)P1q3?c:=THUW(&@0FKFT_8XQ(0g%_Mp4L.l<5>jq0D=."Z7"'".\MlkJNH*`@WX9&nP0N0)T:sS.`C,U68LhfmV774@9tP4=gK9CVL+Q#gc1HFhFidci#aV[).N`2TBMI\^M!o.H]BQ'08nX3,h%V&-apMYk!uE8EP?73'n[r]@hhYC(H<ug^&$b$3]L9:!H!C\b&2i<eX)[j@5[kUd,E._.=@'(DT3=OcM:lI'rsifk-029+T)1b;;qpruN,%b9n:D%IW"9]0YMF[/0_c(h-TA+~>endstream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 78 699.6 cm
+Q
+q
+1 0 0 1 78 677.6 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 161.004 0 Td (MENSURATION) Tj T* -161.004 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 653.6 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (Volume Cylinder = \(22/7\)*r^2*h) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 633.6 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Cylinder capacity.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 615.6 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Finding volume of a pipe or tank.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 589.2 cm
+Q
+q
+1 0 0 1 78 567.2 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 161.004 0 Td (MENSURATION) Tj T* -161.004 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 543.2 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (Curved SA Cylinder = 2*\(22/7\)rh) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 523.2 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Cylinder side area.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 505.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Painting only the side of a pipe.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 478.8 cm
+Q
+q
+1 0 0 1 78 456.8 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 161.004 0 Td (MENSURATION) Tj T* -161.004 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 432.8 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (Volume Sphere = \(4/3\)*\(22/7\)*r^3) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 412.8 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Sphere capacity.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 394.8 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Finding volume of a ball.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 368.4 cm
+Q
+q
+1 0 0 1 78 346.4 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 161.004 0 Td (MENSURATION) Tj T* -161.004 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 322.4 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (Surface Area Sphere = 4*\(22/7\)*r^2) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 302.4 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Sphere outer area.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 284.4 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Total area of a ball's surface.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 258 cm
+Q
+q
+1 0 0 1 78 236 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 161.004 0 Td (MENSURATION) Tj T* -161.004 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 212 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (Volume Hemisphere = \(2/3\)*\(22/7\)*r^3) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 192 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Hemisphere capacity.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 174 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Half of a sphere's volume.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 147.6 cm
+Q
+q
+1 0 0 1 78 125.6 cm
+q
+0 0 .545098 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 161.004 0 Td (MENSURATION) Tj T* -161.004 0 Td ET
+Q
+Q
+q
+1 0 0 1 78 101.6 cm
+q
+0 0 0 RG
+.5 w
+1 1 0 rg
+n -6 -6 468 28 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F3 12 Tf 16 TL (Total SA Hemisphere = 3*\(22/7\)*r^2) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 81.6 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL /F4 10 Tf .501961 .501961 .501961 rg (Explanation:) Tj /F5 10 Tf ( Hemisphere total area.) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+BT
+/F1-0 10 Tf
+12 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 20 811.8898 Tm
+(Instagram\072 \100ColabDSA) Tj
+T*
+ET
+BT
+1 0 0 1 395.2756 20 Tm
+(Visit\072 https\072\057\057www\056instagram\056com\057let\137s\137solve\057) Tj
+T*
+ET
+Q
+
+
+endstream
 endobj
 60 0 obj
 <<
-/Filter [ /ASCII85Decode /FlateDecode ] /Length 789
+/Contents 61 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+/F5 11 0 R
 >>
-stream
-Gaua=>Ar4\&;B$?/*<rD;N,6A^-q5gM4d7OdjDSQMCNJZJ6QLsA!6?M]Cpi]"*&#hK0WfR_k*XnkHg(Saqs34_\p7d#ONQ6'(Enkb[B@WL9@F;BXmK;*O&f#Y[k@hqk@u_WrAZ&21m]&\dfu!9eM?XP$E&T<=#7]W=Y5,TS8,71AS78!rYddB(5c%j'@/J3<S_/GV(nYF@]'647\o-j\<8^U_t/DA5Cc&D+&>\AT)0@5bp+V/mJ-$WrEg/F>FCW1TLJ2_r]*tX&U!),<pa?E3Br'[dVOGa\U?RD@H!A8.1?f8sg.$h.(tIVIsi]>mkkjP6pI/kBSI"OTofIOUJUEI/Q!PCMbK^@MkmkUXg+LlI]D\"0U6W2YDOs"DJ:r,<neQn`g1%;DX+Un>PI_O$UQDR*2N5;A&l,28L<b+FB40QEBGM6&II%Q>[,0X(CkcO'p<`;ajk/Y*)tc3%6s2K;h9nnj+P8W5"rOY7Bu[:jj".]TQ75;7M4"l7;f7Y$)L_Fpr!o</b%]IN#.%-"Zn,F)!D$qJq-<V-'50O=I(AXdpLK2B1^lD==-nU+WJVmN%MVQO(KTEQaKVi@[fg=fQohQma+hq5.O</<d=UqTt?8rY?q`L5FDTcR`lj%o^,7APi=]UPQgfUO+4\?CZm,QeS8,@0$`nZ?cn+?To'J_G_/b,A_VjD!Lo(@'Rs(nmD3GDY(JHal#GkL%]ineJI1HTqo%A9Id(-[@+`&</uX(nl1Vr*og5&*^Y.(W\?jP%O_RCE%iqj98h/AGuI$+$UnPF5l~>endstream
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
 endobj
 61 0 obj
 <<
-/Filter [ /ASCII85Decode /FlateDecode ] /Length 195
+/Length 500
 >>
 stream
-Gaqco_$\%5(k_:*MB(0am&sn4O+QB,bFgLBg.iu#Vqn6FpAWl9O?a:!q$99lBQDo1#DMi-5T?X?PU7j/"\0j[K"fKWLKqhSB6)/3<Ubrr,i5ma7F%.==Icu>L(8pBIVA$@*ei3`1q&/\_p]OrNNoFp61(\'X*<bSBP3MTe.$.-Dj7?<.p9S\Z?W5\&0DIQ1(j~>endstream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 78 700 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F1 10 Tf 14 TL (How to Identify: Includes curved side and flat top circle.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 78 673.6 cm
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+BT
+/F1-0 10 Tf
+12 TL
+ET
+0 0 0 rg
+BT
+1 0 0 1 20 811.8898 Tm
+(Instagram\072 \100ColabDSA) Tj
+T*
+ET
+BT
+1 0 0 1 395.2756 20 Tm
+(Visit\072 https\072\057\057www\056instagram\056com\057let\137s\137solve\057) Tj
+T*
+ET
+Q
+
+
+endstream
 endobj
 xref
 0 62
 0000000000 65535 f 
-0000000061 00000 n 
-0000000132 00000 n 
-0000000239 00000 n 
-0000000351 00000 n 
-0000000461 00000 n 
-0000000580 00000 n 
-0000000695 00000 n 
-0000000890 00000 n 
-0000001085 00000 n 
-0000001280 00000 n 
-0000001476 00000 n 
-0000001672 00000 n 
-0000001868 00000 n 
-0000002064 00000 n 
-0000002260 00000 n 
-0000002456 00000 n 
-0000002652 00000 n 
-0000002848 00000 n 
-0000003044 00000 n 
-0000003240 00000 n 
-0000003436 00000 n 
-0000003632 00000 n 
-0000003828 00000 n 
-0000004024 00000 n 
-0000004220 00000 n 
-0000004416 00000 n 
-0000004612 00000 n 
-0000004808 00000 n 
-0000005004 00000 n 
-0000005200 00000 n 
-0000005396 00000 n 
-0000005592 00000 n 
-0000005788 00000 n 
-0000005858 00000 n 
-0000006139 00000 n 
-0000006379 00000 n 
-0000007311 00000 n 
-0000008243 00000 n 
-0000009386 00000 n 
-0000010413 00000 n 
-0000011587 00000 n 
-0000012609 00000 n 
-0000013545 00000 n 
-0000014644 00000 n 
-0000015659 00000 n 
-0000016707 00000 n 
-0000017744 00000 n 
-0000018880 00000 n 
-0000019877 00000 n 
-0000021039 00000 n 
-0000022133 00000 n 
-0000023189 00000 n 
-0000024308 00000 n 
-0000025254 00000 n 
-0000026275 00000 n 
-0000027419 00000 n 
-0000028476 00000 n 
-0000029437 00000 n 
-0000030442 00000 n 
-0000031429 00000 n 
-0000032309 00000 n 
+0000000015 00000 n 
+0000000054 00000 n 
+0000000289 00000 n 
+0000000338 00000 n 
+0000000603 00000 n 
+0000004412 00000 n 
+0000004519 00000 n 
+0000004626 00000 n 
+0000004738 00000 n 
+0000004848 00000 n 
+0000004968 00000 n 
+0000005084 00000 n 
+0000005351 00000 n 
+0000009296 00000 n 
+0000009563 00000 n 
+0000013571 00000 n 
+0000013838 00000 n 
+0000017615 00000 n 
+0000017882 00000 n 
+0000021812 00000 n 
+0000022079 00000 n 
+0000025997 00000 n 
+0000026264 00000 n 
+0000030069 00000 n 
+0000030336 00000 n 
+0000034112 00000 n 
+0000034379 00000 n 
+0000038270 00000 n 
+0000038537 00000 n 
+0000042332 00000 n 
+0000042599 00000 n 
+0000046595 00000 n 
+0000046862 00000 n 
+0000050956 00000 n 
+0000051223 00000 n 
+0000055135 00000 n 
+0000055402 00000 n 
+0000059220 00000 n 
+0000059487 00000 n 
+0000063368 00000 n 
+0000063635 00000 n 
+0000067576 00000 n 
+0000067843 00000 n 
+0000071831 00000 n 
+0000072098 00000 n 
+0000075876 00000 n 
+0000076143 00000 n 
+0000080010 00000 n 
+0000080277 00000 n 
+0000084340 00000 n 
+0000084607 00000 n 
+0000088528 00000 n 
+0000088795 00000 n 
+0000092504 00000 n 
+0000092771 00000 n 
+0000096641 00000 n 
+0000096908 00000 n 
+0000100814 00000 n 
+0000101081 00000 n 
+0000104906 00000 n 
+0000105173 00000 n 
 trailer
 <<
-/ID 
-[<3394164860374344243610d9d042cea2><3394164860374344243610d9d042cea2>]
-% ReportLab generated PDF document -- digest (opensource)
-
-/Info 34 0 R
-/Root 33 0 R
 /Size 62
+/Root 3 0 R
+/Info 1 0 R
 >>
 startxref
-32595
+105725
 %%EOF
