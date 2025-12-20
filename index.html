@@ -10,28 +10,70 @@
         .container { max-width: 480px; width: 100%; background: var(--card); padding: 2rem; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); }
         h1 { margin: 0; text-align: center; color: #0f172a; font-size: 1.6rem; }
         p.sub { text-align: center; color: #64748b; font-size: 0.9rem; margin-bottom: 20px; }
+        
+        /* CONTROLS CSS */
         .type-switch { display: flex; background: #e2e8f0; padding: 4px; border-radius: 8px; margin-bottom: 20px; cursor: pointer; }
         .type-option { flex: 1; text-align: center; padding: 10px; border-radius: 6px; font-weight: 600; font-size: 0.9rem; color: #64748b; transition: all 0.2s; }
         .type-option.active { background: #fff; color: var(--primary); box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
         select, input { width: 100%; padding: 12px; border: 2px solid #e2e8f0; border-radius: 8px; font-size: 1rem; margin-bottom: 10px; box-sizing: border-box; background: #fff; }
-        select:focus, input:focus { border-color: var(--primary); outline: none; }
-        .upload-box { border: 2px dashed #cbd5e1; padding: 2rem; text-align: center; cursor: pointer; border-radius: 12px; background: #f8fafc; margin-bottom: 15px; transition: 0.2s; }
-        .upload-box:hover { border-color: var(--primary); background: #eff6ff; }
-        .rule-box { background: #fee2e2; color: #991b1b; padding: 12px; border-radius: 6px; font-size: 0.85rem; margin-bottom: 15px; display: none; border-left: 4px solid var(--danger); line-height: 1.4; }
-        button { width: 100%; background: var(--primary); color: white; padding: 14px; border: none; border-radius: 8px; font-weight: bold; font-size: 1rem; cursor: pointer; -webkit-tap-highlight-color: transparent; }
-        button:active { transform: scale(0.98); }
-        button:disabled { background: #94a3b8; cursor: not-allowed; }
         
-        /* FREE PDF CSS */
+        /* UPLOAD BOX */
+        .upload-box { 
+            position: relative; 
+            border: 2px dashed #cbd5e1; 
+            padding: 2rem; 
+            text-align: center; 
+            border-radius: 12px; 
+            background: #f8fafc; 
+            margin-bottom: 15px; 
+            transition: 0.2s; 
+        }
+        .upload-box:hover { border-color: var(--primary); background: #eff6ff; }
+        
+        /* INVISIBLE INPUT (Overlay Method) */
+        #fileInput {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            opacity: 0; 
+            cursor: pointer;
+            z-index: 10;
+        }
+
+        .rule-box { background: #fee2e2; color: #991b1b; padding: 12px; border-radius: 6px; font-size: 0.85rem; margin-bottom: 15px; display: none; border-left: 4px solid var(--danger); line-height: 1.4; }
+        
+        /* STANDARD BUTTON STYLE */
+        .action-btn { 
+            width: 100%; 
+            background: var(--primary); 
+            color: white; 
+            padding: 14px; 
+            border: none; 
+            border-radius: 8px; 
+            font-weight: bold; 
+            font-size: 1rem; 
+            cursor: pointer; 
+            display: block; 
+            text-align: center;
+            box-sizing: border-box;
+            text-decoration: none;
+            margin-top: 10px;
+        }
+        .action-btn:active { transform: scale(0.98); }
+        
+        /* PDF BAIT CSS */
         .product-box { margin-top: 25px; padding: 0; background: #ffffff; border-radius: 12px; text-align: center; border: 2px solid #bfdbfe; overflow: hidden; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05); }
         .prod-header { background: #eff6ff; padding: 12px; border-bottom: 1px solid #bfdbfe; }
         .prod-title { margin: 0; color: #1e3a8a; font-size: 1.1rem; font-weight: 800; }
         .prod-body { padding: 15px; }
         .prod-tags { display: flex; flex-wrap: wrap; gap: 5px; justify-content: center; margin-bottom: 10px; }
         .tag { background: #e0f2fe; color: #0369a1; font-size: 0.75rem; padding: 4px 8px; border-radius: 4px; font-weight: 600; }
-        .product-btn { background: #16a34a; width: 100%; margin-top: 5px; font-size: 1rem; box-shadow: 0 4px 0 #14532d; transition: all 0.1s; text-decoration: none; display: block; box-sizing: border-box; padding: 12px; color: white; font-weight: bold; border-radius: 8px; }
-        .product-btn:active { transform: scale(0.98); box-shadow: none; transform: translateY(2px); }
-
+        
+        /* PDF BUTTON STYLE */
+        .pdf-btn { background: #16a34a; color: white; }
+        
         #resultArea { display: none; text-align: center; margin-top: 20px; }
         img { max-width: 100%; border: 1px solid #ddd; border-radius: 4px; margin: 10px 0; box-shadow: 0 2px 5px rgba(0,0,0,0.05); }
         .ios-hint { font-size: 0.75rem; color: #64748b; margin-top: 5px; display: none; }
@@ -41,6 +83,7 @@
 <div class="container">
     <h1>📸 Portal Pass</h1>
     <p class="sub">Guaranteed Exam Compliance</p>
+    
     <div class="type-switch">
         <div class="type-option active" onclick="setType('photo')" id="btnPhoto">Photo</div>
         <div class="type-option" onclick="setType('sig')" id="btnSig">Signature</div>
@@ -59,10 +102,10 @@
     
     <div id="ruleBox" class="rule-box"></div>
     
-    <div class="upload-box" onclick="document.getElementById('fileInput').click()">
+    <div class="upload-box">
         <span style="font-size:1.5rem">📤</span><br>
         <span id="uploadText">Tap to Upload Photo/Sig</span>
-        <input type="file" id="fileInput" accept="image/jpeg,image/png,image/jpg" style="display:none" onclick="this.value=null">
+        <input type="file" id="fileInput" accept="image/jpeg,image/png,image/jpg" onclick="this.value=null">
     </div>
     
     <div id="controls" style="display:none;">
@@ -76,16 +119,18 @@
                 <input type="text" id="targetDim" placeholder="W x H" style="background:#ffffff; color:#1e293b;">
             </div>
         </div>
-        <button id="procBtn" onclick="processImage()">⚡ Compress & Fix</button>
+        <button class="action-btn" id="procBtn" onclick="processImage()">⚡ Compress & Fix</button>
     </div>
     
     <div id="resultArea">
         <p style="color:#16a34a; font-weight:bold;">✅ Success!</p>
         <img id="resImg" src="">
         <p id="newSize" style="font-size:0.9rem; color:#64748b;"></p>
-        <a id="finalDownloadLink" style="text-decoration: none;">
-            <button style="background: #0f172a; width: 100%;">⬇️ Download Image</button>
+        
+        <a id="finalDownloadLink" class="action-btn" style="background: #0f172a;">
+            ⬇️ Download Image
         </a>
+        
         <p class="ios-hint" id="iosHint">iPhone users: Long Press image to Save</p>
         
         <div class="product-box">
@@ -102,156 +147,17 @@
                     <span class="tag">Geometry</span>
                     <span class="tag">Tricks</span>
                 </div>
-                <a href="maths.pdf" download target="_blank" class="product-btn">
-                    📥 Download PDF Now
+                
+                <a href="maths.pdf" target="_blank" class="action-btn pdf-btn">
+                    📄 View/Download PDF
                 </a>
+                
                 <p style="font-size:0.75rem; color:#94a3b8; margin-bottom:0; margin-top:10px;">
                     2 Pages • Mobile Friendly • 100% Free
                 </p>
             </div>
         </div>
     </div>
-</div>
-
-<div style="background: #f1f5f9; padding: 20px; margin-top: 40px; border-top: 1px solid #e2e8f0; font-size: 12px; color: #94a3b8; text-align: center;">
-    <p><strong>Popular Tools:</strong> 
-    Resize photo for SSC CGL 2025 • MPSC Signature Maker • UPSC Photo Date Generator • JEE Main Image Compressor • IBPS PO Photo Resizer • GATE 2026 Admit Card Photo Fix</p>
-    <p><strong>Free Resources:</strong> 
-    Maths Formulas PDF Download • Physics Cheat Sheet • Chemistry Periodic Table Tricks • Competitive Exam Formulas Free • 20kb to 50kb Photo Converter • Reduce Image Size in KB Online</p>
-    <p><em>Portal Pass is a free, client-side tool for Indian students. No data uploaded to servers. Secure and Fast.</em></p>
-</div>
-
-<footer style="margin-top:20px; text-align:center; font-size:0.7rem; color:#94a3b8;">
-    100% Client-Side. No Server Uploads.
-</footer>
-
-<script>
-    const rules = {
-        "standard": { photo: { kb: 50, w: 413, h: 531, text: "Standard Passport" }, sig: { kb: 20, w: 500, h: 200, text: "Standard Signature" } },
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Portal Pass | Govt Exam Photo Resizer</title>
-    <style>
-        :root { --primary: #2563eb; --bg: #f8fafc; --card: #ffffff; --text: #1e293b; --danger: #ef4444; }
-        body { font-family: system-ui, -apple-system, sans-serif; background: var(--bg); color: var(--text); padding: 20px; display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 100vh; margin: 0; }
-        .container { max-width: 480px; width: 100%; background: var(--card); padding: 2rem; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); }
-        h1 { margin: 0; text-align: center; color: #0f172a; font-size: 1.6rem; }
-        p.sub { text-align: center; color: #64748b; font-size: 0.9rem; margin-bottom: 20px; }
-        .type-switch { display: flex; background: #e2e8f0; padding: 4px; border-radius: 8px; margin-bottom: 20px; cursor: pointer; }
-        .type-option { flex: 1; text-align: center; padding: 10px; border-radius: 6px; font-weight: 600; font-size: 0.9rem; color: #64748b; transition: all 0.2s; }
-        .type-option.active { background: #fff; color: var(--primary); box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
-        select, input { width: 100%; padding: 12px; border: 2px solid #e2e8f0; border-radius: 8px; font-size: 1rem; margin-bottom: 10px; box-sizing: border-box; background: #fff; }
-        select:focus, input:focus { border-color: var(--primary); outline: none; }
-        
-        /* Upload Box now calls a specific function */
-        .upload-box { border: 2px dashed #cbd5e1; padding: 2rem; text-align: center; cursor: pointer; border-radius: 12px; background: #f8fafc; margin-bottom: 15px; transition: 0.2s; }
-        .upload-box:hover { border-color: var(--primary); background: #eff6ff; }
-        
-        .rule-box { background: #fee2e2; color: #991b1b; padding: 12px; border-radius: 6px; font-size: 0.85rem; margin-bottom: 15px; display: none; border-left: 4px solid var(--danger); line-height: 1.4; }
-        button { width: 100%; background: var(--primary); color: white; padding: 14px; border: none; border-radius: 8px; font-weight: bold; font-size: 1rem; cursor: pointer; -webkit-tap-highlight-color: transparent; }
-        button:active { transform: scale(0.98); }
-        button:disabled { background: #94a3b8; cursor: not-allowed; }
-        
-        /* FREE PDF CSS */
-        .product-box { margin-top: 25px; padding: 0; background: #ffffff; border-radius: 12px; text-align: center; border: 2px solid #bfdbfe; overflow: hidden; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05); }
-        .prod-header { background: #eff6ff; padding: 12px; border-bottom: 1px solid #bfdbfe; }
-        .prod-title { margin: 0; color: #1e3a8a; font-size: 1.1rem; font-weight: 800; }
-        .prod-body { padding: 15px; }
-        .prod-tags { display: flex; flex-wrap: wrap; gap: 5px; justify-content: center; margin-bottom: 10px; }
-        .tag { background: #e0f2fe; color: #0369a1; font-size: 0.75rem; padding: 4px 8px; border-radius: 4px; font-weight: 600; }
-        .product-btn { background: #16a34a; width: 100%; margin-top: 5px; font-size: 1rem; box-shadow: 0 4px 0 #14532d; transition: all 0.1s; text-decoration: none; display: block; box-sizing: border-box; padding: 12px; color: white; font-weight: bold; border-radius: 8px; }
-        .product-btn:active { transform: scale(0.98); box-shadow: none; transform: translateY(2px); }
-
-        #resultArea { display: none; text-align: center; margin-top: 20px; }
-        img { max-width: 100%; border: 1px solid #ddd; border-radius: 4px; margin: 10px 0; box-shadow: 0 2px 5px rgba(0,0,0,0.05); }
-        .ios-hint { font-size: 0.75rem; color: #64748b; margin-top: 5px; display: none; }
-    </style>
-</head>
-<body>
-<div class="container">
-    <h1>📸 Portal Pass</h1>
-    <p class="sub">Guaranteed Exam Compliance</p>
-    <div class="type-switch">
-        <div class="type-option active" onclick="setType('photo')" id="btnPhoto">Photo</div>
-        <div class="type-option" onclick="setType('sig')" id="btnSig">Signature</div>
-    </div>
-    
-    <label style="font-weight:600; font-size:0.9rem; margin-bottom:5px; display:block;">Select Target Exam:</label>
-    <select id="examSelector">
-        <option value="standard">Standard (Safe Mode)</option>
-        <option value="jee">JEE Main 2026</option>
-        <option value="upsc">UPSC CDS / Civil Services</option>
-        <option value="ssc">SSC GD Constable</option>
-        <option value="ugc">UGC NET / CSIR</option>
-        <option value="bank">IBPS / SBI / Nainital Bank</option>
-        <option value="mpsc">MPSC (Maharashtra)</option>
-    </select>
-    
-    <div id="ruleBox" class="rule-box"></div>
-    
-    <div class="upload-box" onclick="triggerUpload()">
-        <span style="font-size:1.5rem">📤</span><br>
-        <span id="uploadText">Tap to Upload Photo/Sig</span>
-        <input type="file" id="fileInput" accept="image/jpeg,image/png,image/jpg" style="display:none">
-    </div>
-    
-    <div id="controls" style="display:none;">
-        <div style="display:flex; gap:10px;">
-            <div style="flex:1;">
-                <label style="font-size:0.8rem; font-weight:600;">Max Size (KB)</label>
-                <input type="number" id="targetKB" value="50">
-            </div>
-            <div style="flex:1;">
-                <label style="font-size:0.8rem; font-weight:600;">Dimensions (Px)</label>
-                <input type="text" id="targetDim" placeholder="W x H" style="background:#ffffff; color:#1e293b;">
-            </div>
-        </div>
-        <button id="procBtn" onclick="processImage()">⚡ Compress & Fix</button>
-    </div>
-    
-    <div id="resultArea">
-        <p style="color:#16a34a; font-weight:bold;">✅ Success!</p>
-        <img id="resImg" src="">
-        <p id="newSize" style="font-size:0.9rem; color:#64748b;"></p>
-        <a id="finalDownloadLink" style="text-decoration: none;">
-            <button style="background: #0f172a; width: 100%;">⬇️ Download Image</button>
-        </a>
-        <p class="ios-hint" id="iosHint">iPhone users: Long Press image to Save</p>
-        
-        <div class="product-box">
-            <div class="prod-header">
-                <h3 class="prod-title">🎁 Free Exam Resource</h3>
-            </div>
-            <div class="prod-body">
-                <p style="font-size:0.95rem; margin-top:0; color:#334155; line-height: 1.5;">
-                    <strong>High Priority Maths Formulae</strong><br>
-                    curated for 2025 Competitive Exams.
-                </p>
-                <div class="prod-tags" style="margin-bottom: 15px;">
-                    <span class="tag">Algebra</span>
-                    <span class="tag">Geometry</span>
-                    <span class="tag">Tricks</span>
-                </div>
-                <a href="maths.pdf" download target="_blank" class="product-btn">
-                    📥 Download PDF Now
-                </a>
-                <p style="font-size:0.75rem; color:#94a3b8; margin-bottom:0; margin-top:10px;">
-                    2 Pages • Mobile Friendly • 100% Free
-                </p>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div style="background: #f1f5f9; padding: 20px; margin-top: 40px; border-top: 1px solid #e2e8f0; font-size: 12px; color: #94a3b8; text-align: center;">
-    <p><strong>Popular Tools:</strong> 
-    Resize photo for SSC CGL 2025 • MPSC Signature Maker • UPSC Photo Date Generator • JEE Main Image Compressor • IBPS PO Photo Resizer • GATE 2026 Admit Card Photo Fix</p>
-    <p><strong>Free Resources:</strong> 
-    Maths Formulas PDF Download • Physics Cheat Sheet • Chemistry Periodic Table Tricks • Competitive Exam Formulas Free • 20kb to 50kb Photo Converter • Reduce Image Size in KB Online</p>
-    <p><em>Portal Pass is a free, client-side tool for Indian students. No data uploaded to servers. Secure and Fast.</em></p>
 </div>
 
 <footer style="margin-top:20px; text-align:center; font-size:0.7rem; color:#94a3b8;">
@@ -276,6 +182,8 @@
     const targetDim = document.getElementById('targetDim');
     const ruleBox = document.getElementById('ruleBox');
     const uploadText = document.getElementById('uploadText');
+    
+    // iOS check
     const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
     if(isIOS) document.getElementById('iosHint').style.display = 'block';
 
@@ -300,13 +208,7 @@
 
     selector.addEventListener('change', updateRules);
 
-    // NEW FUNCTION: Forces a reset before click
-    function triggerUpload() {
-        const fileIn = document.getElementById('fileInput');
-        fileIn.value = null; // Wipe memory
-        fileIn.click(); // Trigger click
-    }
-
+    // SIMPLE FILE HANDLER
     document.getElementById('fileInput').addEventListener('change', (e) => {
         if(e.target.files[0]) {
             originalFile = e.target.files[0];
@@ -373,6 +275,8 @@
         const url = URL.createObjectURL(blob);
         document.getElementById('resImg').src = url;
         document.getElementById('newSize').innerText = `Final: ${ (blob.size/1024).toFixed(2) } KB | ${w}x${h}px`;
+        
+        // FIXED: We now update the 'href' of the ANCHOR tag, not a button inside it
         const link = document.getElementById('finalDownloadLink');
         link.href = url;
         
