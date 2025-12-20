@@ -62,7 +62,7 @@
     <div class="upload-box" onclick="document.getElementById('fileInput').click()">
         <span style="font-size:1.5rem">📤</span><br>
         <span id="uploadText">Tap to Upload Photo/Sig</span>
-        <input type="file" id="fileInput" accept="image/jpeg,image/png,image/jpg" style="display:none">
+        <input type="file" id="fileInput" accept="image/jpeg,image/png,image/jpg" style="display:none" onclick="this.value=null">
     </div>
     
     <div id="controls" style="display:none;">
