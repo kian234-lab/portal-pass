@@ -11,13 +11,11 @@
         h1 { margin: 0; text-align: center; color: #0f172a; font-size: 1.6rem; }
         p.sub { text-align: center; color: #64748b; font-size: 0.9rem; margin-bottom: 20px; }
         
-        /* CONTROLS CSS */
         .type-switch { display: flex; background: #e2e8f0; padding: 4px; border-radius: 8px; margin-bottom: 20px; cursor: pointer; }
         .type-option { flex: 1; text-align: center; padding: 10px; border-radius: 6px; font-weight: 600; font-size: 0.9rem; color: #64748b; transition: all 0.2s; }
         .type-option.active { background: #fff; color: var(--primary); box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
         select, input { width: 100%; padding: 12px; border: 2px solid #e2e8f0; border-radius: 8px; font-size: 1rem; margin-bottom: 10px; box-sizing: border-box; background: #fff; }
         
-        /* UPLOAD BOX */
         .upload-box { 
             position: relative; 
             border: 2px dashed #cbd5e1; 
@@ -30,7 +28,7 @@
         }
         .upload-box:hover { border-color: var(--primary); background: #eff6ff; }
         
-        /* INVISIBLE INPUT (Overlay Method) */
+        /* OVERLAY INPUT (Fail-safe Upload) */
         #fileInput {
             position: absolute;
             top: 0;
@@ -44,7 +42,7 @@
 
         .rule-box { background: #fee2e2; color: #991b1b; padding: 12px; border-radius: 6px; font-size: 0.85rem; margin-bottom: 15px; display: none; border-left: 4px solid var(--danger); line-height: 1.4; }
         
-        /* STANDARD BUTTON STYLE */
+        /* ACTION BUTTONS */
         .action-btn { 
             width: 100%; 
             background: var(--primary); 
@@ -63,15 +61,12 @@
         }
         .action-btn:active { transform: scale(0.98); }
         
-        /* PDF BAIT CSS */
         .product-box { margin-top: 25px; padding: 0; background: #ffffff; border-radius: 12px; text-align: center; border: 2px solid #bfdbfe; overflow: hidden; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05); }
         .prod-header { background: #eff6ff; padding: 12px; border-bottom: 1px solid #bfdbfe; }
         .prod-title { margin: 0; color: #1e3a8a; font-size: 1.1rem; font-weight: 800; }
         .prod-body { padding: 15px; }
         .prod-tags { display: flex; flex-wrap: wrap; gap: 5px; justify-content: center; margin-bottom: 10px; }
         .tag { background: #e0f2fe; color: #0369a1; font-size: 0.75rem; padding: 4px 8px; border-radius: 4px; font-weight: 600; }
-        
-        /* PDF BUTTON STYLE */
         .pdf-btn { background: #16a34a; color: white; }
         
         #resultArea { display: none; text-align: center; margin-top: 20px; }
@@ -127,9 +122,9 @@
         <img id="resImg" src="">
         <p id="newSize" style="font-size:0.9rem; color:#64748b;"></p>
         
-        <a id="finalDownloadLink" class="action-btn" style="background: #0f172a;">
+        <button class="action-btn" style="background: #0f172a;" onclick="forceDownload()">
             ⬇️ Download Image
-        </a>
+        </button>
         
         <p class="ios-hint" id="iosHint">iPhone users: Long Press image to Save</p>
         
@@ -147,11 +142,9 @@
                     <span class="tag">Geometry</span>
                     <span class="tag">Tricks</span>
                 </div>
-                
                 <a href="maths.pdf" target="_blank" class="action-btn pdf-btn">
                     📄 View/Download PDF
                 </a>
-                
                 <p style="font-size:0.75rem; color:#94a3b8; margin-bottom:0; margin-top:10px;">
                     2 Pages • Mobile Friendly • 100% Free
                 </p>
@@ -177,13 +170,13 @@
 
     let currentType = 'photo';
     let originalFile = null;
+    let currentDownloadURL = null; // Store the URL globally
+    
     const selector = document.getElementById('examSelector');
     const targetInput = document.getElementById('targetKB');
     const targetDim = document.getElementById('targetDim');
     const ruleBox = document.getElementById('ruleBox');
     const uploadText = document.getElementById('uploadText');
-    
-    // iOS check
     const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
     if(isIOS) document.getElementById('iosHint').style.display = 'block';
 
@@ -208,7 +201,6 @@
 
     selector.addEventListener('change', updateRules);
 
-    // SIMPLE FILE HANDLER
     document.getElementById('fileInput').addEventListener('change', (e) => {
         if(e.target.files[0]) {
             originalFile = e.target.files[0];
@@ -272,20 +264,31 @@
     }
 
     function showResult(blob, w, h) {
-        const url = URL.createObjectURL(blob);
-        document.getElementById('resImg').src = url;
+        currentDownloadURL = URL.createObjectURL(blob); // Save to global
+        document.getElementById('resImg').src = currentDownloadURL;
         document.getElementById('newSize').innerText = `Final: ${ (blob.size/1024).toFixed(2) } KB | ${w}x${h}px`;
-        
-        // FIXED: We now update the 'href' of the ANCHOR tag, not a button inside it
-        const link = document.getElementById('finalDownloadLink');
-        link.href = url;
-        
-        const examName = selector.value.toUpperCase();
-        link.download = `${examName}_${w}x${h}_fixed.jpg`;
         
         document.getElementById('resultArea').style.display = 'block';
         document.getElementById('procBtn').innerText = "⚡ Compress & Resize";
         document.getElementById('procBtn').disabled = false;
+    }
+
+    // THE FIX: Programmatic Download to ensure fresh link every time
+    function forceDownload() {
+        if (!currentDownloadURL) return;
+        
+        const tempLink = document.createElement('a');
+        tempLink.href = currentDownloadURL;
+        
+        const examName = selector.value.toUpperCase();
+        
+        // Get dimensions from the text box for filename
+        const dimString = targetDim.value.toLowerCase().replace('px', '').trim(); 
+        tempLink.download = `${examName}_${currentType}_${dimString}_fixed.jpg`;
+        
+        document.body.appendChild(tempLink);
+        tempLink.click(); // Trigger click
+        document.body.removeChild(tempLink); // Clean up
     }
 
     updateRules();
