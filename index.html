@@ -22,7 +22,7 @@
         button:active { transform: scale(0.98); }
         button:disabled { background: #94a3b8; cursor: not-allowed; }
         
-        /* FREE PDF BAIT CSS */
+        /* FREE PDF CSS */
         .product-box { margin-top: 25px; padding: 0; background: #ffffff; border-radius: 12px; text-align: center; border: 2px solid #bfdbfe; overflow: hidden; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05); }
         .prod-header { background: #eff6ff; padding: 12px; border-bottom: 1px solid #bfdbfe; }
         .prod-title { margin: 0; color: #1e3a8a; font-size: 1.1rem; font-weight: 800; }
@@ -102,7 +102,7 @@
                     <span class="tag">Geometry</span>
                     <span class="tag">Tricks</span>
                 </div>
-                <a href="maths.pdf" download class="product-btn">
+                <a href="maths.pdf" download target="_blank" class="product-btn">
                     📥 Download PDF Now
                 </a>
                 <p style="font-size:0.75rem; color:#94a3b8; margin-bottom:0; margin-top:10px;">
@@ -126,7 +126,6 @@
 </footer>
 
 <script>
-    // 1. RULES DEFINITION
     const rules = {
         "standard": { photo: { kb: 50, w: 413, h: 531, text: "Standard Passport" }, sig: { kb: 20, w: 500, h: 200, text: "Standard Signature" } },
         "jee": { photo: { kb: 200, w: 413, h: 531, text: "JEE: White BG required." }, sig: { kb: 30, w: 500, h: 200, text: "JEE Sig: Blue/Black ink." } },
@@ -144,12 +143,9 @@
     const targetDim = document.getElementById('targetDim');
     const ruleBox = document.getElementById('ruleBox');
     const uploadText = document.getElementById('uploadText');
-    
-    // iOS check
     const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
     if(isIOS) document.getElementById('iosHint').style.display = 'block';
 
-    // 2. SWITCH TYPE
     function setType(type) {
         currentType = type;
         document.getElementById('btnPhoto').className = type === 'photo' ? 'type-option active' : 'type-option';
@@ -158,13 +154,13 @@
         updateRules(); 
     }
 
-    // 3. AUTO-FILL BUT ALLOW EDIT
+    // UPDATED: Pre-fills box but doesn't lock it
     function updateRules() {
         const exam = selector.value;
         if (rules[exam]) {
             const config = rules[exam][currentType];
             targetInput.value = config.kb; 
-            targetDim.value = `${config.w}x${config.h}`; // Types it in, doesn't lock it
+            targetDim.value = `${config.w}x${config.h}`;
             ruleBox.innerText = config.text;
             ruleBox.style.display = 'block';
         }
@@ -172,24 +168,27 @@
 
     selector.addEventListener('change', updateRules);
 
-    // 4. FILE UPLOAD
+    // FIX 4: Stronger Memory Wipe in Script
     document.getElementById('fileInput').addEventListener('change', (e) => {
         if(e.target.files[0]) {
             originalFile = e.target.files[0];
             uploadText.innerText = "✅ " + originalFile.name;
             document.getElementById('controls').style.display = 'block';
             document.getElementById('resultArea').style.display = 'none';
+            
+            // This line resets the input so you can select the same file again instantly
+            e.target.value = ''; 
         }
     });
 
-    // 5. PROCESSING LOGIC
+    // UPDATED PROCESS LOGIC (Reads user typing)
     function processImage() {
         if(!originalFile) return;
         const btn = document.getElementById('procBtn');
         btn.innerText = "Processing...";
         btn.disabled = true;
 
-        // READ DIMENSIONS FROM BOX (Allows Custom)
+        // READ DIMENSIONS FROM BOX
         const dimString = targetDim.value.toLowerCase().replace('px', '').trim();
         const dimParts = dimString.split('x');
         
@@ -205,7 +204,6 @@
             return;
         }
 
-        // READ KB
         const maxKB = parseFloat(targetInput.value);
         const targetBytes = (maxKB * 0.9) * 1024; 
 
@@ -220,7 +218,6 @@
             
             ctx.drawImage(img, 0, 0, targetW, targetH);
             
-            // Compression
             let minQ=0, maxQ=1;
             const attempt = (q) => {
                 canvas.toBlob((blob) => {
@@ -246,7 +243,6 @@
         const link = document.getElementById('finalDownloadLink');
         link.href = url;
         
-        // Dynamic Filename
         const examName = selector.value.toUpperCase();
         link.download = `${examName}_${w}x${h}_fixed.jpg`;
         
@@ -255,9 +251,7 @@
         document.getElementById('procBtn').disabled = false;
     }
 
-    // Init
     updateRules();
 </script>
 </body>
 </html>
-        
