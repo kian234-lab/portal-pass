@@ -21,13 +21,17 @@
         button { width: 100%; background: var(--primary); color: white; padding: 14px; border: none; border-radius: 8px; font-weight: bold; font-size: 1rem; cursor: pointer; -webkit-tap-highlight-color: transparent; }
         button:active { transform: scale(0.98); }
         button:disabled { background: #94a3b8; cursor: not-allowed; }
+        
+        /* FREE PDF BAIT CSS */
         .product-box { margin-top: 25px; padding: 0; background: #ffffff; border-radius: 12px; text-align: center; border: 2px solid #bfdbfe; overflow: hidden; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05); }
         .prod-header { background: #eff6ff; padding: 12px; border-bottom: 1px solid #bfdbfe; }
         .prod-title { margin: 0; color: #1e3a8a; font-size: 1.1rem; font-weight: 800; }
         .prod-body { padding: 15px; }
         .prod-tags { display: flex; flex-wrap: wrap; gap: 5px; justify-content: center; margin-bottom: 10px; }
         .tag { background: #e0f2fe; color: #0369a1; font-size: 0.75rem; padding: 4px 8px; border-radius: 4px; font-weight: 600; }
-        .product-btn { background: #16a34a; width: 100%; margin-top: 5px; font-size: 1rem; box-shadow: 0 4px 0 #14532d; transition: all 0.1s; text-decoration: none; display: block; }
+        .product-btn { background: #16a34a; width: 100%; margin-top: 5px; font-size: 1rem; box-shadow: 0 4px 0 #14532d; transition: all 0.1s; text-decoration: none; display: block; box-sizing: border-box; padding: 12px; color: white; font-weight: bold; border-radius: 8px; }
+        .product-btn:active { transform: scale(0.98); box-shadow: none; transform: translateY(2px); }
+
         #resultArea { display: none; text-align: center; margin-top: 20px; }
         img { max-width: 100%; border: 1px solid #ddd; border-radius: 4px; margin: 10px 0; box-shadow: 0 2px 5px rgba(0,0,0,0.05); }
         .ios-hint { font-size: 0.75rem; color: #64748b; margin-top: 5px; display: none; }
@@ -41,6 +45,7 @@
         <div class="type-option active" onclick="setType('photo')" id="btnPhoto">Photo</div>
         <div class="type-option" onclick="setType('sig')" id="btnSig">Signature</div>
     </div>
+    
     <label style="font-weight:600; font-size:0.9rem; margin-bottom:5px; display:block;">Select Target Exam:</label>
     <select id="examSelector">
         <option value="standard">Standard (Safe Mode)</option>
@@ -51,12 +56,15 @@
         <option value="bank">IBPS / SBI / Nainital Bank</option>
         <option value="mpsc">MPSC (Maharashtra)</option>
     </select>
+    
     <div id="ruleBox" class="rule-box"></div>
+    
     <div class="upload-box" onclick="document.getElementById('fileInput').click()">
         <span style="font-size:1.5rem">📤</span><br>
         <span id="uploadText">Tap to Upload Photo/Sig</span>
         <input type="file" id="fileInput" accept="image/jpeg,image/png,image/jpg" style="display:none">
     </div>
+    
     <div id="controls" style="display:none;">
         <div style="display:flex; gap:10px;">
             <div style="flex:1;">
@@ -64,12 +72,13 @@
                 <input type="number" id="targetKB" value="50">
             </div>
             <div style="flex:1;">
-                <label style="font-size:0.8rem; font-weight:600;">Dimensions</label>
-                <input type="text" id="targetDim" value="3.5x4.5cm" disabled style="background:#f1f5f9; color:#64748b;">
+                <label style="font-size:0.8rem; font-weight:600;">Dimensions (Px)</label>
+                <input type="text" id="targetDim" placeholder="W x H" style="background:#ffffff; color:#1e293b;">
             </div>
         </div>
         <button id="procBtn" onclick="processImage()">⚡ Compress & Fix</button>
     </div>
+    
     <div id="resultArea">
         <p style="color:#16a34a; font-weight:bold;">✅ Success!</p>
         <img id="resImg" src="">
@@ -78,7 +87,8 @@
             <button style="background: #0f172a; width: 100%;">⬇️ Download Image</button>
         </a>
         <p class="ios-hint" id="iosHint">iPhone users: Long Press image to Save</p>
-                <div class="product-box">
+        
+        <div class="product-box">
             <div class="prod-header">
                 <h3 class="prod-title">🎁 Free Exam Resource</h3>
             </div>
@@ -87,30 +97,169 @@
                     <strong>High Priority Maths Formulae</strong><br>
                     curated for 2025 Competitive Exams.
                 </p>
-                
                 <div class="prod-tags" style="margin-bottom: 15px;">
                     <span class="tag">Algebra</span>
                     <span class="tag">Geometry</span>
                     <span class="tag">Tricks</span>
                 </div>
-                
-                <a href="maths.pdf" download class="product-btn" style="text-decoration:none;">
+                <a href="maths.pdf" download class="product-btn">
                     📥 Download PDF Now
                 </a>
-                
                 <p style="font-size:0.75rem; color:#94a3b8; margin-bottom:0; margin-top:10px;">
-                    few Pages • Mobile Friendly • 100% Free
+                    2 Pages • Mobile Friendly • 100% Free
                 </p>
             </div>
         </div>
-
     </div>
 </div>
+
+<div style="background: #f1f5f9; padding: 20px; margin-top: 40px; border-top: 1px solid #e2e8f0; font-size: 12px; color: #94a3b8; text-align: center;">
+    <p><strong>Popular Tools:</strong> 
+    Resize photo for SSC CGL 2025 • MPSC Signature Maker • UPSC Photo Date Generator • JEE Main Image Compressor • IBPS PO Photo Resizer • GATE 2026 Admit Card Photo Fix</p>
+    <p><strong>Free Resources:</strong> 
+    Maths Formulas PDF Download • Physics Cheat Sheet • Chemistry Periodic Table Tricks • Competitive Exam Formulas Free • 20kb to 50kb Photo Converter • Reduce Image Size in KB Online</p>
+    <p><em>Portal Pass is a free, client-side tool for Indian students. No data uploaded to servers. Secure and Fast.</em></p>
+</div>
+
 <footer style="margin-top:20px; text-align:center; font-size:0.7rem; color:#94a3b8;">
     100% Client-Side. No Server Uploads.
 </footer>
+
 <script>
+    // 1. RULES DEFINITION
     const rules = {
+        "standard": { photo: { kb: 50, w: 413, h: 531, text: "Standard Passport" }, sig: { kb: 20, w: 500, h: 200, text: "Standard Signature" } },
+        "jee": { photo: { kb: 200, w: 413, h: 531, text: "JEE: White BG required." }, sig: { kb: 30, w: 500, h: 200, text: "JEE Sig: Blue/Black ink." } },
+        "upsc": { photo: { kb: 200, w: 350, h: 350, text: "UPSC: No Glasses." }, sig: { kb: 200, w: 350, h: 100, text: "UPSC Sig: High Quality." } },
+        "ssc": { photo: { kb: 50, w: 413, h: 531, text: "SSC: Date Required." }, sig: { kb: 20, w: 500, h: 200, text: "SSC Sig: 4cm x 2cm." } },
+        "ugc": { photo: { kb: 200, w: 413, h: 531, text: "UGC: Standard." }, sig: { kb: 30, w: 500, h: 200, text: "UGC Sig: 4-30kb." } },
+        "bank": { photo: { kb: 50, w: 200, h: 230, text: "Bank: Low Res Preferred." }, sig: { kb: 20, w: 140, h: 60, text: "Bank: Black Ink Only." } },
+        "mpsc": { photo: { kb: 50, w: 413, h: 531, text: "MPSC: Light BG." }, sig: { kb: 50, w: 500, h: 200, text: "MPSC: Max 50kb." } }
+    };
+
+    let currentType = 'photo';
+    let originalFile = null;
+    const selector = document.getElementById('examSelector');
+    const targetInput = document.getElementById('targetKB');
+    const targetDim = document.getElementById('targetDim');
+    const ruleBox = document.getElementById('ruleBox');
+    const uploadText = document.getElementById('uploadText');
+    
+    // iOS check
+    const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+    if(isIOS) document.getElementById('iosHint').style.display = 'block';
+
+    // 2. SWITCH TYPE
+    function setType(type) {
+        currentType = type;
+        document.getElementById('btnPhoto').className = type === 'photo' ? 'type-option active' : 'type-option';
+        document.getElementById('btnSig').className = type === 'sig' ? 'type-option active' : 'type-option';
+        uploadText.innerText = type === 'photo' ? "Tap to Upload Photo" : "Tap to Upload Signature";
+        updateRules(); 
+    }
+
+    // 3. AUTO-FILL BUT ALLOW EDIT
+    function updateRules() {
+        const exam = selector.value;
+        if (rules[exam]) {
+            const config = rules[exam][currentType];
+            targetInput.value = config.kb; 
+            targetDim.value = `${config.w}x${config.h}`; // Types it in, doesn't lock it
+            ruleBox.innerText = config.text;
+            ruleBox.style.display = 'block';
+        }
+    }
+
+    selector.addEventListener('change', updateRules);
+
+    // 4. FILE UPLOAD
+    document.getElementById('fileInput').addEventListener('change', (e) => {
+        if(e.target.files[0]) {
+            originalFile = e.target.files[0];
+            uploadText.innerText = "✅ " + originalFile.name;
+            document.getElementById('controls').style.display = 'block';
+            document.getElementById('resultArea').style.display = 'none';
+        }
+    });
+
+    // 5. PROCESSING LOGIC
+    function processImage() {
+        if(!originalFile) return;
+        const btn = document.getElementById('procBtn');
+        btn.innerText = "Processing...";
+        btn.disabled = true;
+
+        // READ DIMENSIONS FROM BOX (Allows Custom)
+        const dimString = targetDim.value.toLowerCase().replace('px', '').trim();
+        const dimParts = dimString.split('x');
+        
+        let targetW, targetH;
+
+        if (dimParts.length === 2 && !isNaN(dimParts[0]) && !isNaN(dimParts[1])) {
+            targetW = parseInt(dimParts[0].trim());
+            targetH = parseInt(dimParts[1].trim());
+        } else {
+            alert("⚠️ Invalid Size! Please enter like: 350x450");
+            btn.innerText = "⚡ Compress & Fix";
+            btn.disabled = false;
+            return;
+        }
+
+        // READ KB
+        const maxKB = parseFloat(targetInput.value);
+        const targetBytes = (maxKB * 0.9) * 1024; 
+
+        const img = new Image();
+        img.src = URL.createObjectURL(originalFile);
+        
+        img.onload = () => {
+            const canvas = document.createElement('canvas');
+            const ctx = canvas.getContext('2d');
+            canvas.width = targetW;
+            canvas.height = targetH;
+            
+            ctx.drawImage(img, 0, 0, targetW, targetH);
+            
+            // Compression
+            let minQ=0, maxQ=1;
+            const attempt = (q) => {
+                canvas.toBlob((blob) => {
+                    if (Math.abs(maxQ - minQ) < 0.05 || (blob.size <= targetBytes && blob.size > targetBytes*0.5) || (q < 0.1 && blob.size <= targetBytes)) {
+                        showResult(blob, targetW, targetH);
+                    } else if (blob.size > targetBytes) {
+                        maxQ = q;
+                        attempt((minQ + maxQ)/2);
+                    } else {
+                        minQ = q;
+                        attempt((minQ + maxQ)/2);
+                    }
+                }, 'image/jpeg', q);
+            };
+            attempt(0.9);
+        };
+    }
+
+    function showResult(blob, w, h) {
+        const url = URL.createObjectURL(blob);
+        document.getElementById('resImg').src = url;
+        document.getElementById('newSize').innerText = `Final: ${ (blob.size/1024).toFixed(2) } KB | ${w}x${h}px`;
+        const link = document.getElementById('finalDownloadLink');
+        link.href = url;
+        
+        // Dynamic Filename
+        const examName = selector.value.toUpperCase();
+        link.download = `${examName}_${w}x${h}_fixed.jpg`;
+        
+        document.getElementById('resultArea').style.display = 'block';
+        document.getElementById('procBtn').innerText = "⚡ Compress & Resize";
+        document.getElementById('procBtn').disabled = false;
+    }
+
+    // Init
+    updateRules();
+</script>
+</body>
+</html>
         "standard": { photo: { kb: 50, w: 413, h: 531, text: "Standard Passport" }, sig: { kb: 20, w: 500, h: 200, text: "Standard Signature" } },
         "jee": { photo: { kb: 200, w: 413, h: 531, text: "JEE: White BG required." }, sig: { kb: 30, w: 500, h: 200, text: "JEE Sig: Blue/Black ink." } },
         "upsc": { photo: { kb: 200, w: 350, h: 350, text: "UPSC: No Glasses." }, sig: { kb: 200, w: 350, h: 100, text: "UPSC Sig: High Quality." } },
