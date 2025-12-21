@@ -158,6 +158,7 @@
 </footer>
 
 <script>
+<script>
     const rules = {
         "standard": { photo: { kb: 50, w: 413, h: 531, text: "Standard Passport" }, sig: { kb: 20, w: 500, h: 200, text: "Standard Signature" } },
         "jee": { photo: { kb: 200, w: 413, h: 531, text: "JEE: White BG required." }, sig: { kb: 30, w: 500, h: 200, text: "JEE Sig: Blue/Black ink." } },
@@ -170,7 +171,7 @@
 
     let currentType = 'photo';
     let originalFile = null;
-    let currentDownloadURL = null; // Store the URL globally
+    let currentDownloadURL = null; 
     
     const selector = document.getElementById('examSelector');
     const targetInput = document.getElementById('targetKB');
@@ -180,12 +181,27 @@
     const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
     if(isIOS) document.getElementById('iosHint').style.display = 'block';
 
+    // --- NEW: Function to Clean the Slate ---
+    function resetUI() {
+        document.getElementById('resultArea').style.display = 'none';
+        document.getElementById('controls').style.display = 'none';
+        document.getElementById('fileInput').value = ''; // Clear file input
+        originalFile = null; // Forget previous file
+        if(currentDownloadURL) {
+            URL.revokeObjectURL(currentDownloadURL); // Free up memory
+            currentDownloadURL = null;
+        }
+    }
+
     function setType(type) {
-        currentType = type;
-        document.getElementById('btnPhoto').className = type === 'photo' ? 'type-option active' : 'type-option';
-        document.getElementById('btnSig').className = type === 'sig' ? 'type-option active' : 'type-option';
-        uploadText.innerText = type === 'photo' ? "Tap to Upload Photo" : "Tap to Upload Signature";
-        updateRules(); 
+        if(currentType !== type) {
+            resetUI(); // Clear everything when switching tabs
+            currentType = type;
+            document.getElementById('btnPhoto').className = type === 'photo' ? 'type-option active' : 'type-option';
+            document.getElementById('btnSig').className = type === 'sig' ? 'type-option active' : 'type-option';
+            uploadText.innerText = type === 'photo' ? "Tap to Upload Photo" : "Tap to Upload Signature";
+            updateRules(); 
+        }
     }
 
     function updateRules() {
@@ -203,10 +219,13 @@
 
     document.getElementById('fileInput').addEventListener('change', (e) => {
         if(e.target.files[0]) {
+            // If there was an old result, hide it now
+            document.getElementById('resultArea').style.display = 'none';
+            if(currentDownloadURL) URL.revokeObjectURL(currentDownloadURL);
+
             originalFile = e.target.files[0];
             uploadText.innerText = "✅ " + originalFile.name;
             document.getElementById('controls').style.display = 'block';
-            document.getElementById('resultArea').style.display = 'none';
         }
     });
 
@@ -243,6 +262,10 @@
             canvas.width = targetW;
             canvas.height = targetH;
             
+            // White background for JPGs (fixes black signature issue)
+            ctx.fillStyle = "#FFFFFF";
+            ctx.fillRect(0, 0, targetW, targetH);
+            
             ctx.drawImage(img, 0, 0, targetW, targetH);
             
             let minQ=0, maxQ=1;
@@ -264,7 +287,9 @@
     }
 
     function showResult(blob, w, h) {
-        currentDownloadURL = URL.createObjectURL(blob); // Save to global
+        if(currentDownloadURL) URL.revokeObjectURL(currentDownloadURL);
+        currentDownloadURL = URL.createObjectURL(blob);
+        
         document.getElementById('resImg').src = currentDownloadURL;
         document.getElementById('newSize').innerText = `Final: ${ (blob.size/1024).toFixed(2) } KB | ${w}x${h}px`;
         
@@ -273,7 +298,6 @@
         document.getElementById('procBtn').disabled = false;
     }
 
-    // THE FIX: Programmatic Download to ensure fresh link every time
     function forceDownload() {
         if (!currentDownloadURL) return;
         
@@ -281,18 +305,17 @@
         tempLink.href = currentDownloadURL;
         
         const examName = selector.value.toUpperCase();
-        
-        // Get dimensions from the text box for filename
         const dimString = targetDim.value.toLowerCase().replace('px', '').trim(); 
         tempLink.download = `${examName}_${currentType}_${dimString}_fixed.jpg`;
         
         document.body.appendChild(tempLink);
-        tempLink.click(); // Trigger click
-        document.body.removeChild(tempLink); // Clean up
+        tempLink.click(); 
+        document.body.removeChild(tempLink); 
     }
 
     updateRules();
 </script>
+
 </body>
 </html>
 
