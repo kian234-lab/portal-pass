@@ -16,51 +16,22 @@
         .type-option.active { background: #fff; color: var(--primary); box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
         select, input { width: 100%; padding: 12px; border: 2px solid #e2e8f0; border-radius: 8px; font-size: 1rem; margin-bottom: 10px; box-sizing: border-box; background: #fff; }
         
-        .upload-box { 
-            position: relative; 
-            border: 2px dashed #cbd5e1; 
-            padding: 2rem; 
-            text-align: center; 
-            border-radius: 12px; 
-            background: #f8fafc; 
-            margin-bottom: 15px; 
-            transition: 0.2s; 
-        }
+        .upload-box { position: relative; border: 2px dashed #cbd5e1; padding: 2rem; text-align: center; border-radius: 12px; background: #f8fafc; margin-bottom: 15px; transition: 0.2s; }
         .upload-box:hover { border-color: var(--primary); background: #eff6ff; }
         
-        /* OVERLAY INPUT (Fail-safe Upload) */
-        #fileInput {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            opacity: 0; 
-            cursor: pointer;
-            z-index: 10;
-        }
-
+        #fileInput { position: absolute; top: 0; left: 0; width: 100%; height: 100%; opacity: 0; cursor: pointer; z-index: 10; }
         .rule-box { background: #fee2e2; color: #991b1b; padding: 12px; border-radius: 6px; font-size: 0.85rem; margin-bottom: 15px; display: none; border-left: 4px solid var(--danger); line-height: 1.4; }
         
-        /* ACTION BUTTONS */
         .action-btn { 
-            width: 100%; 
-            background: var(--primary); 
-            color: white; 
-            padding: 14px; 
-            border: none; 
-            border-radius: 8px; 
-            font-weight: bold; 
-            font-size: 1rem; 
-            cursor: pointer; 
-            display: block; 
-            text-align: center;
-            box-sizing: border-box;
-            text-decoration: none;
-            margin-top: 10px;
+            width: 100%; background: var(--primary); color: white; padding: 14px; border: none; border-radius: 8px; 
+            font-weight: bold; font-size: 1rem; cursor: pointer; display: block; text-align: center; 
+            box-sizing: border-box; text-decoration: none; margin-top: 10px; 
         }
         .action-btn:active { transform: scale(0.98); }
         
+        /* Specific style for the download link to look like a button */
+        #downloadLink { background: #0f172a; display: none; } 
+
         .product-box { margin-top: 25px; padding: 0; background: #ffffff; border-radius: 12px; text-align: center; border: 2px solid #bfdbfe; overflow: hidden; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05); }
         .prod-header { background: #eff6ff; padding: 12px; border-bottom: 1px solid #bfdbfe; }
         .prod-title { margin: 0; color: #1e3a8a; font-size: 1.1rem; font-weight: 800; }
@@ -71,7 +42,8 @@
         
         #resultArea { display: none; text-align: center; margin-top: 20px; }
         img { max-width: 100%; border: 1px solid #ddd; border-radius: 4px; margin: 10px 0; box-shadow: 0 2px 5px rgba(0,0,0,0.05); }
-        .ios-hint { font-size: 0.75rem; color: #64748b; margin-top: 5px; display: none; }
+        
+        .save-hint { font-size: 0.85rem; color: #ea580c; background: #fff7ed; padding: 8px; border-radius: 6px; border: 1px solid #fdba74; margin-top: 10px; display:none; }
     </style>
 </head>
 <body>
@@ -122,11 +94,14 @@
         <img id="resImg" src="">
         <p id="newSize" style="font-size:0.9rem; color:#64748b;"></p>
         
-        <button class="action-btn" style="background: #0f172a;" onclick="forceDownload()">
+        <a id="downloadLink" class="action-btn" href="#" download="image.jpg">
             ⬇️ Download Image
-        </button>
+        </a>
         
-        <p class="ios-hint" id="iosHint">iPhone users: Long Press image to Save</p>
+        <p class="save-hint" id="mobileHint">
+            <strong>⚠️ Note:</strong> If the button above doesn't work, 
+            <strong>Long Press</strong> the image above and select "Save to Photos".
+        </p>
         
         <div class="product-box">
             <div class="prod-header">
@@ -135,19 +110,12 @@
             <div class="prod-body">
                 <p style="font-size:0.95rem; margin-top:0; color:#334155; line-height: 1.5;">
                     <strong>High Priority Maths Formulae</strong><br>
-                    curated for 2025 Competitive Exams.
                 </p>
                 <div class="prod-tags" style="margin-bottom: 15px;">
                     <span class="tag">Algebra</span>
                     <span class="tag">Geometry</span>
-                    <span class="tag">Tricks</span>
                 </div>
-                <a href="maths.pdf" target="_blank" class="action-btn pdf-btn">
-                    📄 View/Download PDF
-                </a>
-                <p style="font-size:0.75rem; color:#94a3b8; margin-bottom:0; margin-top:10px;">
-                    2 Pages • Mobile Friendly • 100% Free
-                </p>
+                <a href="#" class="action-btn pdf-btn">📄 View PDF</a>
             </div>
         </div>
     </div>
@@ -157,7 +125,6 @@
     100% Client-Side. No Server Uploads.
 </footer>
 
-<script>
 <script>
     const rules = {
         "standard": { photo: { kb: 50, w: 413, h: 531, text: "Standard Passport" }, sig: { kb: 20, w: 500, h: 200, text: "Standard Signature" } },
@@ -171,31 +138,29 @@
 
     let currentType = 'photo';
     let originalFile = null;
-    let currentDownloadURL = null; 
     
     const selector = document.getElementById('examSelector');
     const targetInput = document.getElementById('targetKB');
     const targetDim = document.getElementById('targetDim');
     const ruleBox = document.getElementById('ruleBox');
     const uploadText = document.getElementById('uploadText');
-    const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
-    if(isIOS) document.getElementById('iosHint').style.display = 'block';
+    
+    // Always show the save hint on mobile
+    if(/Mobi|Android|iPhone/i.test(navigator.userAgent)) {
+        document.getElementById('mobileHint').style.display = 'block';
+    }
 
-    // --- NEW: Function to Clean the Slate ---
     function resetUI() {
         document.getElementById('resultArea').style.display = 'none';
         document.getElementById('controls').style.display = 'none';
-        document.getElementById('fileInput').value = ''; // Clear file input
-        originalFile = null; // Forget previous file
-        if(currentDownloadURL) {
-            URL.revokeObjectURL(currentDownloadURL); // Free up memory
-            currentDownloadURL = null;
-        }
+        document.getElementById('fileInput').value = '';
+        document.getElementById('downloadLink').style.display = 'none';
+        originalFile = null;
     }
 
     function setType(type) {
         if(currentType !== type) {
-            resetUI(); // Clear everything when switching tabs
+            resetUI();
             currentType = type;
             document.getElementById('btnPhoto').className = type === 'photo' ? 'type-option active' : 'type-option';
             document.getElementById('btnSig').className = type === 'sig' ? 'type-option active' : 'type-option';
@@ -219,10 +184,7 @@
 
     document.getElementById('fileInput').addEventListener('change', (e) => {
         if(e.target.files[0]) {
-            // If there was an old result, hide it now
             document.getElementById('resultArea').style.display = 'none';
-            if(currentDownloadURL) URL.revokeObjectURL(currentDownloadURL);
-
             originalFile = e.target.files[0];
             uploadText.innerText = "✅ " + originalFile.name;
             document.getElementById('controls').style.display = 'block';
@@ -237,15 +199,11 @@
 
         const dimString = targetDim.value.toLowerCase().replace('px', '').trim();
         const dimParts = dimString.split('x');
-        
-        let targetW, targetH;
+        let targetW = parseInt(dimParts[0]);
+        let targetH = parseInt(dimParts[1]);
 
-        if (dimParts.length === 2 && !isNaN(dimParts[0]) && !isNaN(dimParts[1])) {
-            targetW = parseInt(dimParts[0].trim());
-            targetH = parseInt(dimParts[1].trim());
-        } else {
-            alert("⚠️ Invalid Size! Please enter like: 350x450");
-            btn.innerText = "⚡ Compress & Fix";
+        if (isNaN(targetW) || isNaN(targetH)) {
+            alert("⚠️ Invalid Size!");
             btn.disabled = false;
             return;
         }
@@ -262,17 +220,16 @@
             canvas.width = targetW;
             canvas.height = targetH;
             
-            // White background for JPGs (fixes black signature issue)
             ctx.fillStyle = "#FFFFFF";
             ctx.fillRect(0, 0, targetW, targetH);
-            
             ctx.drawImage(img, 0, 0, targetW, targetH);
             
+            // Compression Algorithm
             let minQ=0, maxQ=1;
             const attempt = (q) => {
                 canvas.toBlob((blob) => {
                     if (Math.abs(maxQ - minQ) < 0.05 || (blob.size <= targetBytes && blob.size > targetBytes*0.5) || (q < 0.1 && blob.size <= targetBytes)) {
-                        showResult(blob, targetW, targetH);
+                        finalizeResult(blob, targetW, targetH);
                     } else if (blob.size > targetBytes) {
                         maxQ = q;
                         attempt((minQ + maxQ)/2);
@@ -286,37 +243,32 @@
         };
     }
 
-    function showResult(blob, w, h) {
-        if(currentDownloadURL) URL.revokeObjectURL(currentDownloadURL);
-        currentDownloadURL = URL.createObjectURL(blob);
-        
-        document.getElementById('resImg').src = currentDownloadURL;
-        document.getElementById('newSize').innerText = `Final: ${ (blob.size/1024).toFixed(2) } KB | ${w}x${h}px`;
-        
-        document.getElementById('resultArea').style.display = 'block';
-        document.getElementById('procBtn').innerText = "⚡ Compress & Resize";
-        document.getElementById('procBtn').disabled = false;
-    }
-
-    function forceDownload() {
-        if (!currentDownloadURL) return;
-        
-        const tempLink = document.createElement('a');
-        tempLink.href = currentDownloadURL;
-        
-        const examName = selector.value.toUpperCase();
-        const dimString = targetDim.value.toLowerCase().replace('px', '').trim(); 
-        tempLink.download = `${examName}_${currentType}_${dimString}_fixed.jpg`;
-        
-        document.body.appendChild(tempLink);
-        tempLink.click(); 
-        document.body.removeChild(tempLink); 
+    function finalizeResult(blob, w, h) {
+        // Convert Blob to Base64 DataURL for robust downloading
+        const reader = new FileReader();
+        reader.readAsDataURL(blob); 
+        reader.onloadend = function() {
+            const base64data = reader.result;
+            
+            const resImg = document.getElementById('resImg');
+            resImg.src = base64data;
+            
+            const dlLink = document.getElementById('downloadLink');
+            const examName = selector.value.toUpperCase();
+            dlLink.download = `${examName}_${currentType}.jpg`;
+            dlLink.href = base64data; // Direct data link, no blob URL needed
+            dlLink.style.display = 'block';
+            
+            document.getElementById('newSize').innerText = `Final: ${ (blob.size/1024).toFixed(2) } KB | ${w}x${h}px`;
+            document.getElementById('resultArea').style.display = 'block';
+            
+            const btn = document.getElementById('procBtn');
+            btn.innerText = "⚡ Compress & Resize";
+            btn.disabled = false;
+        }
     }
 
     updateRules();
 </script>
-
 </body>
 </html>
-
-<img src="SSC-CGL-MPSC-Photo-Resizer-Free-Tool-2025.jpg" alt="Free SSC CGL Photo Resizer Tool 2025" style="width:1px; height:1px; opacity:0;">
