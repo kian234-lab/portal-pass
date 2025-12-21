@@ -29,7 +29,7 @@
         }
         .action-btn:active { transform: scale(0.98); }
         
-        #downloadLink { background: #0f172a; display: none; } 
+        #downloadBtnContainer { margin-top: 15px; }
 
         .product-box { margin-top: 25px; padding: 0; background: #ffffff; border-radius: 12px; text-align: center; border: 2px solid #bfdbfe; overflow: hidden; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05); }
         .prod-header { background: #eff6ff; padding: 12px; border-bottom: 1px solid #bfdbfe; }
@@ -40,7 +40,20 @@
         .pdf-btn { background: #16a34a; color: white; }
         
         #resultArea { display: none; text-align: center; margin-top: 20px; }
-        img { max-width: 100%; border: 1px solid #ddd; border-radius: 4px; margin: 10px 0; box-shadow: 0 2px 5px rgba(0,0,0,0.05); }
+        
+        /* --- FIXED IMAGE STYLES FOR IOS LONG PRESS --- */
+        .image-wrapper { display: inline-block; position: relative; max-width: 100%; }
+        img { 
+            max-width: 100%; 
+            border: 1px solid #ddd; 
+            border-radius: 4px; 
+            margin: 10px 0; 
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+            /* CRITICAL FIXES FOR IOS */
+            -webkit-touch-callout: default; /* Enables the long-press menu */
+            -webkit-user-select: auto;      /* Allows selecting */
+            pointer-events: auto;           /* Ensures touch registers */
+        }
         
         .save-hint { font-size: 0.85rem; color: #ea580c; background: #fff7ed; padding: 8px; border-radius: 6px; border: 1px solid #fdba74; margin-top: 10px; display:none; }
     </style>
@@ -90,16 +103,21 @@
     
     <div id="resultArea">
         <p style="color:#16a34a; font-weight:bold;">✅ Success!</p>
-        <img id="resImg" src="">
-        <p id="newSize" style="font-size:0.9rem; color:#64748b;"></p>
         
-        <a id="downloadLink" class="action-btn" href="#" download="image.jpg">
-            ⬇️ Download Image
+        <!-- NEW WRAPPER TRICK -->
+        <!-- Wrapping the image in a link forces iOS to see it as a "Saveable Link/Image" -->
+        <a id="imgWrapper" href="#" download="image.jpg" style="display:block; -webkit-touch-callout: default;">
+            <img id="resImg" src="">
         </a>
         
+        <p id="newSize" style="font-size:0.9rem; color:#64748b;"></p>
+        
+        <div id="downloadBtnContainer"></div>
+        
         <p class="save-hint" id="mobileHint">
-            <strong>⚠️ Note:</strong> If the button above doesn't work, 
-            <strong>Long Press</strong> the image above and select "Save to Photos".
+            <strong>⚠️ Mobile User?</strong><br>
+            1. Tap the black button above.<br>
+            2. If that fails, <strong>Long Press the image itself</strong> and choose "Save to Photos".
         </p>
         
         <div class="product-box">
@@ -143,8 +161,8 @@
     const targetDim = document.getElementById('targetDim');
     const ruleBox = document.getElementById('ruleBox');
     const uploadText = document.getElementById('uploadText');
+    const dlContainer = document.getElementById('downloadBtnContainer');
     
-    // Always show the save hint on mobile
     if(/Mobi|Android|iPhone/i.test(navigator.userAgent)) {
         document.getElementById('mobileHint').style.display = 'block';
     }
@@ -153,7 +171,7 @@
         document.getElementById('resultArea').style.display = 'none';
         document.getElementById('controls').style.display = 'none';
         document.getElementById('fileInput').value = '';
-        document.getElementById('downloadLink').style.display = 'none';
+        dlContainer.innerHTML = '';
         originalFile = null;
     }
 
@@ -184,6 +202,7 @@
     document.getElementById('fileInput').addEventListener('change', (e) => {
         if(e.target.files[0]) {
             document.getElementById('resultArea').style.display = 'none';
+            dlContainer.innerHTML = ''; 
             originalFile = e.target.files[0];
             uploadText.innerText = "✅ " + originalFile.name;
             document.getElementById('controls').style.display = 'block';
@@ -210,8 +229,9 @@
         const maxKB = parseFloat(targetInput.value);
         const targetBytes = (maxKB * 0.9) * 1024; 
 
+        const tempUrl = URL.createObjectURL(originalFile);
         const img = new Image();
-        img.src = URL.createObjectURL(originalFile);
+        img.src = tempUrl;
         
         img.onload = () => {
             const canvas = document.createElement('canvas');
@@ -223,7 +243,8 @@
             ctx.fillRect(0, 0, targetW, targetH);
             ctx.drawImage(img, 0, 0, targetW, targetH);
             
-            // Compression Algorithm
+            URL.revokeObjectURL(tempUrl);
+
             let minQ=0, maxQ=1;
             const attempt = (q) => {
                 canvas.toBlob((blob) => {
@@ -243,21 +264,34 @@
     }
 
     function finalizeResult(blob, w, h) {
-        // Convert Blob to Base64 DataURL
         const reader = new FileReader();
         reader.readAsDataURL(blob); 
         reader.onloadend = function() {
             const base64data = reader.result;
             
+            // 1. UPDATE IMAGE
             const resImg = document.getElementById('resImg');
             resImg.src = base64data;
             
-            const dlLink = document.getElementById('downloadLink');
+            // 2. UPDATE WRAPPER (This fixes the Long Press issue)
             const examName = selector.value.toUpperCase();
-            dlLink.download = `${examName}_${currentType}.jpg`;
-            dlLink.href = base64data; 
-            dlLink.style.display = 'block';
+            const timestamp = new Date().getTime(); 
+            const fileName = `${examName}_${currentType}_${timestamp}.jpg`;
             
+            const wrapper = document.getElementById('imgWrapper');
+            wrapper.href = base64data;
+            wrapper.download = fileName;
+
+            // 3. CREATE DYNAMIC BUTTON (Backup for regular click)
+            dlContainer.innerHTML = ''; 
+            const newBtn = document.createElement('a');
+            newBtn.className = 'action-btn';
+            newBtn.style.background = '#0f172a';
+            newBtn.innerText = '⬇️ Download Image';
+            newBtn.download = fileName;
+            newBtn.href = base64data;
+            dlContainer.appendChild(newBtn);
+
             document.getElementById('newSize').innerText = `Final: ${ (blob.size/1024).toFixed(2) } KB | ${w}x${h}px`;
             document.getElementById('resultArea').style.display = 'block';
             
@@ -271,3 +305,5 @@
 </script>
 </body>
 </html>
+
+
