@@ -29,7 +29,6 @@
         }
         .action-btn:active { transform: scale(0.98); }
         
-        /* Specific style for the download link to look like a button */
         #downloadLink { background: #0f172a; display: none; } 
 
         .product-box { margin-top: 25px; padding: 0; background: #ffffff; border-radius: 12px; text-align: center; border: 2px solid #bfdbfe; overflow: hidden; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05); }
@@ -115,7 +114,7 @@
                     <span class="tag">Algebra</span>
                     <span class="tag">Geometry</span>
                 </div>
-                <a href="#" class="action-btn pdf-btn">📄 View PDF</a>
+                <a href="maths.pdf" target="_blank" class="action-btn pdf-btn">📄 View/Download PDF</a>
             </div>
         </div>
     </div>
@@ -244,7 +243,7 @@
     }
 
     function finalizeResult(blob, w, h) {
-        // Convert Blob to Base64 DataURL for robust downloading
+        // Convert Blob to Base64 DataURL
         const reader = new FileReader();
         reader.readAsDataURL(blob); 
         reader.onloadend = function() {
@@ -256,7 +255,7 @@
             const dlLink = document.getElementById('downloadLink');
             const examName = selector.value.toUpperCase();
             dlLink.download = `${examName}_${currentType}.jpg`;
-            dlLink.href = base64data; // Direct data link, no blob URL needed
+            dlLink.href = base64data; 
             dlLink.style.display = 'block';
             
             document.getElementById('newSize').innerText = `Final: ${ (blob.size/1024).toFixed(2) } KB | ${w}x${h}px`;
